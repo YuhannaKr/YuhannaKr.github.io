@@ -49,8 +49,12 @@ Ctrl + Shift + i
 .channelTextArea-2VhZ6z {
     max-width: 1000px;
 }
-div > .channelTextArea-2VhZ6z {
+/* └메시지 수정하기 */
+.channelTextArea-3bF57p {
     max-width: 944px;
+}
+.message-2qnXI6 {
+    padding-right: 0 !important;
 }
 /* └니트로 선물 버튼 제거 */
 .buttons-3JBrkn > button:nth-last-of-type(1) {
