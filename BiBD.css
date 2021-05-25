@@ -1,0 +1,129 @@
+/*
+<style type="text/css">
+</style>
+!important
+*/
+
+/* 디스코드 */
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9,
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled,
+.botTagRegular-2HEhHi,
+.newMessagesBar-265mhP,
+.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb,
+.colorDefault-2K3EoJ.focused-3afm-j,
+.avatarUploaderInner-3UNxY3,
+.barFill-23-gu-,
+.theme-dark .wrapper-3WhCwL,
+.closedFolderIconWrapper-2sTcE6,
+.theme-dark .message-15tBk4 strong {
+    background-color: #4f545c;
+}
+.expandedFolderIconWrapper-Huv7rA path {
+    color: #4f545c;
+}
+.reaction-1hd86g.reactionMe-wv5HKu {
+    border-color: #4f545c;
+}
+/* 전체적인 마우스 오버 말풍선 */
+.tooltip-2QfLtc,
+.tooltipContent-bqVLWK {
+    margin: 5px 5px 5px 0px;
+    padding: 1px 1px 1px 0px;
+    width: 100%;
+    text-align:center;
+}
+.tooltipContent-bqVLWK > img {
+    margin: 0px -5px 0px 10px;
+}
+/* 서버 마우스 오버 말풍선 */
+.layer-v9HyYc > .tooltip-2QfLtc {
+    max-width: 500px;
+}
+.row-1c01mR {
+    margin: 0px 0px 0px 10px;
+    max-width: 250px;
+}
+
+/* 메시지 입력 */
+.channelTextArea-2VhZ6z {
+    max-width: 1000px;
+}
+div > .channelTextArea-2VhZ6z {
+    max-width: 944px;
+}
+/* > 니트로 선물 버튼 제거 */
+.buttons-3JBrkn > button:nth-last-of-type(1) {
+    display: none;
+}
+
+/* 디스코드 홈, 니트로 버튼 */
+a#private-channels-2 {
+    display: none;
+}
+
+/* 서버 */
+.name-1jkAdW {
+    display: none;
+}
+.sidebar-2K8pFh {
+    width: 180px;
+    /*width: 320px;*/
+}
+.bannerImage-3KhIJ6 {
+    max-width: 180px;
+}
+.button-14-BFJ {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+/* 채팅 채널 */
+.container-1r6BKw {
+    max-height: 40px;
+}
+
+/* 멤버 */
+.members-1998pB {
+    width: 400px;
+}
+.member-3-YXUe {
+    max-width: 400px;
+}
+.roleColor-rz2vM0 {
+    width: 200px;
+}
+.subText-1KtqkB {
+    width: 250px;
+}
+.roleColor-rz2vM0,
+.name-uJV0GL {
+    white-space: normal;
+}
+
+/* 고정 메시지 */
+.messagesPopoutWrap-1MQ1bW {
+    width: 500px;
+}
+
+/* 검색 */
+.searchResultsWrap-3-pOjs {
+    width: 520px;
+}
+
+/* 이모티콘 */
+.emojiPicker-3PwZFl,
+.drawerSizingWrapper-17Mss4 {
+    width: 875px !important;
+    /*height: 1000px !important;*/
+}
+
+/* 음성 채널 */
+.live-vBWnV6 {
+    width: 10px;
+    font-size: 0px;
+}
+.button-1YfofB {
+    max-width: 50px;
+}
