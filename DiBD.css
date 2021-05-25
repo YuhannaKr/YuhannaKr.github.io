@@ -169,6 +169,7 @@ a#private-channels-2 {
 }
 
 /* 사용자 설정 */
+/* └사이드바 */
 .item-PXvHYJ,
 .premiumTabItem-1QTfBr {
      line-height: 7px;
@@ -178,4 +179,8 @@ a#private-channels-2 {
 }
 .sidebar-CFHs9e {
     padding: 20px 0px 20px 20px
+}
+/* └계정 제거 기능 비활성화 */
+.buttonContainer-1zBNxN {
+    display: none;
 }
