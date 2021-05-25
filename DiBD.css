@@ -143,10 +143,16 @@ a#private-channels-2 {
 }
 
 /* 이모티콘 */
+/* └이모티콘 선택 */
 .emojiPicker-3PwZFl,
 .drawerSizingWrapper-17Mss4 {
     width: 875px !important;
     /*height: 1000px !important;*/
+}
+/* └이모티콘 표시 */
+.emoji.jumboable {
+    width: 10rem;
+    height: 10rem;
 }
 
 /* 음성 채널 */
