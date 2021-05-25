@@ -104,6 +104,11 @@ a#private-channels-2 {
     max-height: 25px;
 }
 
+/* 이모티콘 행 높이 */
+.emojiRow-zIc7ZX {
+    height: 32px;
+}
+
 /* └채팅 채널 */
 .container-1r6BKw {
     max-height: 40px;
