@@ -1,8 +1,7 @@
 /*
-<style type="text/css">
-</style>
+Ctrl + Shift + i
 !important
-*/
+ */
 
 /* 디스코드 */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
@@ -53,7 +52,7 @@
 div > .channelTextArea-2VhZ6z {
     max-width: 944px;
 }
-/* > 니트로 선물 버튼 제거 */
+/* └니트로 선물 버튼 제거 */
 .buttons-3JBrkn > button:nth-last-of-type(1) {
     display: none;
 }
@@ -61,6 +60,28 @@ div > .channelTextArea-2VhZ6z {
 /* 디스코드 홈, 니트로 버튼 */
 a#private-channels-2 {
     display: none;
+}
+
+/* 서버 사이드바 */
+/* └폴더 */
+.wrapper-25eVIn,
+.svg-1X37T1 {
+    width: 36px;
+    height: 36px;
+}
+.expandedFolderBackground-1cujaW {
+    width: 36px;
+}
+.wrapper-3Njo_c > ul {
+    height: 100% !important;
+}
+/* └폴더 외 */
+.guilds-1SWlCJ,
+.unreadMentionsIndicatorBottom-2mDYbI,
+.unreadMentionsIndicatorTop-2-tcdU,
+.listItem-GuPuDH,
+.wrapper-3Njo_c {
+    width: 60px;
 }
 
 /* 서버 */
@@ -79,12 +100,12 @@ a#private-channels-2 {
     max-height: 25px;
 }
 
-/* 채팅 채널 */
+/* └채팅 채널 */
 .container-1r6BKw {
     max-height: 40px;
 }
 
-/* 멤버 */
+/* └멤버 */
 .members-1998pB {
     width: 400px;
 }
