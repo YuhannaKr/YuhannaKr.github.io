@@ -152,6 +152,11 @@ a#private-channels-2 {
 .name-uJV0GL {
     white-space: normal;
 }
+/* ─└역할 구분 */
+.membersGroup-v9BXpm {
+    padding: 16px 8px 0 16px;
+    height: 32px;
+}
 
 /* 고정 메시지 */
 .messagesPopoutWrap-1MQ1bW {
