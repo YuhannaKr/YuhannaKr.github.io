@@ -114,9 +114,25 @@ a#private-channels-2 {
     height: 32px;
 }
 
-/* └채팅 채널 */
+/* └채널 */
+.containerDefault-3tr_sE,
+.containerDragAfter-Zk9oyx,
+.containerDragBefore-1YqewQ,
+.containerUserOver-98-yc7,
+.mainContent-u_9PKf {
+    padding: 5px 0 0;
+}
+/* ─└채팅 채널 */
 .container-1r6BKw {
     max-height: 40px;
+}
+/* ─└음성 채널 */
+.live-vBWnV6 {
+    width: 10px;
+    font-size: 0px;
+}
+.button-1YfofB {
+    max-width: 50px;
 }
 
 /* └멤버 */
@@ -158,15 +174,6 @@ a#private-channels-2 {
 .emoji.jumboable {
     width: 10rem;
     height: 10rem;
-}
-
-/* 음성 채널 */
-.live-vBWnV6 {
-    width: 10px;
-    font-size: 0px;
-}
-.button-1YfofB {
-    max-width: 50px;
 }
 
 /* 사용자 설정 */
