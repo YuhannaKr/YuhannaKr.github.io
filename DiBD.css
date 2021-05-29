@@ -25,19 +25,23 @@ Ctrl + Shift + i
 .reaction-1hd86g.reactionMe-wv5HKu {
     border-color: #4f545c;
 }
-/* 전체적인 마우스 오버 말풍선 */
+/* 툴팁 */
 .tooltip-2QfLtc,
 .tooltipContent-bqVLWK {
     margin: 5px 5px 5px 0px;
-    padding: 1px 1px 1px 0px;
     width: 100%;
     text-align:center;
+}
+.tooltipContent-bqVLWK {
+    padding: 1px 1px 1px 0px;
+}
+.tooltip-2QfLtc {
+    padding: 1px;
 }
 .tooltipContent-bqVLWK > img {
     margin: 0px -5px 0px 10px;
 }
-/* 서버 마우스 오버 말풍선 */
-.layer-v9HyYc > .tooltip-2QfLtc {
+.tooltipRight-2JM5PQ {
     max-width: 500px;
 }
 .row-1c01mR {
@@ -83,10 +87,6 @@ a#private-channels-2 {
 }
 .wrapper-3Njo_c > ul {
     height: 100% !important;
-}
-/* ─└폴더  */
-.tooltip-2QfLtc {
-    padding: 1px;
 }
 /* └폴더 외 */
 .guilds-1SWlCJ,
