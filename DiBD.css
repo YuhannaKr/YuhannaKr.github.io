@@ -185,6 +185,12 @@ a#private-channels-2 {
     height: 10rem;
 }
 
+/* 반응 */
+/* └반응했어요 툴팁 */
+.reactionTooltipText-u4NWre {
+    margin: 0 12px;
+}
+
 /* 사용자 설정 */
 /* └사이드바 */
 .item-PXvHYJ,
