@@ -26,24 +26,21 @@ Ctrl + Shift + i
     border-color: #4f545c;
 }
 /* 툴팁 */
-.tooltip-2QfLtc,
-.tooltipContent-bqVLWK {
+.tooltip-2QfLtc {
     margin: 5px 5px 5px 0px;
+    padding: 1px;
     width: 100%;
     text-align:center;
 }
-.tooltipContent-bqVLWK {
-    padding: 1px 1px 1px 0px;
-}
-.tooltip-2QfLtc {
-    padding: 1px;
-}
-.tooltipContent-bqVLWK > img {
+/* └이미지 */
+.tooltip-2QfLtc > img {
     margin: 0px -5px 0px 10px;
 }
+/* └서버 폴더 */
 .tooltipRight-2JM5PQ {
     max-width: 500px;
 }
+/* └서버 */
 .row-1c01mR {
     margin: 0px 0px 0px 10px;
     max-width: 250px;
