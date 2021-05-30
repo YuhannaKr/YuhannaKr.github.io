@@ -161,6 +161,10 @@ a#private-channels-2 {
 .name-uJV0GL {
     white-space: normal;
 }
+/* ─└멤버 정보 */
+.userPopout-3XzG_A {
+    width: 500px !important;
+}
 /* ─└역할 구분 */
 .membersGroup-v9BXpm {
     padding: 16px 8px 0 16px;
