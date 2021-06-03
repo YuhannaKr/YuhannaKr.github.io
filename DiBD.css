@@ -96,6 +96,14 @@ a#private-channels-2 {
 .wrapper-3Njo_c > ul .listItem-GuPuDH {
     margin: 0 0 5px;
 }
+/* └폴더 내 */
+.upperBadge-2XnnGB {
+    margin: -3px -3px 0px 0px;
+}
+.upperBadge-2XnnGB div {
+    width: 18px;
+    height: 18px;
+}
 /* └폴더 외 */
 .guilds-1SWlCJ,
 .unreadMentionsIndicatorBottom-2mDYbI,
