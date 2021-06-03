@@ -199,6 +199,7 @@ a#private-channels-2 {
 .emoji.jumboable {
     width: 10rem;
     height: 10rem;
+    border-radius: 10px;
 }
 
 /* 반응 */
