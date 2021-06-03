@@ -81,6 +81,7 @@ a#private-channels-2 {
 }
 .expandedFolderBackground-1cujaW {
     width: 36px;
+    background-color: #fff0;
 }
 .wrapper-sa6paO,
 .item-2hkk8m {
@@ -88,7 +89,12 @@ a#private-channels-2 {
 }
 .wrapper-3Njo_c > ul {
     height: 100% !important;
-    background-color: #fff0;
+}
+.wrapper-3Njo_c > .listItem-GuPuDH {
+    margin: 5px 0;
+}
+.wrapper-3Njo_c > ul .listItem-GuPuDH {
+    margin: 0 0 5px;
 }
 /* └폴더 외 */
 .guilds-1SWlCJ,
