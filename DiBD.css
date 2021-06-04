@@ -94,7 +94,7 @@ a#private-channels-2 {
     margin: 10px 0 0;
 }
 .wrapper-3Njo_c > ul .listItem-GuPuDH {
-    margin: 0 0 5px;
+    margin: 5px 0;
 }
 /* └폴더 내 */
 .upperBadge-2XnnGB {
@@ -205,9 +205,9 @@ a#private-channels-2 {
 }
 /* └이모티콘 표시 */
 .emoji.jumboable {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 10px;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5px;
 }
 
 /* 반응 */
