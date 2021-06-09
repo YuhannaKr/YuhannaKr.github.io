@@ -221,6 +221,10 @@ a#private-channels-2 {
 }
 
 /* 반응 */
+.reaction-1hd86g .emoji {
+    width: 3rem;
+    height: 3rem;
+}
 /* └반응했어요 툴팁 */
 .reactionTooltipText-u4NWre {
     margin: 0 12px;
