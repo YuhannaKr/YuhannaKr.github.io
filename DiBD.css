@@ -97,12 +97,17 @@ a#private-channels-2 {
     margin: 5px 0;
 }
 /* └폴더 내 */
+.lowerBadge-29hYVK {
+    margin: 0px -3px -3px 0px;
+}
 .upperBadge-2XnnGB {
     margin: -3px -3px 0px 0px;
 }
+.lowerBadge-29hYVK div,
 .upperBadge-2XnnGB div {
-    width: 18px;
-    height: 18px;
+    width: 18px !important;
+    height: 18px !important;
+    padding-right: 0px !important;
 }
 /* └폴더 외 */
 .guilds-1SWlCJ,
