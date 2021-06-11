@@ -173,6 +173,10 @@ a#private-channels-2 {
 .button-1YfofB {
     max-width: 50px;
 }
+/* ──└카테고리 접은 경우 간격 좁히기 */
+.avatarSmall-1PJoGO {
+    margin-right: -24px;
+}
 
 /* └멤버 */
 .members-1998pB {
