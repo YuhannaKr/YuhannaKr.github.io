@@ -195,6 +195,10 @@ a#private-channels-2 {
 .name-uJV0GL {
     white-space: normal;
 }
+/* ─└모바일 사용자 프로필 */
+.avatar-VxgULZ{
+    width: auto;
+}
 /* ─└멤버 정보 */
 .userPopout-3XzG_A {
     width: 500px !important;
