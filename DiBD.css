@@ -266,3 +266,24 @@ a#private-channels-2 {
 .buttonContainer-1zBNxN {
     display: none;
 }
+
+/* 구독 아이콘 숨기기 */
+.icon-Zc-uZZ {
+    display: none;
+}
+/* 디스코드 소셜 링크 숨기기 */
+.socialLinks-3jqNFy {
+    display: none;
+}
+/* 설정 내 버전 정보 숨기기 */
+.info-1VyQPT {
+     display: none;
+}
+/* 채널 목록 프로필 이미지 숨기기 */
+.container-3baos1 .avatar-VxgULZ {
+    display: none;
+}
+/* 채널 목록 닉네임 숨기기 */
+.title-eS5yk3 {
+    display: none;
+}
