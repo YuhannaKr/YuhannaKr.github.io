@@ -32,19 +32,19 @@ Ctrl + Shift + i
     width: 100%;
     text-align:center;
 }
-/* └이미지 */
+/* > 이미지 */
 .tooltip-2QfLtc > img {
     margin: 0px -5px 0px 10px;
 }
-/* └서버 폴더 */
+/* > 서버 폴더 */
 .tooltipRight-2JM5PQ {
     max-width: 500px;
 }
-/* └반응 */
+/* > 반응 */
 .tooltipTop-XDDSxx {
     max-width: 250px;
 }
-/* └서버 */
+/* > 서버 */
 .row-1c01mR {
     margin: 0px 0px 0px 10px;
     max-width: 250px;
@@ -55,14 +55,14 @@ Ctrl + Shift + i
 .channelTextArea-2VhZ6z {
     max-width: 1000px;
 }
-/* └메시지 수정하기 */
+/* > 메시지 수정하기 */
 .channelTextArea-3bF57p {
     max-width: 944px;
 }
 .message-2qnXI6 {
     padding-right: 0 !important;
 }
-/* └니트로 선물 버튼 제거 */
+/* > 니트로 선물 버튼 제거 */
 .buttons-3JBrkn > button:nth-last-of-type(1) {
     display: none;
 }
@@ -73,7 +73,7 @@ a#private-channels-2 {
 }
 
 /* 서버 사이드바 */
-/* └폴더 */
+/* > 폴더 */
 .wrapper-25eVIn,
 .svg-1X37T1 {
     width: 36px;
@@ -96,7 +96,7 @@ a#private-channels-2 {
 .wrapper-3Njo_c > ul .listItem-GuPuDH {
     margin: 5px 0;
 }
-/* └폴더 내 */
+/* > 폴더 내 */
 .lowerBadge-29hYVK {
     margin: 0px -3px -3px 0px;
 }
@@ -109,7 +109,7 @@ a#private-channels-2 {
     height: 18px !important;
     padding-right: 0px !important;
 }
-/* └폴더 외 */
+/* > 폴더 외 */
 .guilds-1SWlCJ,
 .unreadMentionsIndicatorBottom-2mDYbI,
 .unreadMentionsIndicatorTop-2-tcdU,
@@ -126,18 +126,27 @@ a#private-channels-2 {
     max-width: 25px;
     max-height: 25px;
 }
-/* └서버 배너 너비 */
+/* > 서버 배너 너비 */
 .bannerImage-3KhIJ6 {
     max-width: 200px;
 }
-/* └채널 목록 너비 */
+/* > 채널 목록 */
+/* >> 너비 */
 .sidebar-2K8pFh {
     width: 200px;
     /*width: 320px;*/
 }
-/* └채널 목록 및 멤버 목록 높이 */
+/* >> 및 멤버 목록 높이 */
 .content-3YMskv {
     height: 100% !important;
+}
+/* >> 프로필 이미지 숨기기 */
+.container-3baos1 .avatar-VxgULZ {
+    display: none;
+}
+/* >> 닉네임 숨기기 */
+.title-eS5yk3 {
+    display: none;
 }
 
 /* 이모티콘 행 높이 */
@@ -145,7 +154,7 @@ a#private-channels-2 {
     height: 32px;
 }
 
-/* └채널 */
+/* > 채널 */
 .containerDefault-3tr_sE,
 .containerDragAfter-Zk9oyx,
 .containerDragBefore-1YqewQ,
@@ -153,7 +162,7 @@ a#private-channels-2 {
 .mainContent-u_9PKf {
     padding: 5px 0 0;
 }
-/* ─└채팅 채널 */
+/* >> 채팅 채널 */
 .container-1r6BKw {
     max-height: 40px;
 }
@@ -167,7 +176,7 @@ a#private-channels-2 {
 .notInteractive-1X92pj.modeSelected-346R90 .name-23GUGE {
     color: var(--channels-default);
 }
-/* ─└음성 채널 */
+/* >> 음성 채널 */
 .live-vBWnV6 {
     width: 10px;
     font-size: 0px;
@@ -175,12 +184,12 @@ a#private-channels-2 {
 .button-1YfofB {
     max-width: 50px;
 }
-/* ──└카테고리 접은 경우 간격 좁히기 */
+/* >>> 카테고리 접은 경우 간격 좁히기 */
 .avatarSmall-1PJoGO {
     margin-right: -24px;
 }
 
-/* └멤버 */
+/* > 멤버 */
 .members-1998pB {
     width: 400px;
 }
@@ -197,15 +206,15 @@ a#private-channels-2 {
 .name-uJV0GL {
     white-space: normal;
 }
-/* ─└모바일 사용자 프로필 */
+/* >> 모바일 사용자 프로필 */
 .avatar-VxgULZ{
     width: auto;
 }
-/* ─└멤버 정보 */
+/* >> 멤버 정보 */
 .userPopout-3XzG_A {
     width: 500px !important;
 }
-/* ─└역할 구분 */
+/* >> 역할 구분 */
 .membersGroup-v9BXpm {
     padding: 16px 8px 0 16px;
     height: 32px;
@@ -222,13 +231,13 @@ a#private-channels-2 {
 }
 
 /* 이모티콘 */
-/* └이모티콘 선택 */
+/* > 이모티콘 선택 */
 .emojiPicker-3PwZFl,
 .drawerSizingWrapper-17Mss4 {
     width: 875px !important;
     /*height: 1000px !important;*/
 }
-/* └이모티콘 표시 */
+/* > 이모티콘 표시 */
 .emoji.jumboable {
     width: 5rem;
     height: 5rem;
@@ -240,19 +249,19 @@ a#private-channels-2 {
     width: 3rem;
     height: 3rem;
 }
-/* └반응했어요 툴팁 */
+/* > 반응했어요 툴팁 */
 .reactionTooltipText-u4NWre {
     margin: 0 12px;
 }
 
 /* 서버 설정 */
-/* └서버 이모티콘 */
+/* > 서버 이모티콘 */
 .emojiAliasInput-1y-NBz {
     width: 300px;
 }
 
 /* 사용자 설정 */
-/* └사이드바 */
+/* > 사이드바 */
 .sidebar-CFHs9e .item-PXvHYJ {
      line-height: 7px;
 }
@@ -262,28 +271,19 @@ a#private-channels-2 {
 .sidebar-CFHs9e {
     padding: 20px 0px 20px 20px
 }
-/* └계정 제거 기능 비활성화 */
+/* > 계정 제거 기능  */
 .buttonContainer-1zBNxN {
     display: none;
 }
-
-/* 구독 아이콘 숨기기 */
+/* > 구독 아이콘 숨기기 */
 .icon-Zc-uZZ {
     display: none;
 }
-/* 디스코드 소셜 링크 숨기기 */
+/* > 디스코드 소셜 링크 숨기기 */
 .socialLinks-3jqNFy {
     display: none;
 }
-/* 설정 내 버전 정보 숨기기 */
+/* > 버전 정보 숨기기 */
 .info-1VyQPT {
      display: none;
-}
-/* 채널 목록 프로필 이미지 숨기기 */
-.container-3baos1 .avatar-VxgULZ {
-    display: none;
-}
-/* 채널 목록 닉네임 숨기기 */
-.title-eS5yk3 {
-    display: none;
 }
