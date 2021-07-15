@@ -122,16 +122,18 @@ a#private-channels-2 {
 .name-1jkAdW {
     display: none;
 }
-.sidebar-2K8pFh {
-    width: 180px;
-    /*width: 320px;*/
-}
-.bannerImage-3KhIJ6 {
-    max-width: 180px;
-}
 .button-14-BFJ {
     max-width: 25px;
     max-height: 25px;
+}
+/* └서버 배너 너비 */
+.bannerImage-3KhIJ6 {
+    max-width: 200px;
+}
+/* └채널 목록 너비 */
+.sidebar-2K8pFh {
+    width: 200px;
+    /*width: 320px;*/
 }
 /* └채널 목록 및 멤버 목록 높이 */
 .content-3YMskv {
