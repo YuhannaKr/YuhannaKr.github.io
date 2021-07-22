@@ -291,7 +291,7 @@ a#private-channels-2 {
 
 /* 팝업 */
 /* > 프로필 팝업 */
-.focusLock-Ns3yie[role="dialog"] {
+.focusLock-Ns3yie[aria-label="사용자 프로필 인터페이스"] {
     width: 75%;
 }
 /* > 팝업 내 레이아웃 */
