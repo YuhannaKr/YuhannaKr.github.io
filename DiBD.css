@@ -68,12 +68,6 @@ Ctrl + Shift + i
 }
 
 /* 디스코드 홈, 니트로 버튼 */
-    display: none;
-}
-
-/* 디스코드 홈, 니트로 버튼 */
-a#private-channels-2 {
-    display: none;
 a#private-channels-2 {
     display: none;
 }
