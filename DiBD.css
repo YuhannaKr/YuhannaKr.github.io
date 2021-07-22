@@ -287,3 +287,34 @@ a#private-channels-2 {
 .info-1VyQPT {
      display: none;
 }
+
+
+/* 팝업 */
+.focusLock-Ns3yie {
+    width: 75%;
+}
+/* > 팝업 내 레이아웃 */
+.root-1gCeng,
+.body-r6_QPy {
+    width: 100%;
+    height: 100%;
+}
+/* > > 팝업 내 프로필 배경 */
+.topSection-y3p-_D .banner-2QYc2d {
+    width: 100%;
+    min-height: 240px;
+}
+/* > > 팝업 내 프로필 사진 */
+.topSection-y3p-_D .avatar-AvHqJA {
+    width: 200px !important;
+    height: 200px !important;
+    top: -225px
+}
+/* > > 팝업 내 배지 */
+.headerTop-547GTz {
+    left: 16px
+}
+/* > > 팝업 내 연결 버튼 */
+.connectedAccount-2Jb-Z0 {
+    width: 100%;
+}
