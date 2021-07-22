@@ -290,7 +290,8 @@ a#private-channels-2 {
 
 
 /* 팝업 */
-.focusLock-Ns3yie {
+/* > 프로필 팝업 */
+.focusLock-Ns3yie[role="dialog"] {
     width: 75%;
 }
 /* > 팝업 내 레이아웃 */
