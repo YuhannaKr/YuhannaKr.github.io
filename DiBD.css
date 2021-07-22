@@ -63,11 +63,17 @@ Ctrl + Shift + i
     padding-right: 0 !important;
 }
 /* > 니트로 선물 버튼 제거, Settings/APPEARANCE/Hide Gift Button */
-/* .buttons-3JBrkn > button:nth-last-of-type(1) {
+/* .buttons-3JBrkn > button:nth-last-of-type(1) */{
     display: none;
-}*/
+}
 
 /* 디스코드 홈, 니트로 버튼 */
+    display: none;
+}
+
+/* 디스코드 홈, 니트로 버튼 */
+a#private-channels-2 {
+    display: none;
 a#private-channels-2 {
     display: none;
 }
