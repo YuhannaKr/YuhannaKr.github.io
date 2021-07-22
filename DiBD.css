@@ -62,8 +62,8 @@ Ctrl + Shift + i
 .message-2qnXI6 {
     padding-right: 0 !important;
 }
-/* > 니트로 선물 버튼 제거, Settings/APPEARANCE/Hide Gift Button */
-/* .buttons-3JBrkn > button:nth-last-of-type(1) */{
+/* > 니트로 선물 버튼 제거 */
+.buttons-3JBrkn > button:nth-last-of-type(1) {
     display: none;
 }
 
@@ -131,20 +131,20 @@ a#private-channels-2 {
     max-width: 200px;
 }
 /* > 채널 목록 */
-/* > > 너비 */
+/* >> 너비 */
 .sidebar-2K8pFh {
     width: 200px;
     /*width: 320px;*/
 }
-/* > > 및 멤버 목록 높이 */
+/* >> 및 멤버 목록 높이 */
 .content-3YMskv {
     height: 100% !important;
 }
-/* > > 프로필 이미지 숨기기 */
+/* >> 프로필 이미지 숨기기 */
 .container-3baos1 .avatar-VxgULZ {
     display: none;
 }
-/* > > 닉네임 숨기기 */
+/* >> 닉네임 숨기기 */
 .usernameContainer-1fp4nu .title-eS5yk3 {
     display: none;
 }
@@ -162,7 +162,7 @@ a#private-channels-2 {
 .mainContent-u_9PKf {
     padding: 5px 0 0;
 }
-/* > > 채팅 채널 */
+/* >> 채팅 채널 */
 .container-1r6BKw {
     max-height: 40px;
 }
@@ -176,7 +176,7 @@ a#private-channels-2 {
 .notInteractive-1X92pj.modeSelected-346R90 .name-23GUGE {
     color: var(--channels-default);
 }
-/* > > 음성 채널 */
+/* >> 음성 채널 */
 .live-vBWnV6 {
     width: 10px;
     font-size: 0px;
@@ -184,7 +184,7 @@ a#private-channels-2 {
 .button-1YfofB {
     max-width: 50px;
 }
-/* > > > 카테고리 접은 경우 간격 좁히기 */
+/* >>> 카테고리 접은 경우 간격 좁히기 */
 .avatarSmall-1PJoGO {
     margin-right: -24px;
 }
@@ -206,15 +206,15 @@ a#private-channels-2 {
 .name-uJV0GL {
     white-space: normal;
 }
-/* > > 모바일 사용자 프로필 */
+/* >> 모바일 사용자 프로필 */
 .avatar-VxgULZ{
     width: auto;
 }
-/* > > 멤버 정보 */
+/* >> 멤버 정보 */
 .userPopout-3XzG_A {
     width: 500px !important;
 }
-/* > > 역할 구분 */
+/* >> 역할 구분 */
 .membersGroup-v9BXpm {
     padding: 16px 8px 0 16px;
     height: 32px;
@@ -271,7 +271,7 @@ a#private-channels-2 {
 .sidebar-CFHs9e {
     padding: 20px 0px 20px 20px
 }
-/* > 계정 제거 기능   */
+/* > 계정 제거 기능  */
 .buttonContainer-1zBNxN {
     display: none;
 }
