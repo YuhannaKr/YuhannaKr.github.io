@@ -303,7 +303,7 @@ a#private-channels-2 {
 /* > > 팝업 내 프로필 배경 */
 .topSection-y3p-_D .banner-2QYc2d {
     width: 100%;
-    min-height: 240px;
+    min-height: 240px !important;
 }
 /* > > 팝업 내 프로필 사진 */
 .topSection-y3p-_D .avatar-AvHqJA {
