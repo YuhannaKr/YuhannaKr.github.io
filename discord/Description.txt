@@ -1,0 +1,22 @@
++ Plugins(https://betterdiscord.app/plugin/**)
+  - BDFDB
+  - BetterNsfwTag
+  - BetterRoleColors
+  - BetterSearchPage
+  - BetterVolume
+  - BlurNSFW
+  - CharCounter
+  - GameActivityToggle
+  - Hide Channels
+  - Hide Chat Icons
+  - ImageUtilities
+  - OldUpload
+  - PanelPopout
+  - PermissionsViewer
+  - ShowBadgesInChat
+  - ShowHiddenChannels
+  - StaffTag
+  - Translator
+  - ZeresPluginLibrary
++ Themes(https://betterdiscord.app/themes?filter=**)
+  - RadialStatus
