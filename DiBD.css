@@ -138,7 +138,7 @@ a#private-channels-2 {
 }
 /* >> 및 멤버 목록 높이 */
 .content-3YMskv {
-    height: 100% !important;
+    /* height: 100% !important; */
 }
 /* >> 프로필 이미지 숨기기 */
 .container-3baos1 .avatar-VxgULZ {
