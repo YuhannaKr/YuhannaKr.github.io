@@ -262,6 +262,12 @@ a#private-channels-2 {
 .emojiAliasInput-1y-NBz {
     width: 300px;
 }
+/* > 탈퇴 */
+.colorDanger-2qLCe1,
+.colorDanger-2qLCe1 .checkbox-3s5GYZ,
+.colorDanger-2qLCe1 .radioSelection-1HmrQS{
+    display: none;
+}
 
 /* 사용자 설정 */
 /* > 사이드바 */
