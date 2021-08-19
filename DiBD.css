@@ -308,7 +308,8 @@ a#private-channels-2 {
 .popoutBannerPremium-1n96gg,
 .popoutBanner-19WKGg {
     min-height: 250px !important;
-}
+    background-color: rgba(0, 0, 0, 0) !important;
+ }
 /* > > 일반 사용자 프로필 이미지 */
 .avatarPositionNormal-aZjAsn{
     top: 76px;
