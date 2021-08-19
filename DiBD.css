@@ -299,6 +299,25 @@ a#private-channels-2 {
 
 
 /* 팝업 */
+/* > 미니 팝업 */
+.layer-v9HyYc .userPopout-xaxa6l,
+.popoutBannerPremium-1n96gg,
+.popoutBanner-19WKGg {
+    width: 750px !important;
+}
+/* > > 프로필 배경 */
+.popoutBannerPremium-1n96gg,
+.popoutBanner-19WKGg {
+    min-height: 250px !important;
+}
+/* > > 일반 사용자 프로필 이미지 */
+.avatarPositionNormal-aZjAsn{
+    top: 76px;
+}
+/* > > 사용자 배지 및 사용자 이름 */
+.headerTop-3vNv-a {
+    padding: 16px;
+}
 /* > 프로필 팝업 */
 .focusLock-Ns3yie[aria-label="사용자 프로필 인터페이스"] {
     width: 75%;
