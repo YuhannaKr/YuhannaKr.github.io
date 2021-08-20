@@ -233,6 +233,10 @@ a#private-channels-2 {
     width: 520px;
 }
 
+/* 메시지 보내기 하단 문구 */
+.applicationCommandEducationFadeIn-1g7fXy {
+    display: none;
+}
 /* 이모티콘 */
 /* > 이모티콘 선택 */
 .emojiPicker-3PwZFl,
