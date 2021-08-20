@@ -302,11 +302,12 @@ a#private-channels-2 {
 /* > 미니 팝업 */
 .layer-v9HyYc .userPopout-xaxa6l,
 .popoutBanner-19WKGg {
-    width: 50% !important;
+    min-width: 500px !important;
 }
 /* > > 프로필 배경 */
 .popoutBannerPremium-1n96gg,
 .popoutBanner-19WKGg {
+    width: 100% !important;
     min-height: 250px !important;
     background-color: rgba(0, 0, 0, 0) !important;
  }
