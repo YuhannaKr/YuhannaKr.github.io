@@ -25,6 +25,10 @@ Ctrl + Shift + i
 .reaction-1hd86g.reactionMe-wv5HKu {
     border-color: #4f545c;
 }
+/* > BD */
+#bd-loading-icon {
+    display: none;
+}
 /* 툴팁 */
 .tooltip-2QfLtc {
     margin: 5px 5px 5px 0px;
