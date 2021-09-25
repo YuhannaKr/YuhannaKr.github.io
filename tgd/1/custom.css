@@ -20,6 +20,16 @@ var(--main-logo);
     color: #fff;
     }
     
+    /* 배경 */
+    body {
+        background: var(--main-color);
+        height: max-content;
+        /*
+        animation: snow 20s linear infinite;
+        background-image: url();
+        */
+    }
+    
     /* 상단 이동 */
     #movetotop {
     opacity: 1;
@@ -61,14 +71,6 @@ header #right-search-form>input[type=text] {
 }
 
 /* 배경 */
-body {
-    background: var(--main-color);
-    height: max-content;
-    /*
-    animation: snow 20s linear infinite;
-    background-image: url();
-    */
-}
     /* > 좌측 메뉴 */
     #main .menu-wrapper {
     background: #fff;
