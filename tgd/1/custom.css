@@ -47,6 +47,7 @@ var(--main-logo);
 @media (max-width: 720px) {
     /* 종합 */
     header {
+        background: var(--main-color);
         border-bottom: 4px solid var(--back-color);
     }
     /* 본문 카테고리 스크롤 */
