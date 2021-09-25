@@ -54,29 +54,36 @@ var(--main-logo);
 }
 
 /* 종합 */
-#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span,
-#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
-    color: var(--main-color);
-}
-/*header #header-bar */#header-top-notice strong.notice-badge,
-#main .menu-wrapper>.header,
-#article-list #article-list-category> :is(a.active, a:hover) {
-    background: var(--back-color);
-}
-header #header-bar>.row {
-    border-top: 5px solid var(--back-color);
-}
-header #right-search-form>input[type=text] {
-    border: 3px solid var(--back-color);
-}
-#article-list #article-list-category>a {
-    background: var(--none-color);
-}
-#article-list #article-list-category {
-    border-top: 2px solid var(--main-color);
-    border-bottom: 2px solid var(--main-color);
-    background: var(--none-color);
-}
+    /* > var(--main-color); */
+        #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span,
+        #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+            color: var(--main-color);
+        }
+        #article-list>.article-list-row>.item>.list-header>span {
+            background: var(--main-color);
+        }
+    /* > var(--back-color); */
+        /*header #header-bar */#header-top-notice strong.notice-badge,
+        #main .menu-wrapper>.header,
+        #article-list #article-list-category> :is(a.active, a:hover) {
+            background: var(--back-color);
+        }
+        header #header-bar>.row {
+            border-top: 5px solid var(--back-color);
+        }
+        header #right-search-form>input[type=text] {
+            border: 3px solid var(--back-color);
+        }
+    /* > var(--none-color); */
+        #article-list #article-list-category>a {
+            background: var(--none-color);
+        }
+    /* > 묶음 */
+        #article-list #article-list-category {
+            border-top: 2px solid var(--main-color);
+            border-bottom: 2px solid var(--main-color);
+            background: var(--none-color);
+        }
 
 /* 배경 */
     /* > 좌측 메뉴 */
