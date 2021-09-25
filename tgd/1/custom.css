@@ -62,9 +62,13 @@ content: url(https://cdn.discordapp.com/attachments/890951019683536917/891263492
 max-width: 200px;
 }
 
+/* 해상도 제한 */
+@media (min-width: 721px) {
 /* 상단 이동 */
 #movetotop {
 opacity: 1;
     height: 160px;
     content: url(https://cdn.discordapp.com/attachments/890951019683536917/890963084766773279/image0.png);
+}
+
 }
