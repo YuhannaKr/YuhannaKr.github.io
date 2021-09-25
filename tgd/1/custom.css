@@ -1,0 +1,70 @@
+/* 변수 선언 */
+:root {
+--main-color: #004b49;
+--back-color: rgb(0 75 73 / 50%);
+--none-color: rgb(255 255 255 / 0%);
+}
+/*
+var(변수명);
+var(--main-color);
+var(--back-color);
+var(--none-color);
+*/
+
+/* 종합 */
+header #header-bar>.row {
+border-top: 5px solid var(--back-color);
+}
+header #right-search-form>input[type=text] {
+border: 3px solid var(--back-color);
+}
+header #header-bar #header-top-notice strong.notice-badge,
+#main .menu-wrapper>.header,
+#article-list #article-list-category>a.active,
+#article-list #article-list-category>a:hover {
+background: var(--back-color);
+}
+header #right-search-form>#right-search-btn{
+color: #fff;
+}
+#article-list #article-list-category {
+border-top: 2px solid var(--main-color);
+background: var(--none-color);
+}
+#article-list #article-list-category>a {
+background: var(--none-color);
+}
+
+/* 배경 */
+body {
+    background: var(--main-color);
+height: max-content;
+/*
+    animation: snow 20s linear infinite;
+    background-image: url();
+*/
+}
+/* > 좌측 메뉴 */
+#main .menu-wrapper {
+background: #fff;
+}
+
+/* 메인 내용 */
+/* > 공지 숨기기 교정 */
+#article-list #article-option-area>#article-option-area-toggle-btn {
+position: relative;
+    right: 14px;
+}
+
+/* 로고 */
+header > .container > .row > .col-xs-4 > a > img {
+content: url(https://cdn.discordapp.com/attachments/890951019683536917/891263492592660490/image0.png);
+max-width: 200px;
+}
+
+/* 상단 이동 */
+#movetotop {
+opacity: 1;
+    height: 160px;
+    content: url(https://cdn.discordapp.com/attachments/890951019683536917/890963084766773279/image0.png);
+}
