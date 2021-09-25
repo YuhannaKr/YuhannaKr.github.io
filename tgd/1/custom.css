@@ -43,7 +43,7 @@ var(--main-logo);
 }
 
 /* 종합 */
-header #header-bar #header-top-notice strong.notice-badge,
+/*header #header-bar */#header-top-notice strong.notice-badge,
 #main .menu-wrapper>.header,
 #article-list #article-list-category> :is(a.active, a:hover) {
     background: var(--back-color);
