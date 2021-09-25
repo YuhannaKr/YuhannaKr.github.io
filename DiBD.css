@@ -4,232 +4,238 @@ Ctrl + Shift + i
  */
 
 /* 디스코드 */
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
-.wrapper-1BJsBx:hover .childWrapper-anI2G9,
-.lookFilled-1Gx00P.colorBrand-3pXr91,
-.lookFilled-1Gx00P.colorBrand-3pXr91:disabled,
-.botTagRegular-2HEhHi,
-.newMessagesBar-265mhP,
-.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb,
-.colorDefault-2K3EoJ.focused-3afm-j,
-.avatarUploaderInner-3UNxY3,
-.barFill-23-gu-,
-.theme-dark .wrapper-3WhCwL,
-.closedFolderIconWrapper-2sTcE6,
-.theme-dark .message-15tBk4 strong {
-    background-color: #4f545c;
-}
-.expandedFolderIconWrapper-Huv7rA path {
-    color: #4f545c;
-}
-.reaction-1hd86g.reactionMe-wv5HKu {
-    border-color: #4f545c;
-}
-/* > BD */
-#bd-loading-icon {
-    display: none;
-}
+    :is(
+    .wrapper-1BJsBx.selected-bZ3Lue,
+    .wrapper-1BJsBx:hover
+    ) .childWrapper-anI2G9,
+    .lookFilled-1Gx00P :is(
+    .colorBrand-3pXr91,
+    .colorBrand-3pXr91:disabled
+    ),
+    .botTagRegular-2HEhHi,
+    .newMessagesBar-265mhP,
+    .categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb,
+    .colorDefault-2K3EoJ.focused-3afm-j,
+    .avatarUploaderInner-3UNxY3,
+    .barFill-23-gu-,
+    .closedFolderIconWrapper-2sTcE6,
+    .theme-dark :is(
+    .wrapper-3WhCwL,
+    .message-15tBk4 strong
+    ) {
+        background-color: #4f545c;
+    }
+    .expandedFolderIconWrapper-Huv7rA path {
+        color: #4f545c;
+    }
+    .reaction-1hd86g.reactionMe-wv5HKu {
+        border-color: #4f545c;
+    }
+    /* > BD */
+        #bd-loading-icon {
+            display: none;
+        }
 /* 툴팁 */
-.tooltip-2QfLtc {
-    margin: 5px 5px 5px 0px;
-    padding: 1px;
-    width: 100%;
-    text-align:center;
-}
-/* > 이미지 */
-.tooltip-2QfLtc > img {
-    margin: 0px -5px 0px 10px;
-}
-/* > 서버 폴더 */
-.tooltipRight-2JM5PQ {
-    max-width: 500px;
-}
-/* > 반응 */
-.tooltipTop-XDDSxx {
-    max-width: 250px;
-}
-/* > 서버 */
-.row-1c01mR {
-    margin: 0px 0px 0px 10px;
-    max-width: 250px;
-}
+    .tooltip-2QfLtc {
+        margin: 5px 5px 5px 0px;
+        padding: 1px;
+        width: 100%;
+        text-align:center;
+    }
+    /* > 이미지 */
+        .tooltip-2QfLtc > img {
+            margin: 0px -5px 0px 10px;
+        }
+    /* > 서버 폴더 */
+        .tooltipRight-2JM5PQ {
+            max-width: 500px;
+        }
+    /* > 반응 */
+        .tooltipTop-XDDSxx {
+            max-width: 250px;
+        }
+    /* > 서버 */
+        .row-1c01mR {
+            margin: 0px 0px 0px 10px;
+            max-width: 250px;
+        }
 
 /* 메시지 입력 */
-.barBase-1c2Rfb,
-.channelTextArea-2VhZ6z {
-    max-width: 1000px;
-}
-/* > 메시지 수정하기 */
-.channelTextArea-3bF57p {
-    max-width: 944px;
-}
-.message-2qnXI6 {
-    padding-right: 0 !important;
-}
-/* > 니트로 선물 버튼 제거 */
-.buttons-3JBrkn > button:nth-last-of-type(1) {
-    display: none;
-}
+    .barBase-1c2Rfb,
+    .channelTextArea-2VhZ6z {
+        max-width: 1000px;
+    }
+    /* > 메시지 수정하기 */
+        .channelTextArea-3bF57p {
+            max-width: 944px;
+        }
+        .message-2qnXI6 {
+            padding-right: 0 !important;
+        }
+    /* > 니트로 선물 버튼 제거 */
+        .buttons-3JBrkn > button:nth-last-of-type(1) {
+            display: none;
+        }
 
 /* 디스코드 홈, 니트로 버튼 */
-a#private-channels-2 {
-    display: none;
-}
+    a#private-channels-2 {
+        display: none;
+    }
 
 /* 서버 사이드바 */
-/* > 폴더 */
-.wrapper-25eVIn,
-.svg-1X37T1 {
-    width: 36px;
-    height: 36px;
-}
-.expandedFolderBackground-1cujaW {
-    width: 36px;
-    background-color: #fff0;
-}
-.wrapper-sa6paO,
-.item-2hkk8m {
-    max-height: 36px;
-}
-.wrapper-3Njo_c > ul {
-    height: 100% !important;
-}
-.wrapper-3Njo_c > .listItem-GuPuDH {
-    margin: 10px 0 5px;
-}
-.wrapper-3Njo_c > ul .listItem-GuPuDH {
-    margin: 5px 0;
-}
-/* > 폴더 내 */
-.lowerBadge-29hYVK {
-    margin: 0px -3px -3px 0px;
-}
-.upperBadge-2XnnGB {
-    margin: -3px -3px 0px 0px;
-}
-.lowerBadge-29hYVK div,
-.upperBadge-2XnnGB div {
-    width: 18px !important;
-    height: 18px !important;
-    padding-right: 0px !important;
-}
-/* > 폴더 외 */
-.guilds-1SWlCJ,
-.unreadMentionsIndicatorBottom-2mDYbI,
-.unreadMentionsIndicatorTop-2-tcdU,
-.listItem-GuPuDH,
-.wrapper-3Njo_c {
-    width: 60px;
-}
+    /* > 폴더 */
+        .wrapper-25eVIn,
+        .svg-1X37T1 {
+            width: 36px;
+            height: 36px;
+        }
+        .expandedFolderBackground-1cujaW {
+            width: 36px;
+            background-color: #fff0;
+        }
+        .wrapper-sa6paO,
+        .item-2hkk8m {
+            max-height: 36px;
+        }
+        .wrapper-3Njo_c > ul {
+            height: 100% !important;
+        }
+        .wrapper-3Njo_c > .listItem-GuPuDH {
+            margin: 10px 0 5px;
+        }
+        .wrapper-3Njo_c > ul .listItem-GuPuDH {
+            margin: 5px 0;
+        }
+    /* > 폴더 내 */
+        .lowerBadge-29hYVK {
+            margin: 0px -3px -3px 0px;
+        }
+        .upperBadge-2XnnGB {
+            margin: -3px -3px 0px 0px;
+        }
+        .lowerBadge-29hYVK div,
+        .upperBadge-2XnnGB div {
+            width: 18px !important;
+            height: 18px !important;
+            padding-right: 0px !important;
+        }
+    /* > 폴더 외 */
+        .guilds-1SWlCJ,
+        .unreadMentionsIndicatorBottom-2mDYbI,
+        .unreadMentionsIndicatorTop-2-tcdU,
+        .listItem-GuPuDH,
+        .wrapper-3Njo_c {
+            width: 60px;
+        }
 
 /* 서버 */
-.name-1jkAdW {
-    display: none;
-}
-.button-14-BFJ {
-    max-width: 25px;
-    max-height: 25px;
-}
-/* > 서버 배너 너비 */
-.bannerImage-3KhIJ6 {
-    max-width: 200px;
-}
-/* > 채널 목록 */
-/* >> 너비 */
-.sidebar-2K8pFh {
-    width: 200px;
-    /*width: 320px;*/
-}
-/* >> 및 멤버 목록 높이 */
-.content-3YMskv {
-    /* height: 100% !important; */
-}
-/* >> 프로필 이미지 숨기기 */
-.container-3baos1 .avatar-VxgULZ {
-    display: none;
-}
-/* >> 닉네임 숨기기 */
-.usernameContainer-1fp4nu .title-eS5yk3 {
-    display: none;
-}
-
-/* 이모티콘 행 높이 */
-.emojiRow-zIc7ZX {
-    height: 32px;
-}
-
-    /* > 채널 */
-    .containerDefault-3tr_sE,
-    .containerDragAfter-Zk9oyx,
-    .containerDragBefore-1YqewQ,
-    .containerUserOver-98-yc7,
-    .mainContent-u_9PKf {
-        padding: 5px 0 0;
-    }
-    .spine--Wla_O {
+    .name-1jkAdW {
         display: none;
     }
-    /* > 스크롤 숨기기 */
-    div#channels::-webkit-scrollbar {
-        display: none;
+    .button-14-BFJ {
+        max-width: 25px;
+        max-height: 25px;
     }
-        /* >> 채팅 채널 */
-        .container-1r6BKw {
-            max-height: 40px;
+    /* > 서버 배너 너비 */
+        .bannerImage-3KhIJ6 {
+            max-width: 200px;
         }
-        .modeConnected-3IsKId .name-23GUGE,
-        .modeConnected-3IsKId:hover .name-23GUGE,
-        .modeSelected-346R90 .name-23GUGE,
-        .modeSelected-346R90:hover .name-23GUGE,
-        .modeUnread-1qO3K1 .name-23GUGE,
-        .modeUnread-1qO3K1:hover .name-23GUGE,
-        .notInteractive-1X92pj.modeConnected-3IsKId .name-23GUGE,
-        .notInteractive-1X92pj.modeSelected-346R90 .name-23GUGE {
-            color: var(--channels-default);
-        }
-        /* >> 음성 채널 */
-        .live-vBWnV6 {
-            width: 10px;
-            font-size: 0px;
-        }
-        .button-1YfofB {
-            max-width: 50px;
-        }
-            /* >>> 카테고리 접은 경우 간격 좁히기 */
-            .avatarSmall-1PJoGO {
-                margin-right: -24px;
+    /* > 채널 목록 */
+        /* >> 너비 */
+            .sidebar-2K8pFh {
+                width: 200px;
+                /*width: 320px;*/
+            }
+        /* >> 및 멤버 목록 높이 */
+            .content-3YMskv {
+                /* height: 100% !important; */
+            }
+        /* >> 프로필 이미지 숨기기 */
+            .container-3baos1 .avatar-VxgULZ {
+                display: none;
+            }
+        /* >> 닉네임 숨기기 */
+            .usernameContainer-1fp4nu .title-eS5yk3 {
+                display: none;
             }
 
-/* > 멤버 */
-.members-1998pB {
-    width: 400px;
-}
-.member-3-YXUe {
-    max-width: 400px;
-}
-.roleColor-rz2vM0 {
-    width: 200px;
-}
-.subText-1KtqkB {
-    width: 250px;
-}
-.roleColor-rz2vM0,
-.name-uJV0GL {
-    white-space: normal;
-}
-/* >> 모바일 사용자 프로필 */
-.avatar-VxgULZ{
-/*    width: auto;*/
-}
-/* >> 멤버 정보 */
-.userPopout-3XzG_A {
-    width: 500px !important;
-}
-/* >> 역할 구분 */
-.membersGroup-v9BXpm {
-    padding: 16px 8px 0 16px;
-    height: 32px;
-}
+/* 이모티콘 행 높이 */
+    .emojiRow-zIc7ZX {
+        height: 32px;
+    }
+    /* > 채널 */
+        .containerDefault-3tr_sE,
+        .containerDragAfter-Zk9oyx,
+        .containerDragBefore-1YqewQ,
+        .containerUserOver-98-yc7,
+        .mainContent-u_9PKf {
+            padding: 5px 0 0;
+        }
+        .spine--Wla_O {
+            display: none;
+        }
+    /* > 스크롤 숨기기 */
+        div#channels::-webkit-scrollbar {
+            display: none;
+        }
+        /* >> 채팅 채널 */
+            .container-1r6BKw {
+                max-height: 40px;
+            }
+            :is(
+            .modeConnected-3IsKId,
+            .modeConnected-3IsKId:hover,
+            .modeSelected-346R90,
+            .modeSelected-346R90:hover,
+            .modeUnread-1qO3K1,
+            .modeUnread-1qO3K1:hover,
+            .notInteractive-1X92pj.modeConnected-3IsKId,
+            .notInteractive-1X92pj.modeSelected-346R90
+            ) .name-23GUGE {
+                color: var(--channels-default);
+            }
+        /* >> 음성 채널 */
+            .live-vBWnV6 {
+                width: 10px;
+                font-size: 0px;
+            }
+            .button-1YfofB {
+                max-width: 50px;
+            }
+            /* >>> 카테고리 접은 경우 간격 좁히기 */
+                .avatarSmall-1PJoGO {
+                    margin-right: -24px;
+                }
+    /* > 멤버 */
+        .members-1998pB {
+            width: 400px;
+        }
+        .member-3-YXUe {
+            max-width: 400px;
+        }
+        .roleColor-rz2vM0 {
+            width: 200px;
+        }
+        .subText-1KtqkB {
+            width: 250px;
+        }
+        .roleColor-rz2vM0,
+        .name-uJV0GL {
+            white-space: normal;
+        }
+        /* >> 모바일 사용자 프로필 */
+            .avatar-VxgULZ{
+            /*    width: auto;*/
+            }
+        /* >> 멤버 정보 */
+            .userPopout-3XzG_A {
+                width: 500px !important;
+            }
+        /* >> 역할 구분 */
+            .membersGroup-v9BXpm {
+                padding: 16px 8px 0 16px;
+                height: 32px;
+            }
 
 /* 고정 메시지 */
 .messagesPopoutWrap-1MQ1bW {
@@ -246,117 +252,115 @@ a#private-channels-2 {
     display: none;
 }
 /* 이모티콘 */
-/* > 이모티콘 선택 */
-.emojiPicker-3PwZFl,
-.drawerSizingWrapper-17Mss4 {
-    width: 875px !important;
-    /*height: 1000px !important;*/
-}
-/* > 이모티콘 표시 */
-.emoji.jumboable {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 5px;
-}
+    /* > 이모티콘 선택 */
+    .emojiPicker-3PwZFl,
+    .drawerSizingWrapper-17Mss4 {
+        width: 875px !important;
+        /*height: 1000px !important;*/
+    }
+    /* > 이모티콘 표시 */
+    .emoji.jumboable {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 5px;
+    }
 
 /* 반응 */
 .reaction-1hd86g .emoji {
     width: 3rem;
     height: 3rem;
 }
-/* > 반응했어요 툴팁 */
-.reactionTooltipText-u4NWre {
-    margin: 0 12px;
-}
+    /* > 반응했어요 툴팁 */
+        .reactionTooltipText-u4NWre {
+            margin: 0 12px;
+        }
 
 /* 서버 설정 */
     /* > 서버 이모티콘 */
-    .emojiAliasInput-1y-NBz {
-        width: 300px;
-    }
+        .emojiAliasInput-1y-NBz {
+            width: 300px;
+        }
     /* > 탈퇴 */
-    .colorDanger-2qLCe1,
-    .colorDanger-2qLCe1 .checkbox-3s5GYZ,
-    .colorDanger-2qLCe1 .radioSelection-1HmrQS{
-        /* display: none; */
-    }
+        .colorDanger-2qLCe1,
+        .colorDanger-2qLCe1 :is(.checkbox-3s5GYZ, .radioSelection-1HmrQS) {
+            /* display: none; */
+        }
 
 /* 사용자 설정 */
     /* > 사이드바 */
-    .sidebar-CFHs9e .item-PXvHYJ {
-         line-height: 7px;
-    }
-    .sidebar-CFHs9e .flex-1xMQg5 {
-        height: 7px;
-    }
-    .sidebar-CFHs9e {
-        padding: 20px 0px 20px 20px
-    }
+        .sidebar-CFHs9e .item-PXvHYJ {
+             line-height: 7px;
+        }
+        .sidebar-CFHs9e .flex-1xMQg5 {
+            height: 7px;
+        }
+        .sidebar-CFHs9e {
+            padding: 20px 0px 20px 20px
+        }
     /* > 계정 제거 기능  */
-    .buttonContainer-1zBNxN {
-        display: none;
-    }
+        .buttonContainer-1zBNxN {
+            display: none;
+        }
     /* > 구독 아이콘 숨기기 */
-    .icon-Zc-uZZ {
-        display: none;
-    }
+        .icon-Zc-uZZ {
+            display: none;
+        }
     /* > 디스코드 소셜 링크 숨기기 */
-    .socialLinks-3jqNFy {
-        display: none;
-    }
+        .socialLinks-3jqNFy {
+            display: none;
+        }
     /* > 버전 정보 숨기기 */
-    .info-1VyQPT {
-         display: none;
-    }
-
+        .info-1VyQPT {
+             display: none;
+        }
 
 /* 팝업 */
     /* > 미니 팝업 */
-    .layer-v9HyYc .userPopout-xaxa6l,
-    .popoutBanner-19WKGg {
-        min-width: 500px !important;
-    }
-        /* > > 프로필 배경 */
-        .popoutBannerPremium-1n96gg,
+        .layer-v9HyYc .userPopout-xaxa6l,
         .popoutBanner-19WKGg {
-            width: 100% !important;
-            min-height: 250px !important;
-            background-color: rgba(0, 0, 0, 0) !important;
-         }
-        /* > > 일반 사용자 프로필 이미지 */
-        .avatarPositionNormal-aZjAsn{
-            top: 76px;
+            min-width: 500px !important;
         }
-        /* > > 사용자 배지 및 사용자 이름 */
-        .headerTop-3vNv-a {
-            padding: 16px;
-        }
+        /* >> 프로필 배경 */
+            .popoutBannerPremium-1n96gg,
+            .popoutBanner-19WKGg {
+                width: 100% !important;
+                min-height: 250px !important;
+                background-color: rgba(0, 0, 0, 0) !important;
+             }
+        /* >> 일반 사용자 프로필 이미지 */
+            .avatarPositionNormal-aZjAsn{
+                top: 76px;
+            }
+        /* >> 사용자 배지 및 사용자 이름 */
+            .headerTop-3vNv-a {
+                padding: 16px;
+            }
     /* > 프로필 팝업 */
-    .focusLock-Ns3yie[aria-label="사용자 프로필 인터페이스"] {
-        width: 75%;
-    }
+        .focusLock-Ns3yie[aria-label="사용자 프로필 인터페이스"] {
+            width: 75%;
+        }
     /* > 팝업 내 레이아웃 */
-    .focusLock-Ns3yie[aria-label="사용자 프로필 인터페이스"] .root-1gCeng,
-    .body-r6_QPy {
-        width: 100%;
-        height: 100%;
-    }
-        /* > > 팝업 내 프로필 배경 */
-        .topSection-y3p-_D .banner-2QYc2d {
+        .focusLock-Ns3yie[aria-label="사용자 프로필 인터페이스"] .root-1gCeng,
+        .body-r6_QPy {
             width: 100%;
-            min-height: 240px;
+            height: 100%;
         }
-        /* > > 팝업 내 프로필 사진 */
-        .topSection-y3p-_D .avatar-AvHqJA {
-            width: 200px !important;
-            height: 200px !important;
-            top: -225px
-        }
-        /* > > 팝업 내 배지 */
-        .headerTop-547GTz {
-            left: 16px
-        }
-        /* > > 팝업 내 연결 버튼 */
-        .connectedAccount-2Jb-Z0 {
-            width: 100%;
-        }
+        /* >> 팝업 내 프로필 배경 */
+            .topSection-y3p-_D .banner-2QYc2d {
+                width: 100%;
+                min-height: 240px;
+            }
+        /* >> 팝업 내 프로필 사진 */
+            .topSection-y3p-_D .avatar-AvHqJA {
+                width: 200px !important;
+                height: 200px !important;
+                top: -225px
+            }
+        /* >> 팝업 내 배지 */
+            .headerTop-547GTz {
+                left: 16px
+            }
+        /* >> 팝업 내 연결 버튼 */
+            .connectedAccount-2Jb-Z0 {
+                width: 100%;
+            }
