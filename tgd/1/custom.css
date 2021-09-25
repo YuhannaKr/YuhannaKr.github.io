@@ -55,11 +55,9 @@ var(--main-logo);
 
 /* 종합 */
     /* > var(--main-color); */
-        #article-list>.article-list-row>.item> :is(
-        .list-title>.list-writer.logged>span,
-        a.list-title>.list-writer.logged>span,
-        a.list-title>small.comment-count
-        ) {
+        #article-list>.article-list-row>.item> .list-title>.list-writer.logged>span,
+        #article-list>.article-list-row>.item> a.list-title>.list-writer.logged>span,
+        #article-list>.article-list-row>.item> a.list-title>small.comment-count {
             color: var(--main-color);
         }
         #article-list>.article-list-row>.item>.list-header>span {
