@@ -13,44 +13,9 @@ var(--none-color);
 var(--main-logo);
 */
 
-/* 종합 */
-header #header-bar>.row {
-border-top: 5px solid var(--back-color);
-}
-header #right-search-form>input[type=text] {
-border: 3px solid var(--back-color);
-}
-
-/* 배경 */
-body {
-    background: var(--main-color);
-height: max-content;
-/*
-    animation: snow 20s linear infinite;
-    background-image: url();
-*/
-}
-    /* > 좌측 메뉴 */
-    #main .menu-wrapper {
-    background: #fff;
-    }
-
-/* 로고 */
-header > .container > .row > .col-xs-4 > a > img,
-header > #header-area > a > h1 {
-    content: var(--main-logo);
-    background: var(--main-logo);
-    max-width: 200px;
-}
-
 /* 해상도 제한 */
 @media (min-width: 721px) {
     /* 종합 */
-    header #header-bar #header-top-notice strong.notice-badge,
-    #main .menu-wrapper>.header,
-    #article-list #article-list-category> :is(a.active, a:hover) {
-    background: var(--back-color);
-    }
     header #right-search-form>#right-search-btn{
     color: #fff;
     }
@@ -75,4 +40,39 @@ header > #header-area > a > h1 {
         position: relative;
             right: 14px;
         }
+}
+
+/* 종합 */
+header #header-bar #header-top-notice strong.notice-badge,
+#main .menu-wrapper>.header,
+#article-list #article-list-category> :is(a.active, a:hover) {
+    background: var(--back-color);
+}
+header #header-bar>.row {
+    border-top: 5px solid var(--back-color);
+}
+header #right-search-form>input[type=text] {
+    border: 3px solid var(--back-color);
+}
+
+/* 배경 */
+body {
+    background: var(--main-color);
+    height: max-content;
+    /*
+    animation: snow 20s linear infinite;
+    background-image: url();
+    */
+}
+    /* > 좌측 메뉴 */
+    #main .menu-wrapper {
+    background: #fff;
+    }
+
+/* 로고 */
+header > .container > .row > .col-xs-4 > a > img,
+header > #header-area > a > h1 {
+    content: var(--main-logo);
+    background: var(--main-logo);
+    max-width: 200px;
 }
