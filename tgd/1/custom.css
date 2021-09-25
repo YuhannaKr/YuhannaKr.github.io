@@ -16,9 +16,6 @@ var(--main-logo);
 /* 해상도 제한 */
 @media (min-width: 721px) {
     /* 종합 */
-    header #right-search-form>#right-search-btn{
-    color: #fff;
-    }
     
     /* 배경 */
     body {
@@ -88,4 +85,8 @@ header > #header-area > a > h1 {
     content: var(--main-logo);
     background: var(--main-logo);
     max-width: 200px;
+}
+/* 검색 */
+header #right-search-form>#right-search-btn{
+    color: #fff;
 }
