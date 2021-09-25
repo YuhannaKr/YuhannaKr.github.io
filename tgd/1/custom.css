@@ -87,6 +87,7 @@ header > #header-area > a > h1 {
     max-width: 200px;
 }
 /* 검색 */
-header #right-search-form>#right-search-btn{
+header #right-search-form>#right-search-btn,
+header>#header-area>#header-search-link {
     color: #fff;
 }
