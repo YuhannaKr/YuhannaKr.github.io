@@ -3,12 +3,14 @@
 --main-color: #004b49;
 --back-color: rgb(0 75 73 / 50%);
 --none-color: rgb(255 255 255 / 0%);
+--main-logo: url(https://cdn.discordapp.com/attachments/890951019683536917/891263492592660490/image0.png);
 }
 /*
 var(변수명);
 var(--main-color);
 var(--back-color);
 var(--none-color);
+var(--main-logo);
 */
 
 /* 종합 */
@@ -36,8 +38,8 @@ height: max-content;
 /* 로고 */
 header > .container > .row > .col-xs-4 > a > img,
 header > #header-area > a > h1 {
-    content: url(https://cdn.discordapp.com/attachments/890951019683536917/891263492592660490/image0.png);
-    background: url(https://cdn.discordapp.com/attachments/890951019683536917/891263492592660490/image0.png);
+    content: var(--main-logo);
+    background: var(--main-logo);
     max-width: 200px;
 }
 
@@ -46,8 +48,7 @@ header > #header-area > a > h1 {
     /* 종합 */
     header #header-bar #header-top-notice strong.notice-badge,
     #main .menu-wrapper>.header,
-    #article-list #article-list-category>a.active,
-    #article-list #article-list-category>a:hover {
+    #article-list #article-list-category> :is(a.active, a:hover) {
     background: var(--back-color);
     }
     header #right-search-form>#right-search-btn{
