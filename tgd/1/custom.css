@@ -39,8 +39,8 @@ var(--main-logo);
         }
 }
 @media (max-width: 720px) {
-    #article-list #article-list-category {
-        overflow-x:none;
+    #article-list #article-list-category::-webkit-scrollbar {
+        display:none;
     }
 }
 
