@@ -38,6 +38,11 @@ var(--main-logo);
             right: 14px;
         }
 }
+@media (max-width: 720px) {
+    #article-list #article-list-category {
+        overflow-x:none;
+    }
+}
 
 /* 종합 */
 /*header #header-bar */#header-top-notice strong.notice-badge,
