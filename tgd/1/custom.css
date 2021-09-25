@@ -103,6 +103,7 @@ header > #header-area > a > h1 {
 }
 /* 검색 */
 header #right-search-form>#right-search-btn,
-header>#header-area>#header-search-link {
+header>#header-area>#header-search-link,
+header>#header-search-bar #header-search-btn{
     color: #fff;
 }
