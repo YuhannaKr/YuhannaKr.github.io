@@ -34,7 +34,8 @@ height: max-content;
     }
 
 /* 로고 */
-header > .container > .row > .col-xs-4 > a > img {
+header > .container > .row > .col-xs-4 > a > img,
+header > #header-area > a > h1{
 content: url(https://cdn.discordapp.com/attachments/890951019683536917/891263492592660490/image0.png);
 max-width: 200px;
 }
