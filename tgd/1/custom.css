@@ -59,13 +59,11 @@ var(--main-logo);
         #article-list>.article-list-row>.item> a.list-title> :is(.list-writer.logged>span, small.comment-count) {
             color: var(--main-color);
         }
-        #article-list>.article-list-row>.item>.list-header>span {
-            background: var(--main-color);
-        }
     /* > var(--back-color); */
         :is(header #header-bar, *) #header-top-notice strong.notice-badge,
         #main .menu-wrapper>.header,
-        #article-list #article-list-category> :is(a.active, a:hover) {
+        #article-list #article-list-category> :is(a.active, a:hover)
+        #article-list>.article-list-row>.item>.list-header>span {
             background: var(--back-color);
         }
         header #header-bar>.row {
