@@ -45,6 +45,11 @@ var(--main-logo);
         }
 }
 @media (max-width: 720px) {
+    /* 종합 */
+    header {
+        border-bottom: 4px solid var(--back-color);
+    }
+    /* 본문 카테고리 스크롤 */
     #article-list #article-list-category::-webkit-scrollbar {
         display:none;
     }
