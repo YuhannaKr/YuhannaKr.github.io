@@ -55,8 +55,10 @@ var(--main-logo);
 
 /* 종합 */
     /* > var(--main-color); */
-        #article-list>.article-list-row>.item> .list-title> :is(.list-writer.logged>span,small.comment-count),
-        #article-list>.article-list-row>.item> a.list-title> :is(.list-writer.logged>span,small.comment-count) {
+        #article-list>.article-list-row>.item> .list-title> .list-writer.logged>span,
+        #article-list>.article-list-row>.item> .list-title> small.comment-count,
+        #article-list>.article-list-row>.item> a.list-title> .list-writer.logged>span,
+        #article-list>.article-list-row>.item> a.list-title> small.comment-count {
             color: var(--main-color);
         }
     /* > var(--back-color); */
