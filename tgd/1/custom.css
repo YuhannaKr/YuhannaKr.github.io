@@ -63,7 +63,8 @@ var(--main-logo);
             background: var(--main-color);
         }
     /* > var(--back-color); */
-        /*header #header-bar */#header-top-notice strong.notice-badge,
+        :is(header #header-bar, ) #header-top-notice strong.notice-badge,/*
+        #header-top-notice strong.notice-badge,*/
         #main .menu-wrapper>.header,
         #article-list #article-list-category> :is(a.active, a:hover) {
             background: var(--back-color);
