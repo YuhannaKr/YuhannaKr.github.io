@@ -54,6 +54,9 @@ var(--main-logo);
 }
 
 /* 종합 */
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+    color: var(--main-color);
+}
 /*header #header-bar */#header-top-notice strong.notice-badge,
 #main .menu-wrapper>.header,
 #article-list #article-list-category> :is(a.active, a:hover) {
