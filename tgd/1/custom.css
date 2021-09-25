@@ -28,17 +28,10 @@ height: max-content;
     background-image: url();
 */
 }
-/* > 좌측 메뉴 */
-#main .menu-wrapper {
-background: #fff;
-}
-
-/* 메인 내용 */
-/* > 공지 숨기기 교정 */
-#article-list #article-option-area>#article-option-area-toggle-btn {
-position: relative;
-    right: 14px;
-}
+    /* > 좌측 메뉴 */
+    #main .menu-wrapper {
+    background: #fff;
+    }
 
 /* 로고 */
 header > .container > .row > .col-xs-4 > a > img {
@@ -72,4 +65,11 @@ max-width: 200px;
         height: 160px;
         content: url(https://cdn.discordapp.com/attachments/890951019683536917/890963084766773279/image0.png);
     }
+
+    /* 메인 내용 */
+        /* > 공지 숨기기 교정 */
+        #article-list #article-option-area>#article-option-area-toggle-btn {
+        position: relative;
+            right: 14px;
+        }
 }
