@@ -4,6 +4,7 @@
 --back-color: rgb(0 75 73 / 50%);
 --none-color: rgb(255 255 255 / 0%);
 --main-logo: url(https://cdn.discordapp.com/attachments/890951019683536917/891263492592660490/image0.png);
+--2-logo: url(https://cdn.discordapp.com/attachments/890951019683536917/890963084766773279/image0.png);
 }
 /*
 var(변수명);
@@ -11,6 +12,7 @@ var(--main-color);
 var(--back-color);
 var(--none-color);
 var(--main-logo);
+var(--2-logo);
 */
 
 /* 해상도 제한 */
@@ -31,7 +33,7 @@ var(--main-logo);
     #movetotop {
     opacity: 1;
         height: 160px;
-        content: url(https://cdn.discordapp.com/attachments/890951019683536917/890963084766773279/image0.png);
+        content: var(--2-logo);
     }
 
     /* 메인 내용 */
@@ -51,6 +53,13 @@ var(--main-logo);
     #article-list #article-list-category::-webkit-scrollbar {
         display:none;
     }*/
+    
+    /* 상단 이동 */
+    #movetotop {
+    opacity: 1;
+        height: 80px;
+        content: var(--2-logo);
+    }
 }
 
 /* 종합 */
