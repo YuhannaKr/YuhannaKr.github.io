@@ -54,6 +54,7 @@ var(--main-logo);
 }
 
 /* 종합 */
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span,
 #article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
     color: var(--main-color);
 }
