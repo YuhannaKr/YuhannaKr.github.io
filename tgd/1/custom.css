@@ -106,6 +106,9 @@ header > #header-area > a > h1 {
     content: var(--main-logo);
     background: var(--main-logo);
     max-width: 200px;
+    min-width: 100px;
+    min-height: 40px;
+    
 }
 /* 검색 */
 header #right-search-form>#right-search-btn,
