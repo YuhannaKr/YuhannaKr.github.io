@@ -5,6 +5,7 @@ Ctrl + Shift + i
 
 /* 변수 선언 */
 :root {
+    --none-color: rgb(255 255 255 / 0%);
     --bar-1-width: 120px;
     --bar-2-width: 60px;
     --server-bar: 24px;
@@ -31,7 +32,7 @@ var(--server-bar);
 }
     /* > 홈 BD 서버 */
         #bd-pub-button {
-            font-size: 50%;
+            color: var(--none-color);
         }
 
 /* 디스코드 */
