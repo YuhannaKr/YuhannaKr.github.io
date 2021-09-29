@@ -3,6 +3,11 @@ Ctrl + Shift + i
 !important
  */
 
+/* BD */
+.bd-toasts {
+    display: none;
+}
+
 /* 디스코드 */
     .wrapper-1BJsBx 
     :is(
