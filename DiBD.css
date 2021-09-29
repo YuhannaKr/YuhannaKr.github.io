@@ -5,15 +5,21 @@ Ctrl + Shift + i
 
 /* 변수 선언 */
 :root {
---server-bar: 24px;
+    --bar-1-width: 96px;
+    --bar-2-width: 48px;
+    --server-bar: 36px;
 }
 /*
 var(변수명);
 var(--main-color);
 var(--back-color);
 var(--none-color);
-var(--main-logo);
-var(--server-bar); 36. 48.
+var(--bar-1-width);
+96. 120.
+var(--bar-2-width);
+48. 60.
+var(--server-bar);
+36. 48.
 */
 
 /* BD */
@@ -23,6 +29,10 @@ var(--server-bar); 36. 48.
 #bd-loading-icon {
     display: none;
 }
+    /* > 홈 BD 서버 */
+        #bd-pub-button {
+            font-size: 50%;
+        }
 
 /* 디스코드 */
     .wrapper-1BJsBx :is(
@@ -131,13 +141,13 @@ var(--server-bar); 36. 48.
 
 /* 서버 사이드바 */
     .guilds-1SWlCJ {
-        width: 120px;
+        width: var(--bar-1-width);
     }
     /* > 종합 */
         .guilds-1SWlCJ .wrapper-3Njo_c,
         .tutorialContainer-30WoTp {
             float: left;
-            max-width: 60px;
+            max-width: var(--bar-2-width);
         }
         .wrapper-3Njo_c > .listItem-GuPuDH,
         .wrapper-3Njo_c > ul .listItem-GuPuDH) {
