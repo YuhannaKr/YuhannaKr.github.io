@@ -81,8 +81,53 @@ Ctrl + Shift + i
     a#private-channels-2 {
         display: none;
     }
+    /* > 친구 */
+        .peopleListItem-2nzedh {
+            width: 45%;
+            height: 124px !important;
+            float: left;
+            margin: 0 2.5%;
+            border: 0px;
+        }
+        .text-3MU_QQ {
+            white-space: normal;
+            text-overflow:initial;
+            overflow: initial;
+        }
+        .peopleListItem-2nzedh:is(
+        .active-rhSpJJ, :hover) {
+            background: none;
+            margin: 0 2.5%;
+            padding: 0;
+            border-top: 1px solid var(--background-modifier-accent);
+            border-bottom: 1px solid var(--background-modifier-accent);
+            border-radius: 0;
+        }
+        .userInfo-2zN2z8 {
+            max-width: 70%;
+        }
+        .px-10SIf7 :is(
+        .botTagVerified-1klIIt,
+        .botText-1526X_) {
+            height: 10px;
+            line-height: 15px;
+        }
 
 /* 서버 사이드바 */
+    .guilds-1SWlCJ {
+        width: 120px;
+    }
+    /* > 종합 */
+        .guilds-1SWlCJ .wrapper-3Njo_c,
+        .tutorialContainer-30WoTp {
+            float: left;
+            max-width: 60px;
+        }
+        .wrapper-3Njo_c > :is(
+            .listItem-GuPuDH,
+            ul .listItem-GuPuDH) {
+            margin: 0 0 5px;
+        }
     /* > 폴더 */
         .wrapper-25eVIn,
         .svg-1X37T1 {
@@ -100,12 +145,6 @@ Ctrl + Shift + i
         .wrapper-3Njo_c > ul {
             height: 100% !important;
         }
-        .wrapper-3Njo_c > .listItem-GuPuDH {
-            margin: 10px 0 5px;
-        }
-        .wrapper-3Njo_c > ul .listItem-GuPuDH {
-            margin: 5px 0;
-        }
     /* > 폴더 내 */
         .lowerBadge-29hYVK {
             margin: 0px -3px -3px 0px;
@@ -113,14 +152,14 @@ Ctrl + Shift + i
         .upperBadge-2XnnGB {
             margin: -3px -3px 0px 0px;
         }
-        .lowerBadge-29hYVK div,
-        .upperBadge-2XnnGB div {
+        :is(
+        .lowerBadge-29hYVK,
+        .upperBadge-2XnnGB) div {
             width: 18px !important;
             height: 18px !important;
             padding-right: 0px !important;
         }
     /* > 폴더 외 */
-        .guilds-1SWlCJ,
         .unreadMentionsIndicatorBottom-2mDYbI,
         .unreadMentionsIndicatorTop-2-tcdU,
         .listItem-GuPuDH,
