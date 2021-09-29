@@ -81,6 +81,9 @@ var(--server-bar);
         .tooltipTop-XDDSxx {
             max-width: 250px;
         }
+        div[id*="popout_"] {
+            right: 0px !important;
+        }
     /* > 서버 */
         .row-1c01mR {
             margin: 0px 0px 0px 10px;
