@@ -338,7 +338,7 @@ Ctrl + Shift + i
             height: 7px;
         }
         .sidebar-CFHs9e {
-            padding: 20px 0px 20px 20px
+            padding: 20px 0px 20px 20px;
         }
     /* > 계정 제거 기능  */
         .buttonContainer-1zBNxN {
@@ -397,11 +397,11 @@ Ctrl + Shift + i
             .topSection-y3p-_D .avatar-AvHqJA {
                 width: 200px !important;
                 height: 200px !important;
-                top: -225px
+                top: -225px;
             }
         /* >> 팝업 내 배지 */
             .headerTop-547GTz {
-                left: 16px
+                left: 16px;
             }
         /* >> 팝업 내 연결 버튼 */
             .connectedAccount-2Jb-Z0 {
