@@ -7,16 +7,17 @@ Ctrl + Shift + i
 .bd-toasts {
     display: none;
 }
+#bd-loading-icon {
+    display: none;
+}
 
 /* 디스코드 */
-    .wrapper-1BJsBx 
-    :is(
+    .wrapper-1BJsBx :is(
     .selected-bZ3Lue,
     :hover) .childWrapper-anI2G9,
     .lookFilled-1Gx00P :is(
-    .colorBrand-3pXr91,
-    .colorBrand-3pXr91:disabled
-    ),
+        .colorBrand-3pXr91,
+        .colorBrand-3pXr91:disabled),
     .botTagRegular-2HEhHi,
     .newMessagesBar-265mhP,
     .categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb,
@@ -35,10 +36,7 @@ Ctrl + Shift + i
     .reaction-1hd86g.reactionMe-wv5HKu {
         border-color: #4f545c;
     }
-    /* > BD */
-        #bd-loading-icon {
-            display: none;
-        }
+
 /* 툴팁 */
     .tooltip-2QfLtc {
         margin: 5px 5px 5px 0px;
@@ -128,9 +126,8 @@ Ctrl + Shift + i
             float: left;
             max-width: 60px;
         }
-        .wrapper-3Njo_c > :is(
-            .listItem-GuPuDH,
-            ul .listItem-GuPuDH) {
+        .wrapper-3Njo_c > .listItem-GuPuDH,
+        .wrapper-3Njo_c > ul .listItem-GuPuDH) {
             margin: 0 0 5px;
         }
     /* > 폴더 */
