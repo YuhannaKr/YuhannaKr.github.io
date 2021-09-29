@@ -31,7 +31,8 @@ var(--server-bar);
     display: none;
 }
     /* > 홈 BD 서버 */
-        #bd-pub-button {
+        #bd-pub-button,
+        #bd-pub-button:hover {
             color: var(--none-color);
         }
 
