@@ -3,6 +3,19 @@ Ctrl + Shift + i
 !important
  */
 
+/* 변수 선언 */
+:root {
+--server-bar: 24px;
+}
+/*
+var(변수명);
+var(--main-color);
+var(--back-color);
+var(--none-color);
+var(--main-logo);
+var(--server-bar); 36. 48.
+*/
+
 /* BD */
 .bd-toasts {
     display: none;
@@ -133,16 +146,16 @@ Ctrl + Shift + i
     /* > 폴더 */
         .wrapper-25eVIn,
         .svg-1X37T1 {
-            width: 36px;
-            height: 36px;
+            width: var(--server-bar);
+            height: var(--server-bar);
         }
         .expandedFolderBackground-1cujaW {
-            width: 36px;
+            width: var(--server-bar);
             background-color: #fff0;
         }
         .wrapper-sa6paO,
         .item-2hkk8m {
-            max-height: 36px;
+            max-height: var(--server-bar);
         }
         .wrapper-3Njo_c > ul {
             height: 100% !important;
