@@ -4,10 +4,10 @@ Ctrl + Shift + i
  */
 
 /* 디스코드 */
+    .wrapper-1BJsBx 
     :is(
-    .wrapper-1BJsBx.selected-bZ3Lue,
-    .wrapper-1BJsBx:hover
-    ) .childWrapper-anI2G9,
+    .selected-bZ3Lue,
+    :hover) .childWrapper-anI2G9,
     .lookFilled-1Gx00P :is(
     .colorBrand-3pXr91,
     .colorBrand-3pXr91:disabled
@@ -21,8 +21,7 @@ Ctrl + Shift + i
     .closedFolderIconWrapper-2sTcE6,
     .theme-dark :is(
     .wrapper-3WhCwL,
-    .message-15tBk4 strong
-    ) {
+    .message-15tBk4 strong) {
         background-color: #4f545c;
     }
     .expandedFolderIconWrapper-Huv7rA path {
@@ -95,7 +94,8 @@ Ctrl + Shift + i
             overflow: initial;
         }
         .peopleListItem-2nzedh:is(
-        .active-rhSpJJ, :hover) {
+        .active-rhSpJJ,
+        :hover) {
             background: none;
             margin: 0 2.5%;
             padding: 0;
@@ -228,9 +228,9 @@ Ctrl + Shift + i
             .modeSelected-346R90:hover,
             .modeUnread-1qO3K1,
             .modeUnread-1qO3K1:hover,
-            .notInteractive-1X92pj.modeConnected-3IsKId,
-            .notInteractive-1X92pj.modeSelected-346R90
-            ) .name-23GUGE {
+            .notInteractive-1X92pj:is(
+            .modeConnected-3IsKId,
+            .modeSelected-346R90) .name-23GUGE {
                 color: var(--channels-default);
             }
         /* >> 음성 채널 */
@@ -321,7 +321,9 @@ Ctrl + Shift + i
         }
     /* > 탈퇴 */
         .colorDanger-2qLCe1,
-        .colorDanger-2qLCe1 :is(.checkbox-3s5GYZ, .radioSelection-1HmrQS) {
+        .colorDanger-2qLCe1 :is(
+        .checkbox-3s5GYZ,
+        .radioSelection-1HmrQS) {
             /* display: none; */
         }
 
