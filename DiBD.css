@@ -232,7 +232,7 @@ Ctrl + Shift + i
             .modeUnread-1qO3K1:hover,
             .notInteractive-1X92pj:is(
             .modeConnected-3IsKId,
-            .modeSelected-346R90) .name-23GUGE {
+            .modeSelected-346R90)) .name-23GUGE {
                 color: var(--channels-default);
             }
         /* >> 음성 채널 */
