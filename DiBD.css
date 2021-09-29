@@ -5,9 +5,9 @@ Ctrl + Shift + i
 
 /* 변수 선언 */
 :root {
-    --bar-1-width: 96px;
-    --bar-2-width: 48px;
-    --server-bar: 18px;
+    --bar-1-width: 120px;
+    --bar-2-width: 60px;
+    --server-bar: 24px;
 }
 /*
 var(변수명);
