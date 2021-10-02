@@ -9,7 +9,7 @@ Ctrl + Shift + i
 	--bar-1-width: 120px;
 	--bar-2-width: 60px;
 	--server-bar: 24;
-	--calc-server-bar: calc(1px * var(--server-bar))
+	--calc-server-bar: calc(1px * var(--server-bar));
     
 	--columns: 3;
 	--guildsize: 50;
