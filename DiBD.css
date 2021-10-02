@@ -11,8 +11,7 @@ Ctrl + Shift + i
 	--server-bar: 24;
 	--calc-server-bar: calc(1px * var(--server-bar));
     
-	--columns: 3;
-	--guildsize: 50;
+	--columns: 2;
 	--guildgap: 3;
 	--aligndms: 1;
 }
