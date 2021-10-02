@@ -20,3 +20,4 @@
   - ZeresPluginLibrary
 + Themes(https://betterdiscord.app/themes?filter=**)
   - RadialStatus
+  - ServerColumns
