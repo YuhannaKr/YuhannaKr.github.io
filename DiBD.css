@@ -368,6 +368,10 @@ var(--guildsize);
 		top: calc(var(--server-bar) * 1px - 5px) !important;
 		bottom: unset !important;
 	}
+	/* > 서버 추가하기 */
+		.tutorialContainer-30WoTp {
+		    width: calc(1px * (var(--server-bar) + var(--server-bar)/5));
+		}
 /* 서버 */
     .name-1jkAdW {
         display: none;
