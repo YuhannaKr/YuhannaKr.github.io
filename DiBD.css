@@ -174,16 +174,16 @@ var(--guildsize);
         .wrapper-25eVIn,
         .svg-1X37T1,
         .placeholderMask-3v3K7P {
-            width: var(--calc-server-bar);
-            height: var(--calc-server-bar);
+            /* width: var(--calc-server-bar); */
+            /* height: var(--calc-server-bar); */
         }
         .expandedFolderBackground-1cujaW {
-            width: var(--calc-server-bar);
+            /* width: var(--calc-server-bar); */
             background-color: #fff0;
         }
         .wrapper-sa6paO,
         .item-2hkk8m {
-            max-height: var(--calc-server-bar);
+            /* max-height: var(--calc-server-bar); */
         }
         .wrapper-3Njo_c > ul {
             height: 100% !important;
