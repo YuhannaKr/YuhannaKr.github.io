@@ -8,7 +8,8 @@ Ctrl + Shift + i
 	--none-color: rgb(255 255 255 / 0%);
 	--bar-1-width: 120px;
 	--bar-2-width: 60px;
-	--server-bar: 24px;
+	--server-bar: 24;
+	--calc-server-bar: calc(1px * var(--server-bar))
     
 	--columns: 3;
 	--guildsize: 50;
@@ -25,6 +26,7 @@ var(--bar-1-width);
 var(--bar-2-width);
 48. 60.
 var(--server-bar);
+var(--calc-server-bar);
 18. 48.
 var(--guildsize);
 */
@@ -172,16 +174,16 @@ var(--guildsize);
         .wrapper-25eVIn,
         .svg-1X37T1,
         .placeholderMask-3v3K7P {
-            width: var(--server-bar);
-            height: var(--server-bar);
+            width: var(--calc-server-bar);
+            height: var(--calc-server-bar);
         }
         .expandedFolderBackground-1cujaW {
-            width: var(--server-bar);
+            width: var(--calc-server-bar);
             background-color: #fff0;
         }
         .wrapper-sa6paO,
         .item-2hkk8m {
-            max-height: var(--server-bar);
+            max-height: var(--calc-server-bar);
         }
         .wrapper-3Njo_c > ul {
             height: 100% !important;
