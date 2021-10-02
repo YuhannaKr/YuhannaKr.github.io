@@ -6,8 +6,6 @@ Ctrl + Shift + i
 /* 변수 선언 */
 :root {
 	--none-color: rgb(255 255 255 / 0%);
-	--bar-1-width: 120px;
-	--bar-2-width: 60px;
 	--server-bar: 24;
 	--calc-server-bar: calc(1px * var(--server-bar));
     
@@ -20,9 +18,6 @@ var(변수명);
 var(--main-color);
 var(--back-color);
 var(--none-color);
-var(--bar-1-width);
-96. 120.
-var(--bar-2-width);
 48. 60.
 var(--server-bar);
 var(--calc-server-bar);
@@ -152,18 +147,8 @@ var(--guildsize);
         }
 
 /* 서버 사이드바 */
-/*
-    .guilds-1SWlCJ {
-        width: var(--bar-1-width);
-    }
-*/
     /* > 종합 */
 /*
-        .guilds-1SWlCJ .wrapper-3Njo_c,
-        .tutorialContainer-30WoTp {
-            float: left;
-            max-width: var(--bar-2-width);
-        }
         .wrapper-3Njo_c > .listItem-GuPuDH,
         .wrapper-3Njo_c > ul .listItem-GuPuDH) {
             margin: 0 0 5px;
