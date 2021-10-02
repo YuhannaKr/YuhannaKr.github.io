@@ -164,7 +164,8 @@ var(--server-bar);
         }
     /* > 폴더 */
         .wrapper-25eVIn,
-        .svg-1X37T1 {
+        .svg-1X37T1,
+        .placeholderMask-3v3K7P {
             width: var(--server-bar);
             height: var(--server-bar);
         }
