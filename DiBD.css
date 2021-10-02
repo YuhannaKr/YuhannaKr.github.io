@@ -156,6 +156,7 @@ var(--guildsize);
         width: var(--bar-1-width);
     }
     /* > 종합 */
+/*
         .guilds-1SWlCJ .wrapper-3Njo_c,
         .tutorialContainer-30WoTp {
             float: left;
@@ -169,25 +170,31 @@ var(--guildsize);
             top: 0px;
             bottom: 0px;
         }
+*/
     /* > 폴더 */
+/*
         .wrapper-25eVIn,
         .svg-1X37T1,
         .placeholderMask-3v3K7P {
-            /* width: var(--calc-server-bar); */
-            /* height: var(--calc-server-bar); */
+            width: var(--calc-server-bar);
+            height: var(--calc-server-bar);
         }
+*/
         .expandedFolderBackground-1cujaW {
             /* width: var(--calc-server-bar); */
-            background-color: #fff0;
+            /* background-color: #fff0; */
         }
+/*
         .wrapper-sa6paO,
         .item-2hkk8m {
-            /* max-height: var(--calc-server-bar); */
+            max-height: var(--calc-server-bar);
         }
         .wrapper-3Njo_c > ul {
             height: 100% !important;
         }
+*/
     /* > 폴더 내 */
+/*
         .lowerBadge-29hYVK {
             margin: 0px -3px -3px 0px;
         }
@@ -201,14 +208,16 @@ var(--guildsize);
             height: 18px !important;
             padding-right: 0px !important;
         }
+*/
     /* > 폴더 외 */
+/*
         .unreadMentionsIndicatorBottom-2mDYbI,
         .unreadMentionsIndicatorTop-2-tcdU,
         .listItem-GuPuDH,
         .wrapper-3Njo_c {
             width: 60px;
         }
-
+*/
 /* 서버 */
     .name-1jkAdW {
         display: none;
