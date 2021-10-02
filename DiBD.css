@@ -152,9 +152,11 @@ var(--guildsize);
         }
 
 /* 서버 사이드바 */
+/*
     .guilds-1SWlCJ {
         width: var(--bar-1-width);
     }
+*/
     /* > 종합 */
 /*
         .guilds-1SWlCJ .wrapper-3Njo_c,
