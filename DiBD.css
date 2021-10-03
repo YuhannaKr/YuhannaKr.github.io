@@ -206,8 +206,11 @@ var(--guildsize);
             width: 60px;
         }
 */
-	.wrapper-3NnKdC .wrapper-3Njo_c [role="group"][style*="height:"] {
-		height: unset !important;
+	
+	.wrapper-3NnKdC :is(
+		.scroller-1Bvpku div[style*="transform"],
+		.wrapper-3Njo_c [role="group"][style*="height:"]) {
+			height: unset !important;
 	}
 	.titleBar-AC4pGV.typeMacOS-3EmCyP,
 	.titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC,
