@@ -85,7 +85,7 @@ var(--guildsize);
         }
         div[id*="popout_"] {
 			left: auto !important;
-			right: 0px !important;
+			right: 16px !important;
         }
     /* > 서버 */
         .row-1c01mR {
