@@ -4,15 +4,15 @@ Ctrl + Shift + i
  */
 
 /* 변수 선언 */
-:root {
-	--none-color: rgb(255 255 255 / 0%);
-	--server-bar: 24;
-	--calc-server-bar: calc(1px * var(--server-bar));
-    
-	--columns: 2;
-	--guildgap: 3;
-	--aligndms: 1;
-}
+	:root {
+		--none-color: rgb(255 255 255 / 0%);
+		--server-bar: 24;
+		--calc-server-bar: calc(1px * var(--server-bar));
+
+		--columns: 2;
+		--guildgap: 3;
+		--aligndms: 1;
+	}
 /*
 var(변수명);
 var(--main-color);
