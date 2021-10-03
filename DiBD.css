@@ -1,7 +1,7 @@
 /*
 Ctrl + Shift + i
 !important
- */
+*/
 
 /* 변수 선언 */
 	:root {
@@ -26,12 +26,12 @@ var(--guildsize);
 */
 
 /* BD */
-.bd-toasts {
-    display: none;
-}
-#bd-loading-icon {
-    display: none;
-}
+  .bd-toasts {
+      display: none;
+  }
+  #bd-loading-icon {
+      display: none;
+  }
     /* > 홈 BD 서버 */
         #bd-pub-button,
         #bd-pub-button:hover {
