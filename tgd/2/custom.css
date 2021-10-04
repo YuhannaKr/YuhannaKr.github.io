@@ -94,7 +94,7 @@ var( --calc-profile-img-plus );
         }
         header #right-search-form>input[type=text] {
             border: 3px solid var( --theme-brown );
-            background: var( --theme-brown );
+            border-radius: var( --border-radius );
         }
         header #header-bar {
             margin-bottom: 1.5em;
