@@ -176,6 +176,8 @@ var( --calc-profile-img-plus );
         header #right-search-form>#right-search-btn,
         #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
             color: var( --theme-brown );
+        }
+        #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
             min-width: 120px;
             text-align: left;
         }
