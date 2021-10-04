@@ -260,7 +260,7 @@ var( --calc-profile-img-plus );
                 #article-list-menu>.btn.write) {
                     min-width: 100px;
                     border-radius: var( --border-radius );
-    
+            }
             /* >>> 페이지 숫자 */
                 .pagination>.active>a,
                 .pagination>.active>a:focus,
