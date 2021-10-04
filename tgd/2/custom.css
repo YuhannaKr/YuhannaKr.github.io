@@ -10,6 +10,7 @@
     }
     /* > 변수 선언 */
         :root{
+            --none-color: rgb(255 255 255 / 0%);
             --black : #000000;
             --theme-black : #111111;
             --theme-light-yellow : #FFF0B8;
@@ -24,7 +25,9 @@
 /* //중요 */
 
 /* 변수
+var( --none-color );
 var( --theme-brown );
+var( --theme-white );
 var( --border-radius );
 var( --profile-img );
 var( --calc-profile-img-px );
@@ -116,91 +119,103 @@ var( --calc-profile-img-plus );
             background: var( --theme-brown );
             height: .25em;
         }
-    #article-option-area-toggle-btn{
-        display: none !important;
-    }
-    #article-list>.article-list-row.notice {
-        background-color: var( --theme-light-yellow );
-    }
-    #article-list>.article-list-row.notice:hover,
-    #article-list>.article-list-row.hot:hover {
-        background-color: var( --theme-white );
-    }
-    #article-list>.article-list-row.hot {
-        background-color: var( --theme-yellow );
-    }
-    #article-list :is(
-        #article-list-category,
-        #article-list-category>a) {
-        background: var( --theme-white );
-    }
-    #article-list>.article-list-row>.item>.list-header>span {
-        background : var( --theme-brown );
-    }
-    #article-list>.article-list-row>.item>.list-title>small.comment-count {
-        color : var( --theme-brown );
-    }
-    /* > 내용 */
-        #board-info {
-            height: var( --calc-profile-img-plus );
+    /* > 우측 레이아웃 */
+        #article-option-area-toggle-btn{
+            display: none !important;
         }
-        #board-info-profile-img{
-            float: left !important;
-            margin-right: 10px;
+        #article-list {
+            background: var( --theme-white );
         }
-        #board-info #board-info-bottom :is(
-            a,
-            a:hover),
-            #board-info h1>a:hover {
-            color: var( --theme-brown );
+        #article-list>.article-list-row.notice {
+            background-color: var( --theme-light-yellow );
         }
-        #board-info #board-info-profile-img {
-            border-radius: 60%;
-            width: var( --calc-profile-img-px );
-            height: var( --calc-profile-img-px );
-            position: absolute;
-            /*
-            top: -15px;
-            left: 5px;
-            */
+        #article-list>.article-list-row.notice:hover,
+        #article-list>.article-list-row.hot:hover {
+            background-color: var( --theme-white );
         }
-        #board-info h1 {
-            margin-left: var( --calc-profile-img-plus );
-            font-size: 24px;
-            vertical-align: top;
-            padding-bottom: 3px;
-            border-bottom: 1px solid #e2e2e2;
+        #article-list>.article-list-row.hot {
+            background-color: var( --theme-yellow );
         }
-        #board-info #board-info-bottom {
-            padding-top: 3px;
-            margin-left: var( --calc-profile-img-plus );
+        #article-list :is(
+            #article-list-category,
+            #article-list-category>a) {
+            background: var( --theme-white );
         }
-        #board-info #viewers-area #viewers::before {
-            content: '쿠키 ';
-            background: url("https://cdn.discordapp.com/attachments/830039497730949140/833229861363253279/3_72x72.png") no-repeat;
-            padding-left:18px;
-            background-size:auto 16px;
+        #article-list>.article-list-row>.item>.list-header>span {
+            background : var( --theme-brown );
         }
-        #board-info #viewers-area #viewers::after {
-            content: '개 굽는 중';
+        #article-list>.article-list-row>.item>.list-title>small.comment-count {
+            color : var( --theme-brown );
         }
-        .fa-user:before {
-            display:none;
-        }
-        #board-info #board-info-profile-img:hover {
+        #article-list>.article-list-row:hover {
             transform: scale(1.10);
             transition: .20s;
         }
-    #article-list>.article-list-row:hover {
-        transform: scale(1.10);
-        transition: .20s;
-    }
-    .btn-default,
-    span.a-badge i.fa.fa-info-circle,
-    a,
-    a:hover {
-        color: var( --theme-brown );
-    }
+        /* >> 내용 */
+            #board-info {
+                height: var( --calc-profile-img-plus );
+                background: var( --theme-white );
+                border: 2px solid var( --theme-brown );
+                border-radius: var( --border-radius );
+            }
+            #board-info-profile-img{
+                float: left !important;
+                margin-right: 10px;
+            }
+            #board-info #board-info-bottom :is(
+                a,
+                a:hover),
+                #board-info h1>a:hover {
+                color: var( --theme-brown );
+            }
+            #board-info #board-info-profile-img {
+                border-radius: 60%;
+                width: var( --calc-profile-img-px );
+                height: var( --calc-profile-img-px );
+                position: absolute;
+                /*
+                top: -15px;
+                left: 5px;
+                */
+            }
+            #board-info h1 {
+                margin-left: var( --calc-profile-img-plus );
+                font-size: 24px;
+                vertical-align: top;
+                padding-bottom: 3px;
+                border-bottom: 1px solid #e2e2e2;
+            }
+            #board-info #board-info-bottom {
+                padding-top: 3px;
+                margin-left: var( --calc-profile-img-plus );
+            }
+            #board-info #viewers-area #viewers::before {
+                content: '쿠키 ';
+                background: url("https://cdn.discordapp.com/attachments/830039497730949140/833229861363253279/3_72x72.png") no-repeat;
+                padding-left:18px;
+                background-size:auto 16px;
+            }
+            #board-info #viewers-area #viewers::after {
+                content: '개 굽는 중';
+            }
+            .fa-user:before {
+                display:none;
+            }
+            #board-info #board-info-profile-img:hover {
+                transform: scale(1.10);
+                transition: .20s;
+            }
+        /* >> 본문 */
+            #main #main-content>div.frame {
+                background: var( --none-color );
+            }
+    /* > 종합 */
+        .btn-default,
+        span.a-badge i.fa.fa-info-circle,
+        a,
+        a:hover {
+            color: var( --theme-brown );
+        }
 /* //기본 레이아웃 */
 
 /* 게시글 */
@@ -271,7 +286,7 @@ var( --calc-profile-img-plus );
     header #header-bar :is(
         a.dropdown-toggle,
         #header-top-notice a) {
-        color: #fff;
+        color: var( --theme-white );
     }
 
 /* 배경 애니메이션 */
