@@ -28,13 +28,15 @@ var( --profile-img );
 */
 
 /* 즐겨찾기 목록 */
-    #board-info #viewers-area, #board-info #score-area {
-        font-size: 14px;
-        color: var( --theme-brown );
-        font-weight: normal;
-        vertical-align: middle;
-        line-height: 18px;
-        display: inline-block;
+    #board-info :is(
+        #viewers-area,
+        #score-area) {
+            font-size: 14px;
+            color: var( --theme-brown );
+            font-weight: normal;
+            vertical-align: middle;
+            line-height: 18px;
+            display: inline-block;
     }
 
 /* 드롭다운 전환 */
@@ -118,51 +120,55 @@ var( --profile-img );
     #article-list>.article-list-row>.item>.list-title>small.comment-count {
         color : var( --theme-brown );
     }
-    #board-info-profile-img{
-        float: left !important;
-        margin-right: 10px;
-    }
-    #board-info #board-info-bottom :is(
-        a,
-        a:hover),
-        #board-info h1>a:hover {
-        color: var( --theme-brown );
-    }
-    #board-info #board-info-profile-img {
-        border-radius: 60%;
-        width: var( --profile-img );
-        height: var( --profile-img );
-        position: absolute;
-        top: -15px;
-        left: 5px;
-    }
-    #board-info h1 {
-        margin-left: var( --profile-img );
-        font-size: 24px;
-        vertical-align: top;
-        padding-bottom: 3px;
-        border-bottom: 1px solid #e2e2e2;
-    }
-    #board-info #board-info-bottom {
-        padding-top: 3px;
-        margin-left: var( --profile-img );
-    }
-    #board-info #viewers-area #viewers::before {
-        content: '쿠키 ';
-        background: url("https://cdn.discordapp.com/attachments/830039497730949140/833229861363253279/3_72x72.png") no-repeat;
-        padding-left:18px;
-        background-size:auto 16px;
-    }
-    #board-info #viewers-area #viewers::after {
-        content: '개 굽는 중';
-    }
-    .fa-user:before {
-        display:none;
-    }
-    #board-info #board-info-profile-img:hover {
-        transform: scale(1.10);
-        transition: .20s;
-    }
+    /* > 내용 */
+        #board-info {
+            height: var( --profile-img );
+        }
+        #board-info-profile-img{
+            float: left !important;
+            margin-right: 10px;
+        }
+        #board-info #board-info-bottom :is(
+            a,
+            a:hover),
+            #board-info h1>a:hover {
+            color: var( --theme-brown );
+        }
+        #board-info #board-info-profile-img {
+            border-radius: 60%;
+            width: var( --profile-img );
+            height: var( --profile-img );
+            position: absolute;
+            top: -15px;
+            left: 5px;
+        }
+        #board-info h1 {
+            margin-left: var( --profile-img );
+            font-size: 24px;
+            vertical-align: top;
+            padding-bottom: 3px;
+            border-bottom: 1px solid #e2e2e2;
+        }
+        #board-info #board-info-bottom {
+            padding-top: 3px;
+            margin-left: var( --profile-img );
+        }
+        #board-info #viewers-area #viewers::before {
+            content: '쿠키 ';
+            background: url("https://cdn.discordapp.com/attachments/830039497730949140/833229861363253279/3_72x72.png") no-repeat;
+            padding-left:18px;
+            background-size:auto 16px;
+        }
+        #board-info #viewers-area #viewers::after {
+            content: '개 굽는 중';
+        }
+        .fa-user:before {
+            display:none;
+        }
+        #board-info #board-info-profile-img:hover {
+            transform: scale(1.10);
+            transition: .20s;
+        }
     #article-list>.article-list-row:hover {
         transform: scale(1.10);
         transition: .20s;
