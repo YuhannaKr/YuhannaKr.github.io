@@ -240,6 +240,7 @@ var( --calc-profile-img-plus );
             #article-list #article-list-menu>.btn.del {
                 left: 20px;
                 min-width: 100px;
+                border-radius: var( --border-radius );
             }
             #article-list #article-list-menu>.btn.cog {
                 top: 60px;
