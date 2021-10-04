@@ -228,6 +228,27 @@ var( --calc-profile-img-plus );
                 transform: scale(1.10);
                 transition: .20s;
             }
+        /* >> 하단 */
+            #article-list #article-list-menu{
+                margin: 0;
+                height: auto;
+                padding: 20px;
+            }
+            #article-list #article-list-menu>.btn.best {
+                left: 20px;
+            }
+            #article-list #article-list-menu>.btn.cog {
+                left: 110px;
+            }
+            #article-list #article-list-menu>.btn.del {
+                left: 190px;
+            }
+            .pagination{
+                margin: 4em 0 1em;
+            }
+            #article-list #boardSearchForm {
+                margin: 5em auto 0;
+            }
         /* >> 본문 */
             #main #main-content>div.frame {
                 background: var( --none-color );
