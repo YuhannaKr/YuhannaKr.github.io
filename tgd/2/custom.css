@@ -130,8 +130,7 @@ var( --calc-profile-img-plus );
         #article-list > div {
             background: var( --theme-white );
         }
-        #article-list #article-list-category,
-        #article-list>.article-list-row {
+        #article-list #article-list-category {
             margin: 10px 0;
             border: 2px solid var( --theme-brown );
             border-radius: var( --border-radius );
