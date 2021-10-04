@@ -46,7 +46,7 @@
         background-color: #381D09;
     }
 
-/* 기본 레이아웃 설정 시작*/
+/* 기본 레이아웃 설정 */
     :root{
         --black : #000000;
         --theme-black : #111111;
@@ -158,9 +158,9 @@
     a:hover {
         color: var( --theme-brown );
     }
-/* //기본 레이아웃 설정 */
+/* //기본 레이아웃 */
 
-/* 게시글 설정 */
+/* 게시글 */
     #article-content-wrapper>.header {
         border-top: 2px solid var( --theme-brown );
     }
@@ -187,9 +187,9 @@
     #article-list>.article-list-row.active {
           background-color: var( --theme-light-yellow );
     }
-/* //게시글 설정 */
+/* //게시글 */
 
-/* 기본 포인트 색상 변경 (보라 -> 갈색) */
+/* 기본 포인트 색상 변경 (-> 갈색) */
     header #header-bar>.row {
           border-top: 5px solid var( --theme-brown );
     }
@@ -215,15 +215,15 @@
     .write:hover{
           background-color : var( --theme-brown ) !important;
     }
-/* //기본 포인트 색상 변경 (보라 -> 갈색) */
+/* //기본 포인트 색상 변경 (-> 갈색) */
 
-/* 기본 포인트 색상 변경 (회색 -> 갈색) 시작 */
+/* 기본 포인트 색상 변경 (-> 갈색) */
     #board-info #viewers-area, #board-info #score-area {
           color: var( --theme-brown );
     }
-/* //기본 포인트 색상 변경 (회색 -> 갈색) */
+/* //기본 포인트 색상 변경 (-> 갈색) */
 
-/* 배경 애니메이션 설정 시작*/
+/* 배경 애니메이션 */
 body {
     background: var( --theme-light-yellow );
     animation: snow 20s linear infinite;
@@ -235,7 +235,7 @@ body {
       50% {background-position: 300px 300px;}
       100% {background-position: 512px 512px;}
 }
-/* //배경 애니메이션 설정 */
+/* //배경 애니메이션 */
 
 /* 인기글 별 */
 span.a-badge i.fa.fa-star {
