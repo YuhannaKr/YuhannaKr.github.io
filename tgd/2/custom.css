@@ -130,23 +130,11 @@ var( --calc-profile-img-plus );
         #article-list > div {
             background: var( --theme-white );
         }
-        #article-list #article-list-category {
+        #article-list #article-list-category,
+        #article-list>.article-list-row {
             margin: 10px 0;
             border: 2px solid var( --theme-brown );
             border-radius: var( --border-radius );
-        }
-        #article-list>.article-list-row:first-child {
-            margin: 10px 0 0;
-            border-top: 2px solid var( --theme-brown );
-            border-radius: var( --border-radius ) var( --border-radius ) 0 0;
-        }
-        #article-list>.article-list-row {
-            border-right: 2px solid var( --theme-brown );
-            border-left: 2px solid var( --theme-brown );
-        }
-        #article-list>.article-list-row:last-child {
-            border-bottom: 2px solid var( --theme-brown );
-            border-radius: 0 0 var( --border-radius ) var( --border-radius );
         }
         #article-list>.article-list-row.notice {
             background-color: var( --theme-light-yellow );
