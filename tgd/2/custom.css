@@ -239,13 +239,12 @@ var( --calc-profile-img-plus );
                 left: 20px;
             }
             #article-list #article-list-menu>.btn.cog {
-                left: 110px;
+                top: 60px;
+                left: 20px;
             }
             #article-list #article-list-menu>.btn.del {
-                left: 190px;
-            }
-            .pagination{
-                margin: 4em 0 0;
+                top: 100px;
+                left: 20px;
             }
             /* >>> 페이지 숫자 */
                 .pagination>.active>a,
