@@ -125,10 +125,14 @@ var( --calc-profile-img-plus );
         #article-option-area-toggle-btn{
             display: none !important;
         }
+        #article-list {
+            padding: 0 0em 2em;
+        }
         #article-list > div {
             background: var( --theme-white );
         }
-        #article-list #article-list-category {
+        #article-list #article-list-category,
+        #article-list>.article-list-row {
             border: 2px solid var( --theme-brown );
             margin: 10px 0;
         }
