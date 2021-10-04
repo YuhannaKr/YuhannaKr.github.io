@@ -235,16 +235,17 @@ var( --calc-profile-img-plus );
                 height: auto;
                 padding: 20px;
             }
-            #article-list #article-list-menu>.btn.best {
+            #article-list #article-list-menu>.btn.best,
+            #article-list #article-list-menu>.btn.cog,
+            #article-list #article-list-menu>.btn.del {
                 left: 20px;
+                min-width: 100px;
             }
             #article-list #article-list-menu>.btn.cog {
                 top: 60px;
-                left: 20px;
             }
             #article-list #article-list-menu>.btn.del {
                 top: 100px;
-                left: 20px;
             }
             /* >>> 페이지 숫자 */
                 .pagination>.active>a,
