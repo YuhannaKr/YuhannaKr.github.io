@@ -17,12 +17,14 @@
             --theme-brown : #381D09;
             --theme-white : #ffffff;
             --border-radius: 10px;
+            --profile-img: 100px;
         }
 /* //중요 */
 
 /* 변수
 var( --theme-brown );
 var( --border-radius );
+var( --profile-img );
 */
 
 /* 즐겨찾기 목록 */
@@ -128,14 +130,14 @@ var( --border-radius );
     }
     #board-info #board-info-profile-img {
         border-radius: 60%;
-        width: 75px;
-        height: 75px;
+        width: var( --profile-img );
+        height: var( --profile-img );
         position: absolute;
         top: -15px;
         left: 5px;
     }
     #board-info h1 {
-        margin-left: 58px;
+        margin-left: var( --profile-img );
         font-size: 24px;
         vertical-align: top;
         padding-bottom: 3px;
@@ -143,7 +145,7 @@ var( --border-radius );
     }
     #board-info #board-info-bottom {
         padding-top: 3px;
-        margin-left: 58px;
+        margin-left: var( --profile-img );
     }
     #board-info #viewers-area #viewers::before {
         content: '쿠키 ';
