@@ -126,6 +126,10 @@ var( --calc-profile-img-plus );
         #article-list > div {
             background: var( --theme-white );
         }
+        #article-list #article-list-category {
+            border: 2px solid var( --theme-brown );
+            margin: 10px 0;
+        }
         #article-list>.article-list-row.notice {
             background-color: var( --theme-light-yellow );
         }
@@ -258,9 +262,6 @@ var( --calc-profile-img-plus );
     header #right-search-form>#right-search-btn,
     #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
           color: var( --theme-brown );
-    }
-    #article-list #article-list-category {
-          border-top: 2px solid var( --theme-brown );
     }
     header #header-bar #header-top-notice strong.notice-badge {
           display: none;
