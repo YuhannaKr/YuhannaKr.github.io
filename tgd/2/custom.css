@@ -220,7 +220,7 @@ var( --calc-profile-img-plus );
         a:hover {
             color: var( --theme-brown );
         }
-/* //기본 레이아웃 */
+/* //레이아웃 */
 
 /* 게시글 */
     #article-content-wrapper>.header {
@@ -275,13 +275,11 @@ var( --calc-profile-img-plus );
     .write:hover{
           background-color : var( --theme-brown ) !important;
     }
-/* //색상 변경 (-> 갈색) */
 
 /* 색상 변경 (-> 갈색) */
     #board-info #viewers-area, #board-info #score-area {
           color: var( --theme-brown );
     }
-/* //색상 변경 (-> 갈색) */
 
 /* 색상 변경 중첩 (#fff) */
     header #header-bar :is(
