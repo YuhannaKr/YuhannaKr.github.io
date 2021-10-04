@@ -65,7 +65,7 @@ var( --border-radius );
         background-color: var( --theme-brown );
     }
 
-/* 기본 레이아웃 */
+/* 레이아웃 */
     html{
         height: auto !important
     }
@@ -73,14 +73,15 @@ var( --border-radius );
         padding-top: 15px !important;
         padding-bottom: 0px !important;
     }
-    header #header-bar>.row,
-    /* 좌측 레이아웃 */
-        #main .menu-wrapper {
-            border: 0px !important;
-        }
         header > .container > .row > .col-xs-4 > a > img {
             content: url(https://cdn.discordapp.com/attachments/830039497730949140/831467790887288842/3.png);
         }
+    /* > 종합 */
+        header #header-bar>.row,
+        #main .menu-wrapper {
+            border: 0px !important;
+        }
+    /* > 좌측 레이아웃 */
         #main .menu-wrapper>a {
             padding: .7em 1.4em .3em 0.7em;
         }
