@@ -87,18 +87,6 @@ var( --calc-profile-img-plus );
             #main-content>div.frame) {
                 border: 0px !important;
         }
-        /* >> 레이아웃 테두리 */
-            /* >>> 헤더 */
-                header #header-bar>.row {
-                    border-radius: var( --border-radius );
-                }
-            /* >>> 좌측 레이아웃 */
-                #main .menu-wrapper>.header {
-                    border-radius: var( --border-radius ) var( --border-radius ) 0 0;
-                }
-                a.shortcut-link:last-child {
-                    border-radius: 0 0 var( --border-radius ) var( --border-radius );
-                }
     /* > 헤더 */
         header{
             padding-top: 15px !important;
@@ -107,10 +95,18 @@ var( --calc-profile-img-plus );
         header #header-bar {
             margin-bottom: 1.5em;
         }
+        header #header-bar>.row {
+            border-radius: var( --border-radius );
+            border-top: 5px solid var( --theme-brown );
+            background: var( --theme-brown );
+        }
         header > .container > .row > .col-xs-4 > a > img {
             content: url(https://cdn.discordapp.com/attachments/830039497730949140/831467790887288842/3.png);
         }
     /* > 좌측 레이아웃 */
+        #main .menu-wrapper>.header {
+            border-radius: var( --border-radius ) var( --border-radius ) 0 0;
+        }
         #main .menu-wrapper>a {
             padding: .7em 1.4em .3em 0.7em;
         }
@@ -120,6 +116,9 @@ var( --calc-profile-img-plus );
         #main .menu-wrapper .spacer {
             background: var( --theme-brown );
             height: .25em;
+        }
+        a.shortcut-link:last-child {
+            border-radius: 0 0 var( --border-radius ) var( --border-radius );
         }
     /* > 우측 레이아웃 */
         #article-option-area-toggle-btn{
@@ -133,8 +132,9 @@ var( --calc-profile-img-plus );
         }
         #article-list #article-list-category,
         #article-list>.article-list-row {
-            border: 2px solid var( --theme-brown );
             margin: 10px 0;
+            border: 2px solid var( --theme-brown );
+            border-radius: var( --border-radius );
         }
         #article-list>.article-list-row.notice {
             background-color: var( --theme-light-yellow );
@@ -258,10 +258,6 @@ var( --calc-profile-img-plus );
 /* //게시글 */
 
 /* 색상 변경 (-> 갈색) */
-    header #header-bar>.row {
-        border-top: 5px solid var( --theme-brown );
-        background: var( --theme-brown );
-    }
     header #right-search-form>input[type=text] {
           border: 3px solid var( --theme-brown );
     }
