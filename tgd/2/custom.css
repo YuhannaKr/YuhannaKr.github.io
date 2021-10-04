@@ -163,11 +163,12 @@ var( --calc-profile-img-plus );
         #article-list>.article-list-row>.item>.list-header>span {
             background : var( --theme-brown );
         }
-        #article-list>.article-list-row>.item>.list-title>.list-category{
-            min-width: 100px;
-        }
         #article-list>.article-list-row>.item>.list-title>small.comment-count {
             color : var( --theme-brown );
+        }
+        #article-list>.article-list-row>.item>.list-title>.list-category>span {
+            min-width: 100px;
+            text-align: left;
         }
         #article-list>.article-list-row:hover {
             transform: scale(1.10);
