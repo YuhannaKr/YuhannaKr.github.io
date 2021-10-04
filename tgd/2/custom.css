@@ -18,7 +18,7 @@
             --theme-white : #ffffff;
             --border-radius: 10px;
             --profile-img: 100;
-            --calc-profile-img: calc(1px * (var( --profile-img ) + 10);
+            --calc-profile-img: calc(1px * (var( --profile-img ) + 10));
         }
 /* //중요 */
 
