@@ -123,7 +123,6 @@ var( --calc-profile-img-plus );
     /* > 우측 레이아웃 */
         #main #main-content>div.frame {
             padding: 10px;
-            border: 2px solid var( --theme-brown );
             border-radius: var( --border-radius );
         }
         #article-option-area-toggle-btn{
