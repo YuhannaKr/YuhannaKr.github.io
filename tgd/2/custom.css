@@ -121,6 +121,11 @@ var( --calc-profile-img-plus );
             border-radius: 0 0 var( --border-radius ) var( --border-radius );
         }
     /* > 우측 레이아웃 */
+        #main #main-content>div.frame {
+            padding: 10px;
+            border: 2px solid var( --theme-brown );
+            border-radius: var( --border-radius );
+        }
         #article-option-area-toggle-btn{
             display: none !important;
         }
@@ -236,10 +241,6 @@ var( --calc-profile-img-plus );
             }
             #article-list #boardSearchForm {
                 margin: 5em auto 0;
-            }
-        /* >> 본문 */
-            #main #main-content>div.frame {
-                background: var( --none-color );
             }
     /* > 종합 */
         .btn-default,
