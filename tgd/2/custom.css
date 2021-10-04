@@ -92,6 +92,10 @@ var( --calc-profile-img-plus );
             padding-top: 15px !important;
             padding-bottom: 0px !important;
         }
+        header #right-search-form>input[type=text] {
+            border: 3px solid var( --theme-brown );
+            background: var( --theme-brown );
+        }
         header #header-bar {
             margin-bottom: 1.5em;
         }
@@ -303,9 +307,6 @@ var( --calc-profile-img-plus );
 /* //게시글 */
 
 /* 색상 변경 (-> 갈색) */
-    header #right-search-form>input[type=text] {
-          border: 3px solid var( --theme-brown );
-    }
     header #right-search-form>#right-search-btn,
     #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
           color: var( --theme-brown );
