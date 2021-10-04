@@ -245,11 +245,21 @@ var( --calc-profile-img-plus );
                 left: 190px;
             }
             .pagination{
-                margin: 4em 0 1em;
+                margin: 4em 0 0;
             }
-            #article-list #boardSearchForm {
-                margin: 5em auto 0;
-            }
+            /* >>> 페이지 숫자 */
+                .pagination>.active>a,
+                .pagination>.active>a:focus,
+                .pagination>.active>a:hover,
+                .pagination>.active>span,
+                .pagination>.active>span:focus,
+                .pagination>.active>span:hover {
+                    background-color: var( --theme-brown );
+                    border-color: var( --theme-brown );
+                }
+                .pagination>li>a, .pagination>li>span {
+                    color: var( --theme-brown );
+                }
     /* > 종합 */
         .btn-default,
         span.a-badge i.fa.fa-info-circle,
@@ -357,20 +367,6 @@ span.a-badge i.fa.fa-star {
     100% {
         transform:rotate(360deg);
     }
-}
-
-/* 페이지 숫자 */
-.pagination>.active>a,
-.pagination>.active>a:focus,
-.pagination>.active>a:hover,
-.pagination>.active>span,
-.pagination>.active>span:focus,
-.pagination>.active>span:hover {
-    background-color: var( --theme-brown );
-    border-color: var( --theme-brown );
-}
-.pagination>li>a, .pagination>li>span {
-    color: var( --theme-brown );
 }
 
 /* 상단 이동 이미지 설정 */
