@@ -246,8 +246,6 @@ var( --calc-profile-img-plus );
             #article-list #article-list-menu>.btn.cog,
             #article-list #article-list-menu>.btn.del {
                 left: 20px;
-                min-width: 100px;
-                border-radius: var( --border-radius );
             }
             #article-list #article-list-menu>.btn.cog {
                 top: 60px;
@@ -255,6 +253,14 @@ var( --calc-profile-img-plus );
             #article-list #article-list-menu>.btn.del {
                 top: 100px;
             }
+            #article-list :is(
+                #article-list-menu>.btn.best,
+                #article-list-menu>.btn.cog,
+                #article-list-menu>.btn.del,
+                #article-list-menu>.btn.write) {
+                    min-width: 100px;
+                    border-radius: var( --border-radius );
+    
             /* >>> 페이지 숫자 */
                 .pagination>.active>a,
                 .pagination>.active>a:focus,
