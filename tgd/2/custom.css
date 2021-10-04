@@ -254,10 +254,14 @@ var( --calc-profile-img-plus );
                 height: auto;
                 padding: 20px;
             }
-            #article-list #article-list-menu>.btn.best,
-            #article-list #article-list-menu>.btn.cog,
-            #article-list #article-list-menu>.btn.del {
-                left: 20px;
+            #article-list #article-list-menu> :is(
+                .btn.best,
+                .btn.cog,
+                .btn.del) {
+                   left: 20px;
+            }
+            #article-list #article-list-menu>.btn.write {
+                right: 20px;
             }
             #article-list #article-list-menu>.btn.cog {
                 top: 60px;
