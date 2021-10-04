@@ -167,6 +167,15 @@ var( --calc-profile-img-plus );
             transform: scale(1.10);
             transition: .20s;
         }
+        #article-list>.article-list-row>.item> :is(
+            .list-checkbox,
+            .list-header,
+            .list-category,
+            .list-title,
+            .list-blocked,
+            .list-time) {
+                border-bottom: 0px;
+        }
         /* >> 내용 */
             #board-info {
                 height: var( --calc-profile-img-plus );
