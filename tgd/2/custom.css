@@ -73,17 +73,33 @@ var( --profile-img );
     html{
         height: auto !important
     }
-    header{
-        padding-top: 15px !important;
-        padding-bottom: 0px !important;
-    }
-        header > .container > .row > .col-xs-4 > a > img {
-            content: url(https://cdn.discordapp.com/attachments/830039497730949140/831467790887288842/3.png);
-        }
     /* > 종합 */
         header #header-bar>.row,
         #main .menu-wrapper {
             border: 0px !important;
+        }
+        /* >> 레이아웃 테두리 */
+            /* >>> 헤더 */
+                header #header-bar>.row {
+                    border-radius: var( --border-radius );
+                }
+            /* >>> 좌측 레이아웃 */
+                #main .menu-wrapper>.header {
+                    border-radius: var( --border-radius ) var( --border-radius ) 0 0;
+                }
+                a.shortcut-link:last-child {
+                    border-radius: 0 0 var( --border-radius ) var( --border-radius );
+                }
+    /* > 헤더 */
+        header{
+            padding-top: 15px !important;
+            padding-bottom: 0px !important;
+        }
+        header #header-bar {
+            margin-bottom: 1.5em;
+        }
+        header > .container > .row > .col-xs-4 > a > img {
+            content: url(https://cdn.discordapp.com/attachments/830039497730949140/831467790887288842/3.png);
         }
     /* > 좌측 레이아웃 */
         #main .menu-wrapper>a {
@@ -310,16 +326,3 @@ span.a-badge i.fa.fa-star {
          height : 160px;
          content: url(https://cdn.discordapp.com/attachments/830039497730949140/831470179425845258/7.png);
 }
-
-/* 레이아웃 테두리 */
-    /* > 헤더 */
-        header #header-bar>.row {
-            border-radius: var( --border-radius );
-        }
-    /* > 좌측 레이아웃 */
-        #main .menu-wrapper>.header {
-            border-radius: var( --border-radius ) var( --border-radius ) 0 0;
-        }
-        a.shortcut-link:last-child {
-            border-radius: 0 0 var( --border-radius ) var( --border-radius );
-        }
