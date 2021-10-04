@@ -18,7 +18,8 @@
             --theme-white : #ffffff;
             --border-radius: 10px;
             --profile-img: 100;
-            --calc-profile-img: calc(1px * (var( --profile-img ) + 10));
+            --calc-profile-img-px: calc(1px * var( --profile-img ));
+            --calc-profile-img-plus: calc(1px * (var( --profile-img ) + 10));
         }
 /* //중요 */
 
@@ -26,8 +27,8 @@
 var( --theme-brown );
 var( --border-radius );
 var( --profile-img );
-var( --calc-profile-img );
-
+var( --calc-profile-img-px );
+var( --calc-profile-img-plus );
 */
 
 /* 즐겨찾기 목록 */
@@ -141,7 +142,7 @@ var( --calc-profile-img );
     }
     /* > 내용 */
         #board-info {
-            height: var( --calc-profile-img );
+            height: var( --calc-profile-img-plus );
         }
         #board-info-profile-img{
             float: left !important;
@@ -155,8 +156,8 @@ var( --calc-profile-img );
         }
         #board-info #board-info-profile-img {
             border-radius: 60%;
-            width: var( --profile-img );
-            height: var( --profile-img );
+            width: var( --calc-profile-img-px );
+            height: var( --calc-profile-img-px );
             position: absolute;
             /*
             top: -15px;
@@ -164,7 +165,7 @@ var( --calc-profile-img );
             */
         }
         #board-info h1 {
-            margin-left: var( --calc-profile-img );
+            margin-left: var( --calc-profile-img-plus );
             font-size: 24px;
             vertical-align: top;
             padding-bottom: 3px;
@@ -172,7 +173,7 @@ var( --calc-profile-img );
         }
         #board-info #board-info-bottom {
             padding-top: 3px;
-            margin-left: var( --calc-profile-img );
+            margin-left: var( --calc-profile-img-plus );
         }
         #board-info #viewers-area #viewers::before {
             content: '쿠키 ';
