@@ -126,6 +126,7 @@ var( --calc-profile-img-plus );
     /* > 좌측 레이아웃 */
         #main .menu-wrapper {
             border: 2px solid var( --theme-brown );
+            border-radius: var( --border-radius );
         }
         #main .menu-wrapper>.header {
             border-radius: var( --border-radius ) var( --border-radius ) 0 0;
