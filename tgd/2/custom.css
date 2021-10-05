@@ -131,6 +131,7 @@ var( --calc-profile-img-plus );
             div,
             a) {
                 border: 2px solid var( --theme-brown );
+        }
         #main .menu-wrapper>.header {
             border-radius: var( --border-radius ) var( --border-radius ) 0 0;
         }
