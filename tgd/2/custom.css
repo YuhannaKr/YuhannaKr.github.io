@@ -247,7 +247,8 @@ var( --calc-profile-img-plus );
                 a,
                 a:hover),
                 #board-info h1>a:hover {
-                color: var( --theme-brown );
+                    color: var( --theme-brown );
+                    font-size: 14px;
             }
             #board-info #board-info-profile-img {
                 border-radius: 60%;
@@ -261,14 +262,16 @@ var( --calc-profile-img-plus );
             }
             #board-info h1 {
                 margin-left: var( --calc-profile-img-plus );
+                border-bottom: 1px solid #e2e2e2;
+                padding-bottom: 3px;
+                line-height: 35px;
                 font-size: 24px;
                 vertical-align: top;
-                padding-bottom: 3px;
-                border-bottom: 1px solid #e2e2e2;
             }
             #board-info #board-info-bottom {
-                padding-top: 3px;
                 margin-left: var( --calc-profile-img-plus );
+                padding-top: 3px;
+                line-height: 30px;
             }
             #board-info #viewers-area #viewers::before {
                 content: '쿠키 ';
