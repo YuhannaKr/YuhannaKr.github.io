@@ -84,8 +84,7 @@ var(--guildsize);
             max-width: 250px;
         }
         div[id*="popout_"] {
-			left: calc(1px * var(--guildgap)) calc(1px * (12 * 
-		var(--server-bar)/50)) calc(1px * var(--guildgap)) 0 !important;
+			left: calc(1px * (var(--server-bar) * var(--columns) + 20 * ( var(--server-bar)/50) + 14 * (var(--server-bar)/50) * ( var(--columns) - 1))) !important;
 			right: auto !important;
         }
     /* > 서버 */
