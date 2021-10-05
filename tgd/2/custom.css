@@ -248,7 +248,9 @@ var( --calc-profile-img-plus );
                 a:hover),
                 #board-info h1>a:hover {
                     color: var( --theme-brown );
+                    /*
                     font-size: 14px;
+                    */
             }
             #board-info #board-info-profile-img {
                 border-radius: 60%;
@@ -264,7 +266,7 @@ var( --calc-profile-img-plus );
                 margin-left: var( --calc-profile-img-plus );
                 border-bottom: 1px solid #e2e2e2;
                 padding-bottom: 3px;
-                line-height: 35px;
+                line-height: calc(1px * ( var( --profile-img )/2 ));
                 font-size: 24px;
                 vertical-align: top;
             }
