@@ -88,6 +88,9 @@ var( --calc-profile-img-plus );
     html{
         height: auto !important
     }
+    body {
+        font-family: 'IBMPlexSansKR-Regular';
+    }
     /* > 종합 */
         header #header-bar>.row,
         #main :is(
