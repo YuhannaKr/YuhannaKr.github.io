@@ -97,9 +97,7 @@ var( --calc-profile-img-plus );
     }
     /* > 종합 */
         header #header-bar>.row,
-        #main :is(
-            .menu-wrapper,
-            #main-content>div.frame) {
+        #main #main-content>div.frame {
                 border: 0px !important;
         }
     /* > 헤더 */
@@ -126,6 +124,9 @@ var( --calc-profile-img-plus );
             border-radius: 50%;
         }            
     /* > 좌측 레이아웃 */
+        #main .menu-wrapper {
+            border: 2px solid var( --theme-brown );
+        }
         #main .menu-wrapper>.header {
             border-radius: var( --border-radius ) var( --border-radius ) 0 0;
         }
@@ -189,7 +190,9 @@ var( --calc-profile-img-plus );
         }
         #article-list>.article-list-row>.item>.list-title>.list-category>span {
             min-width: 100px;
+            /*
             text-align: left;
+            */
         }
         header #right-search-form>#right-search-btn,
         #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
