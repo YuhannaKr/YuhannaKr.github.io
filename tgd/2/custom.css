@@ -130,7 +130,11 @@ var( --calc-profile-img-plus );
         #main .menu-wrapper > :is(
             div,
             a) {
-                border: 2px solid var( --theme-brown );
+                border-left: 2px solid var( --theme-brown );
+                border-right: 2px solid var( --theme-brown );
+        }
+        #main .menu-wrapper > a:last-child{
+            border-bottom: 2px solid var( --theme-brown );
         }
         #main .menu-wrapper>.header {
             border-radius: var( --border-radius ) var( --border-radius ) 0 0;
@@ -144,6 +148,9 @@ var( --calc-profile-img-plus );
         #main .menu-wrapper .spacer {
             background: var( --theme-brown );
             height: .25em;
+            /*
+            height: 0;
+            */
         }
         a.shortcut-link:last-child {
             border-radius: 0 0 var( --border-radius ) var( --border-radius );
