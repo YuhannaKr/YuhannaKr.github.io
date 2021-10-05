@@ -90,6 +90,10 @@ var( --calc-profile-img-plus );
     }
     body {
         font-family: 'IBMPlexSansKR-Regular';
+        letter-spacing: 1px;
+        animation: snow 20s linear infinite;
+        background: var( --theme-light-yellow );
+        background-image: url(https://cdn.discordapp.com/attachments/830039497730949140/831506910452776990/2.png);
     }
     /* > 종합 */
         header #header-bar>.row,
@@ -371,12 +375,6 @@ var( --calc-profile-img-plus );
     }
 
 /* 배경 애니메이션 */
-body {
-    background: var( --theme-light-yellow );
-    animation: snow 20s linear infinite;
-    background-image: 
-    url(https://cdn.discordapp.com/attachments/830039497730949140/831506910452776990/2.png);
-}
 @keyframes snow {
       0% {background-position: 0px 0px;}
       50% {background-position: 300px 300px;}
