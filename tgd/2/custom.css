@@ -200,7 +200,9 @@ var( --calc-profile-img-plus );
         }
         #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
             min-width: 120px;
+            /*
             text-align: left;
+            */
         }
         #article-list>.article-list-row:hover {
             transform: scale(1.10);
