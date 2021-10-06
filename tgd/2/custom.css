@@ -372,7 +372,16 @@ var( --calc-profile-img-plus );
                     background-color: var( --theme-brown );
                     border-color: var( --theme-brown );
                 }
-                .pagination>li>a, .pagination>li>span {
+                /*
+                .pagination>li>a:focus,*/
+                .pagination>li>a:hover,/*
+                .pagination>li>span:focus,*/
+                .pagination>li>span:hover {
+                    color: var( --theme-white );
+                    background-color: var( --color-1 );
+                }
+                .pagination>li>a,
+                .pagination>li>span {
                     color: var( --theme-brown );
                 }
             /* >>> 검색 */
