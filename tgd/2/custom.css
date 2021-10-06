@@ -19,6 +19,7 @@
     /* > 변수 선언 */
         :root{
             --none-color: rgb(255 255 255 / 0%);
+            --color-1: #7F5A58;
             --black : #000000;
             --theme-black : #111111;
             --theme-light-yellow : #FFF0B8;
@@ -34,6 +35,7 @@
 
 /* 변수
 var( --none-color );
+var( --color-1 );
 var( --theme-brown );
 var( --theme-white );
 var( --border-radius );
@@ -248,7 +250,7 @@ var( --calc-profile-img-plus );
                 a,
                 a:hover),
                 #board-info h1>a:hover {
-                    color: var( --theme-brown );
+                    color: var( --color-1 );
                     /*
                     font-size: 14px;
                     */
