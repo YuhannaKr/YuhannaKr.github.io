@@ -141,7 +141,8 @@ var( --calc-profile-img-plus );
         header > .container > .row > .col-xs-4 > a > img {
             content: url(https://cdn.discordapp.com/attachments/830039497730949140/831467790887288842/3.png);
         }
-        header #header-bar #header-menu-right #userDropdown img.profile-img {
+        header #header-bar #header-menu-right #userDropdown img.profile-img,
+        #article-info .article-profile-img {
             border-radius: 50%;
         }            
     /* > 좌측 레이아웃 */
