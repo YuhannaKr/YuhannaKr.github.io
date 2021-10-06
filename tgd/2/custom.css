@@ -246,10 +246,12 @@ var( --calc-profile-img-plus );
                 float: left !important;
                 margin-right: 10px;
             }
-            #board-info #board-info-bottom :is(
-                a,
-                a:hover),
-                #board-info h1>a:hover {
+            #board-info #board-info-bottom a {
+                    color: var( --theme-brown );
+            }
+            #board-info :is(
+                #board-info-bottom a:hover,
+                h1>a:hover) {
                     color: var( --color-1 );
                     /*
                     font-size: 14px;
