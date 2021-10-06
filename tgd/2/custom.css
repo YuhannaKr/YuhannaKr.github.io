@@ -342,6 +342,9 @@ var( --calc-profile-img-plus );
                 .btn.del) {
                    left: 20px;
             }
+            #article-list #article-list-menu>.btn.best {
+                background-color: var( --theme-white );
+            }   
             #article-list #article-list-menu>.btn.write {
                 right: 20px;
             }
