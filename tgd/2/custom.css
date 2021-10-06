@@ -254,6 +254,10 @@ var( --calc-profile-img-plus );
             transform: scale(1.02);
             transition: .20s;
         }
+        #article-list>.article-list-row:hover>.item>.list-header.v0>span {
+            background: var( --none-color );
+            color: var( --none-color );
+        }
         #article-list>.article-list-row>.item> :is(
             .list-checkbox,
             .list-header,
