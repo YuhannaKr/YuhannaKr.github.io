@@ -22,10 +22,10 @@
             --color-1: #7F5A58;
             --black : #000000;
             --theme-black : #111111;
-            --theme-light-yellow : rgb(255 240 184 / 80%);
-            --theme-yellow : rgb(255 234 157 / 80%);
+            --theme-light-yellow : rgb(255 240 184 / 90%);
+            --theme-yellow : rgb(255 234 157 / 90%);
             --theme-brown : #381D09;
-            --theme-white : rgb(255 255 255 / 80%);
+            --theme-white : rgb(255 255 255 / 90%);
             --border-radius: 10px;
             --profile-img: 100;
             --calc-profile-img-px: calc(1px * var( --profile-img ));
