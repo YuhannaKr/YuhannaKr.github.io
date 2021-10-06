@@ -180,8 +180,9 @@ var( --calc-profile-img-plus );
         }
     /* > 우측 레이아웃 */
         #main #main-content>div.frame {
-            padding: 10px;
             border-radius: var( --border-radius );
+            padding: 10px;
+            rgb(255 255 255 / 80%)
         }
         #article-option-area-toggle-btn{
             display: none !important;
