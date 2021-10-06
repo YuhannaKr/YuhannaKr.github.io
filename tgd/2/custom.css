@@ -245,7 +245,7 @@ var( --calc-profile-img-plus );
             */
         }
         #article-list>.article-list-row:hover {
-            transform: scale(1.10);
+            transform: scale(1.02);
             transition: .20s;
         }
         #article-list>.article-list-row>.item> :is(
