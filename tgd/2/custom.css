@@ -44,6 +44,25 @@ var( --calc-profile-img-px );
 var( --calc-profile-img-plus );
 */
 
+/* 선언 */
+    @keyframes bounce2 {
+        0% {
+            transform: scale(1, 1) translateY(0);
+        }
+
+        10% {
+            transform: scale(1.1, 0.6) translateY(0);
+        }
+
+        30% {
+            transform: scale(1, 1) translateY(0);
+        }
+
+        100% {
+            transform: scale(1, 1) translateY(0);
+        }
+    }
+
 /* 즐겨찾기 목록 */
     #board-info :is(
         #viewers-area,
@@ -178,6 +197,10 @@ var( --calc-profile-img-plus );
             margin: 5px 0;
             border: 2px solid var( --theme-brown );
             border-radius: var( --border-radius );
+        }
+        #article-list #article-list-category>a:hover {
+            background-color: transparent;
+            animation: bounce2 2s ease;
         }
         #article-list>.article-list-row.notice {
             background-color: var( --theme-light-yellow );
