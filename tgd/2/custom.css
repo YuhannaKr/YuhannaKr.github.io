@@ -22,7 +22,7 @@
             --color-1: #7F5A58;
             --black : #000000;
             --theme-black : #111111;
-            --theme-light-yellow : #FFF0B8;
+            --theme-light-yellow : rgb(255 240 184 / 80%);
             --theme-yellow : #FFEA9D;
             --theme-brown : #381D09;
             --theme-white : #ffffff;
@@ -192,7 +192,9 @@ var( --calc-profile-img-plus );
             padding: 0 0em 2em;
         }
         #article-list > div {
+            /*
             background: var( --theme-white );
+            */
         }
         #article-list #article-list-category,
         #article-list>.article-list-row {
