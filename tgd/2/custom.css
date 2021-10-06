@@ -28,7 +28,7 @@
             --theme-brown : #381D09;
             --theme-white : rgb(255 255 255 / 90%);
             --border-radius: 10px;
-            --profile-img: 100;
+            --profile-img: 80;
             --calc-profile-img-px: calc(1px * var( --profile-img ));
             --calc-profile-img-plus: calc(1px * (var( --profile-img ) + 30));
         }
