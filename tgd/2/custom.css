@@ -199,7 +199,7 @@ var( --calc-profile-img-plus );
         #article-list #article-list-category,
         #article-list>.article-list-row {
             margin: 5px 0;
-            border: 2px solid var( --theme-brown );
+            border: 1px solid var( --theme-brown );
             border-radius: var( --border-radius );
         }
         #article-list #article-list-category>a:hover {
