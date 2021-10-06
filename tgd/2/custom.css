@@ -47,20 +47,17 @@ var( --calc-profile-img-px );
 var( --calc-profile-img-plus );
 */
 
-/* 키 프레임 선언 */
+/* 키프레임 선언 */
     @keyframes bounce2 {
         0% {
             transform: scale(1, 1) translateY(0);
         }
-
         10% {
             transform: scale(1.1, 0.6) translateY(0);
         }
-
         30% {
             transform: scale(1, 1) translateY(0);
         }
-
         100% {
             transform: scale(1, 1) translateY(0);
         }
@@ -377,6 +374,13 @@ var( --calc-profile-img-plus );
                 }
                 .pagination>li>a, .pagination>li>span {
                     color: var( --theme-brown );
+                }
+            /* >>> 검색 */
+                button.btn.square.btn-default.dropdown-toggle {
+                    border-radius: var( --border-radius ) 0 0 var( --border-radius );
+                }
+                button.btn.square.btn-default[type=submit] {
+                    border-radius: 0 var( --border-radius ) var( --border-radius ) 0;
                 }
     /* > 종합 */
         .btn-default,
