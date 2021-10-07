@@ -500,24 +500,28 @@ var(--guildsize);
     display: none;
 }
 /* 이모티콘 */
+	/* > 종합 */
+		img.pngImage-33yLRP.stickerAsset-13j1W0,
+		.emoji.jumboable {
+			border-radius: 5px;
+		}
     /* > 이모티콘 선택 */
-    .emojiPicker-3PwZFl,
-    .drawerSizingWrapper-17Mss4 {
-        width: 875px !important;
-        /*height: 1000px !important;*/
-    }
+		.emojiPicker-3PwZFl,
+		.drawerSizingWrapper-17Mss4 {
+			width: 875px !important;
+			/*height: 1000px !important;*/
+		}
     /* > 이모티콘 표시 */
-    .emoji.jumboable {
-        width: 5rem;
-        height: 5rem;
-        border-radius: 5px;
-    }
+		.emoji.jumboable {
+			width: 5rem;
+			height: 5rem;
+		}
 
 /* 반응 */
-.reaction-1hd86g .emoji {
-    width: 3rem;
-    height: 3rem;
-}
+	.reaction-1hd86g .emoji {
+		width: 3rem;
+		height: 3rem;
+	}
     /* > 반응했어요 툴팁 */
         .reactionTooltipText-u4NWre {
             margin: 0 12px;
