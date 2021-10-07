@@ -183,7 +183,7 @@ var( --calc-profile-img-plus );
         #main #main-content>div.frame {
             border-radius: var( --border-radius );
             padding: 10px;
-            background: rgb(255 255 255 / 80%);
+            background: var( --theme-white );
         }
         #article-option-area-toggle-btn{
             display: none !important;
