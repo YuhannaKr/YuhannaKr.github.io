@@ -167,7 +167,8 @@ var(--guildsize);
 	}
 	.listItem-1hlISG,
 	.tutorialContainer-32VdNI,
-	.tutorialContainer-2sGCg9 {
+	.tutorialContainer-2sGCg9,
+	.wrapper-3NnKdC .scroller-1Bvpku [style*=height] {
 	    max-width: 100%;
 	    float: left;
 	}
