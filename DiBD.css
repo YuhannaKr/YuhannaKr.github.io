@@ -159,6 +159,12 @@ var(--guildsize);
             bottom: 0px;
         }
 */
+	[aria-label="서버"] > div {
+	    float: left;
+	}
+	[aria-label="서버"] .listItem-1hlISG {
+	    width: 24px;
+	}
     /* > 폴더 */
 /*
         .wrapper-25eVIn,
