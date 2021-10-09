@@ -165,6 +165,19 @@ var(--guildsize);
 	[aria-label="서버"] .listItem-1hlISG {
 	    width: 24px;
 	}
+	.listItem-1hlISG,
+	.tutorialContainer-32VdNI,
+	.tutorialContainer-2sGCg9 {
+	    max-width: 100%;
+	    float: left;
+	}
+	.wrapper-3NnKdC .wrapper-3Njo_c {
+	    height: unset !important;
+	    margin: 0 2px;
+	}
+	.listItem-1hlISG {
+	    margin-bottom: 2px;
+	}
     /* > 폴더 */
 /*
         .wrapper-25eVIn,
@@ -175,8 +188,8 @@ var(--guildsize);
         }
 */
         .expandedFolderBackground-1cujaW {
-            /* width: var(--calc-server-bar); */
-            /* background-color: #fff0; */
+            width: var(--calc-server-bar);
+            background-color: #fff0;
         }
 /*
         .wrapper-sa6paO,
@@ -363,7 +376,7 @@ var(--guildsize);
 		margin-bottom: 0 !important;
 	}
 	.wrapper-3NnKdC .expandedFolderBackground-1cujaW {
-		width: calc(1px * var(--server-bar));
+		/* width: calc(1px * var(--server-bar)); */
 		top: 0;
 		bottom: 0;
 		left: 0;
