@@ -406,10 +406,13 @@ var(--guildsize);
         max-width: 25px;
         max-height: 25px;
     }
-    /* > 서버 배너 너비 */
+    /* > 서버 배너 */
         .bannerImage-3KhIJ6 {
             max-width: 200px;
         }
+	.header-2V-4Sw {
+	    height: 40px;
+	}
     /* > 채널 목록 */
         /* >> 너비 */
             .sidebar-2K8pFh {
