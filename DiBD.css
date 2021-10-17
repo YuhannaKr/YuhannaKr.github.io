@@ -406,13 +406,15 @@ var(--guildsize);
         max-width: 25px;
         max-height: 25px;
     }
+	/* 종합 */
+		.container-1r6BKw,
+		.header-2V-4Sw {
+			max-height: 40px;
+		}
     /* > 서버 배너 */
         .bannerImage-3KhIJ6 {
             max-width: 200px;
         }
-	.header-2V-4Sw {
-	    height: 40px;
-	}
     /* > 채널 목록 */
         /* >> 너비 */
             .sidebar-2K8pFh {
@@ -452,9 +454,6 @@ var(--guildsize);
             display: none;
         }
         /* >> 채팅 채널 */
-            .container-1r6BKw {
-                max-height: 40px;
-            }
             :is(
             .modeConnected-3IsKId,
             .modeConnected-3IsKId:hover,
