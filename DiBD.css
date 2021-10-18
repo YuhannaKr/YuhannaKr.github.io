@@ -83,10 +83,6 @@ var(--guildsize);
         .tooltipTop-XDDSxx {
             max-width: 250px;
         }
-        div[id*="popout_"] {
-			left: calc(1px * (var(--server-bar) * var(--columns) + 20 * ( var(--server-bar)/50) + 14 * (var(--server-bar)/50) * ( var(--columns) - 1))) !important;
-			right: auto !important;
-        }
     /* > 서버 */
         .row-1c01mR {
             margin: 0px 0px 0px 10px;
@@ -594,6 +590,15 @@ var(--guildsize);
         }
 
 /* 팝업 */
+    div[id*="popout_"] {
+        left: calc(1px * (
+            var(--server-bar) * var(--columns)
+            + 20 * ( var(--server-bar)/50 )
+            + 14 * ( var(--server-bar)/50 ) * ( var(--columns) - 1 )
+            + 200
+            )) !important;
+        right: auto !important;
+    }
     /* > 미니 팝업 */
         .layer-v9HyYc .userPopout-xaxa6l,
         .popoutBanner-19WKGg {
