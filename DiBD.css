@@ -431,10 +431,10 @@ var(--guildsize);
                 display: none;
             }
 
-/* 이모티콘 행 높이 */
-    .emojiRow-zIc7ZX {
-        height: 32px;
-    }
+	/* > 이모티콘 행 높이 */
+	    .emojiRow-zIc7ZX {
+		height: 32px;
+	    }
     /* > 채널 */
         .containerDefault-3tr_sE,
         .containerDragAfter-Zk9oyx,
@@ -446,10 +446,10 @@ var(--guildsize);
         .spine--Wla_O {
             display: none;
         }
-    /* > 스크롤 숨기기 */
-        div#channels::-webkit-scrollbar {
-            display: none;
-        }
+		/* >> 스크롤 숨기기 */
+			div#channels::-webkit-scrollbar {
+				display: none;
+			}
         /* >> 채팅 채널 */
             :is(
             .modeConnected-3IsKId,
@@ -475,7 +475,7 @@ var(--guildsize);
                 .avatarSmall-1PJoGO {
                     margin-right: -24px;
                 }
-    /* > 멤버 */
+    /* > 멤버 목록 */
         .members-1998pB {
             width: 400px;
         }
@@ -505,6 +505,10 @@ var(--guildsize);
                 padding: 16px 8px 0 16px;
                 height: 32px;
             }
+		/* >> 하는 중 */
+		.UserDetails-activity-container img {
+			border-radius: 100%;
+		}
 
 /* 고정 메시지 */
 .messagesPopoutWrap-1MQ1bW {
