@@ -146,6 +146,7 @@ module.exports = (_ => {
 					}
 					${BDFDB.dotCN.memberownericon} {
 						top: 0px;
+						right: 8px;
 					}
 					${BDFDB.dotCNS.message + BDFDB.dotCN.memberownericon} {
 						top: 2px;
