@@ -102,35 +102,35 @@ module.exports = (_ => {
 				
 				this.defaults = {
 					general: {
-						useCrown:					{value: true,	description: "Use the Crown Icon instead of the Bot Tag Style"},
-						useRoleColor:				{value: true, 	description: "Use the Role Color instead of the default Blurple"},
-						useBlackFont:				{value: false,	description: "Use black Font instead of darkening the Role Color on bright Colors"},
-						ignoreBots:					{value: false,	description: "Don't add the Owner/Admin/Management Tag for Bots"}
+						useCrown:					{value: true,	description: "봇 태그 스타일 대신 왕관 아이콘 사용" /*Use the Crown Icon instead of the Bot Tag Style"*/},
+						useRoleColor:				{value: true, 	description: "기본 Blurple 대신 Role Color 사용" /* Use the Role Color instead of the default Blurple"*/},
+						useBlackFont:				{value: false,	description: "밝은 색상에서 역할 색상을 어둡게 하는 대신 검은색 글꼴을 사용" /* Use black Font instead of darkening the Role Color on bright Colors"*/},
+						ignoreBots:					{value: false,	description: "봇에 대한 소유자/관리자/관리 태그를 추가하지 마십시오" /* Don't add the Owner/Admin/Management Tag for Bots"*/}
 					},
 					tagTypes: {
-						owners:						{value: true, 	description: "Server Owner Tag"},
-						groupOwners:				{value: true, 	description: "Group Owner Tag"},
-						threadCreators:				{value: true, 	description: "Thread Creator Tag"},
-						admins:						{value: true, 	description: "Admin Tag (Admin Permissions)"},
-						managementG:				{value: true, 	description: "Management Tag (Server Management)"},
-						managementC:				{value: true, 	description: "Management Tag (Channel Management)"},
-						managementR:				{value: true, 	description: "Management Tag (Role Management)"},
-						managementU:				{value: true, 	description: "Management Tag (User Management 'Kick/Ban')"},
-						managementM:				{value: true, 	description: "Management Tag (Message Management)"}
+						owners:						{value: true, 	description: "서버 소유자 태그" /* Server Owner Tag"*/},
+						groupOwners:				{value: true, 	description: "그룹 소유자 태그" /* Group Owner Tag"*/},
+						threadCreators:				{value: true, 	description: "스레드 작성자 태그" /* Thread Creator Tag"*/},
+						admins:						{value: true, 	description: "관리자 태그(관리자 권한)" /* Admin Tag (Admin Permissions)"*/},
+						managementG:				{value: true, 	description: "관리 태그(서버 관리)" /* Management Tag (Server Management)"*/},
+						managementC:				{value: true, 	description: "관리 태그(채널 관리)" /* Management Tag (Channel Management)"*/},
+						managementR:				{value: true, 	description: "관리 태그(역할 관리)" /* Management Tag (Role Management)"*/},
+						managementU:				{value: true, 	description: "관리 태그(사용자 관리 '킥/밴')" /* Management Tag (User Management 'Kick/Ban')"*/},
+						managementM:				{value: true, 	description: "관리 태그(메시지 관리)" /* Management Tag (Message Management)"*/}
 					},
 					tagPlaces: {
-						chat:						{value: true, 	description: "Messages"},
-						memberList:					{value: true, 	description: "Member List"},
-						voiceList:					{value: true, 	description: "Voice User List"},
-						userPopout:					{value: true, 	description: "User Popouts"},
-						userProfile:				{value: true, 	description: "User Profile Modal"},
+						chat:						{value: true, 	description: "메시지" /* Messages*/},
+						memberList:					{value: true, 	description: "멤버 목록" /* Member List"*/},
+						voiceList:					{value: true, 	description: "음성 사용자 목록" /* Voice User List"*/},
+						userPopout:					{value: true, 	description: "사용자 팝업" /* User Popouts"*/},
+						userProfile:				{value: true, 	description: "사용자 프로필 모달" /* User Profile Modal"*/},
 					},
 					inputs: {
-						ownOwnerTagName:			{value: "Owner", 		description: "Server Owner Tags"},
-						ownGroupOwnerTagName:		{value: "Group Owner", 	description: "Group Owner Tags"},
+						ownOwnerTagName:			{value: "Owner", 		description: "서버 소유자 태그" /* Server Owner Tags"*/},
+						ownGroupOwnerTagName:		{value: "Group Owner", 	description: "그룹 소유자 태그" /* Group Owner Tags"*/},
 						ownThreadCreatorTagName:	{value: "Creator", 		description: "Thread Creator Tags"},
-						ownAdminTagName:			{value: "Admin", 		description: "Admin Tags"},
-						ownManagementTagName:		{value: "Management", 	description: "Management Tags"}
+						ownAdminTagName:			{value: "Admin", 		description: "관리자 태그" /* Admin Tags"*/},
+						ownManagementTagName:		{value: "Management", 	description: "관리 태그" /* Management Tags"*/}
 					}
 				};
 			
@@ -180,7 +180,7 @@ module.exports = (_ => {
 						let settingsItems = [];
 				
 						settingsItems.push(BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.CollapseContainer, {
-							title: "Settings",
+							title: "설정",
 							collapseStates: collapseStates,
 							children: Object.keys(this.defaults.general).map(key => BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.SettingsSaveItem, {
 								type: "Switch",
@@ -192,7 +192,7 @@ module.exports = (_ => {
 							}))
 						}));
 						settingsItems.push(BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.CollapseContainer, {
-							title: "Tag Settings",
+							title: "Tag 설정",
 							collapseStates: collapseStates,
 							children: [
 								BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.SettingsPanelList, {
@@ -219,7 +219,7 @@ module.exports = (_ => {
 							]
 						}));
 						settingsItems.push(BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.CollapseContainer, {
-							title: "Tag Text Settings",
+							title: "Tag Text 설정",
 							collapseStates: collapseStates,
 							children: Object.keys(this.defaults.inputs).map(key => BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.SettingsSaveItem, {
 								type: "TextInput",
