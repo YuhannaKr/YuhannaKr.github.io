@@ -599,6 +599,10 @@ var(--guildsize);
             )) !important;
         right: auto !important;
     }
+	/* > 채널 내 활성 스레드 목록 */
+		.popout-APcvZm {
+			left: 0;
+		}
     /* > 미니 팝업 */
         .layer-v9HyYc .userPopout-xaxa6l,
         .popoutBanner-19WKGg {
