@@ -1,0 +1,89 @@
+/* 투명 */
+  /* > 배경 */
+    /* >> 이미지 */
+      #app-mount .app-2rEoOp {
+        background-color: transparent;
+        background-size: cover;
+        background-image: url();
+      }
+    /* >> 투명 */
+      .layers-3iHuyZ {
+        background-color: rgba(0,0,0,.76);
+      }
+
+  /* > 레이아웃 */
+    /* >> 종합 */
+      .auto-Ge5KZx::-webkit-scrollbar-track,
+      .standardSidebarView-3F1I7i,
+      .sidebarRegionScroller-3MXcoP,
+      .contentRegion-3nDuYy,
+      .bg-h5JY_x,
+      .contentRegionScroller-26nc1e,
+      .container-3w7J-x,
+      .sidebar-2K8pFh,
+      .panels-j1Uci_,
+      .chat-3bRxxu,
+      .messages-3amgkR,
+      .members-1998pB>div,
+      .scrollableContainer-2NUZem,
+      .childWrapper-anI2G9,
+      .privateChannels-1nO12o,
+      .scroller-1JbKMe,
+      .theme-dark .container-1D34oG,
+      .nowPlayingColumn-2sl4cE,
+      .applicationStore-1pNvnv,
+      .guildSeparator-33mFX6,
+      .wrapper-3NnKdC,
+      .scroller-305q3I,
+      .scroller-1IIF0A,
+      .scroller-2XE8rp,
+      .scroller-9moviB,
+      .scroller-1Bvpku,
+      .expandedFolderBackground-1cujaW,
+      .folder-1hbNCn,
+      .wrapper-3vR61M,
+      .wrapper-1F5TKx,
+      .bd-addon-list .bd-addon-header,
+      .theme-dark :is(
+        .layer-3QrUeG,
+        .container-1r6BKw) {
+        background-color: transparent;
+      }
+    /* bd 관련 */
+    .theme-dark .bd-addon-list .bd-addon-card {
+      background-color: rgba(0, 0, 0,.5);
+      color: white;
+      border-radius: 2px;
+    }
+    /* >> 멤버 목록 */
+      .members-1998pB {
+        background-color: rgba(0,0,0,.3);
+      }
+
+    /* >> 날짜 */
+      .content-1o0f9g {
+        padding: 5px 8px;
+        color: white;
+        background: rgba(255,255,255,.13);
+        border-radius: 4px;
+      }
+    /* >> 검색 */
+      .searchBar-3dMhjb {
+        border-radius: 0;
+        color: white;
+        background-color: rgba(0, 0, 0, .3);
+      }
+    /* >> 디스코드 아이콘 */
+      .childWrapper-anI2G9 {
+        color: white;
+      }
+    /* >> 메시지 보내기 */
+      .channelTextArea-rNsIhG {
+        background-color: rgba(0, 0, 0, .3);
+      }
+    /* >> 대화 찾기 또는 시작하기 */
+      .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+        border-radius: 0;
+        background-color: rgba(0, 0, 0, .4);
+        color: white;
+      }
