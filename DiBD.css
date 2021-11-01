@@ -184,7 +184,8 @@ var(--guildsize);
             height: var(--calc-server-bar);
         }
 */
-        .expandedFolderBackground-1cujaW {
+        .expandedFolderBackground-1cujaW,
+	.expandedFolderBackground-3ZDF05 {
             width: var(--calc-server-bar);
             background-color: #fff0;
         }
