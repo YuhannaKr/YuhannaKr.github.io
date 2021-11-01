@@ -158,7 +158,9 @@ var(--guildsize);
 	[aria-label="서버"] > div {
 	    float: left;
 	}
-	[aria-label="서버"] .listItem-1hlISG {
+	[aria-label="서버"] :is(
+	.listItem-1hlISG,
+	.listItem-2Ig28I) {
 	    width: 24px;
 	}
 	.listItem-1hlISG,
