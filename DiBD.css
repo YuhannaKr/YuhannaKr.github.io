@@ -434,8 +434,7 @@ var(--guildsize);
 	    }
     /* > 채널 */
 /*
-        .containerDefault-3tr_sE,
-*/
+        [class*=containerDefault-],
 	[class*=containerDragAfter-],
 	[class*=containerDragBefore-],
 	[class*=containerUserOver-],
