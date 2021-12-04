@@ -145,28 +145,24 @@ var(--guildsize);
 
 /* 서버 사이드바 */
     /* > 종합 */
-/*
-        .wrapper-3Njo_c > .listItem-GuPuDH,
-        .wrapper-3Njo_c > ul .listItem-GuPuDH) {
+        [class*=wrapper-] > ul [class*=listItem-] {
             margin: 0 0 5px;
         }
-        .wrapper-2q53zr {
+        [class*=wrapper-] {
             top: 0px;
             bottom: 0px;
         }
-*/
+        /*
 	[aria-label="서버"] > div {
 	    float: left;
-	}
-	[aria-label="서버"] :is(
-	.listItem-1hlISG,
-	.listItem-2Ig28I) {
+	}*/
+	[aria-label="서버"] [class*=listItem-] {
 	    width: 24px;
+        padding: 0 6px;
 	}
-	.listItem-1hlISG,
-	.tutorialContainer-32VdNI,
-	.tutorialContainer-2sGCg9,
-	.wrapper-3NnKdC .scroller-1Bvpku [style*=height] {
+	[class*=listItem-],
+    [class*=tutorialContainer-]
+	[class*=wrapper-] [class*=scroller-] [style*=height] {
 	    max-width: 100%;
 	    float: left;
 	}
@@ -174,7 +170,7 @@ var(--guildsize);
 	    height: unset !important;
 	    margin: 0 2px;
 	}
-	.listItem-1hlISG {
+    [class*=listItem-] {
 	    margin-bottom: 2px;
 	}
     /* > 폴더 */
@@ -186,8 +182,7 @@ var(--guildsize);
             height: var(--calc-server-bar);
         }
 */
-        .expandedFolderBackground-1cujaW,
-	.expandedFolderBackground-3ZDF05 {
+    [class*=expandedFolderBackground-] {
             width: var(--calc-server-bar);
             background-color: #fff0;
         }
@@ -219,6 +214,9 @@ var(--guildsize);
             padding-right: 0px !important;
         }
 */
+[id*="folder-items-"] {
+    height: unset !important;
+}
     /* > 폴더 외 */
 /*
         .unreadMentionsIndicatorBottom-2mDYbI,
@@ -228,7 +226,7 @@ var(--guildsize);
             width: 60px;
         }
 */
-	
+	/*
 	.wrapper-3NnKdC :is(
 		.scroller-1Bvpku div[style*="transform"],
 		.wrapper-3Njo_c [role="group"][style*="height:"]) {
@@ -271,6 +269,7 @@ var(--guildsize);
 				var(--columns) - 1))/2))
 		);
 	}
+    */
 		/* 개인 메시지 */
 		/*
 		.wrapper-3NnKdC .listItem-GuPuDH:first-child .pill-1Z5PKm ~ .listItemWrapper-KhRmzM {
@@ -387,11 +386,7 @@ var(--guildsize);
 		left: 0;
 		margin-bottom: 0;
 	}
-	html :is(
-		.typingindicator-guild,
-		.typingindicator-dms,
-		.typingindicator-folder
-		) {
+	html [class*=typingindicator-] {
 		right: 3px !important;
 		top: calc(var(--server-bar) * 1px - 5px) !important;
 		bottom: unset !important;
@@ -419,10 +414,14 @@ var(--guildsize);
             max-width: 200px;
         }
     /* > 채널 목록 */
-        /* >> 너비 */
+        /* >> 너비 및 높이 */
             .sidebar-2K8pFh {
                 width: 200px;
                 /*width: 320px;*/
+            }
+            .content-1x5b-n,
+            .content-1x5b-n:hover {
+                height: 25px;
             }
         /* >> 및 멤버 목록 높이 */
             .content-3YMskv {
@@ -449,7 +448,7 @@ var(--guildsize);
         .containerDragBefore-1YqewQ,
         .containerUserOver-98-yc7,
         .mainContent-u_9PKf {
-            padding: 5px 0 0;
+            padding: 0;
         }
         .spine--Wla_O {
             display: none;
@@ -485,16 +484,16 @@ var(--guildsize);
                 }
     /* > 멤버 목록 */
         .members-1998pB {
-            width: 400px;
+            width: 500px;
         }
         .member-3-YXUe {
-            max-width: 400px;
+            max-width: 500px;
         }
         .roleColor-rz2vM0 {
-            width: 200px;
+            width: 300px;
         }
         .subText-1KtqkB {
-            width: 250px;
+            width: 300px;
         }
         .roleColor-rz2vM0,
         .name-uJV0GL {
@@ -664,3 +663,19 @@ var(--guildsize);
             .connectedAccount-2Jb-Z0 {
                 width: 100%;
             }
+
+/* 서버 부스트 바 */
+[class*=goalTextContainer],
+[class*=progressFraction] {
+    display: none;
+}
+[class*=textArea] {
+    height: 8px;
+    margin: 0px;
+}
+
+/* 음성채널 역할 아이콘 */
+.draggable-2E_4tJ .ownerIcon-2NH9FM {
+    margin: 0;
+    display: none;
+}
