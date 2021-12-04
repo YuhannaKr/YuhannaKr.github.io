@@ -670,3 +670,8 @@ var(--guildsize);
     margin: 0;
     display: none;
 }
+
+/* 스레드 들여쓰기 숨김 */
+[class*=spine--] {
+	display: none;
+}
