@@ -148,14 +148,6 @@ var(--guildsize);
         [class*=wrapper-] > ul [class*=listItem-] {
             margin: 0 0 5px;
         }
-        [class*=wrapper-] {
-            top: 0px;
-            bottom: 0px;
-        }
-        /*
-	[aria-label="서버"] > div {
-	    float: left;
-	}*/
 	[aria-label="서버"] [class*=listItem-] {
 	    width: 24px;
         padding: 0 6px;
