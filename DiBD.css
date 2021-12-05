@@ -433,7 +433,6 @@ var(--guildsize);
 		height: 32px;
 	    }
     /* > 채널 */
-/*
         [class*=containerDefault-],
 	[class*=containerDragAfter-],
 	[class*=containerDragBefore-],
