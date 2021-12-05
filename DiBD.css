@@ -660,7 +660,7 @@ var(--guildsize);
 [class*=progressFraction] {
     display: none;
 }
-[class*=textArea] {
+[class*=scroller-] [class*=content-] [class*=textArea] {
     height: 8px;
     margin: 0px;
 }
