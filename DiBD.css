@@ -466,7 +466,7 @@ var(--guildsize);
                 font-size: 0px;
             }
             .button-1YfofB {
-                max-width: 50px;
+	    	min-width: 100%;
             }
             /* >>> 카테고리 접은 경우 간격 좁히기 */
                 .avatarSmall-1PJoGO {
