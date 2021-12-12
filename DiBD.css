@@ -446,6 +446,9 @@ var(--guildsize);
 	[class*=sidebar-] [class*=scroller-] {
 		padding: 16px 0 0 0;
 	}
+	[class*=content-] > [style*="height: 16px"] {
+		display: none;
+	}
 		/* >> 스크롤 숨기기 */
 			div#channels::-webkit-scrollbar {
 				display: none;
