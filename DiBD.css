@@ -433,7 +433,7 @@ var(--guildsize);
 		height: 32px;
 	    }
     /* > 채널 */
-        [class*=containerDefault-],
+	[class*=containerDefault-],
 	[class*=containerDragAfter-],
 	[class*=containerDragBefore-],
 	[class*=containerUserOver-],
@@ -443,6 +443,9 @@ var(--guildsize);
         .spine--Wla_O {
             display: none;
         }
+	[class*=sidebar-] [class*=scroller-] {
+		padding: 16px 0 0 0;
+	}
 		/* >> 스크롤 숨기기 */
 			div#channels::-webkit-scrollbar {
 				display: none;
