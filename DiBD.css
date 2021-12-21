@@ -102,7 +102,7 @@ var(--guildsize);
             padding-right: 0 !important;
         }
     /* > 니트로 선물 버튼 제거 */
-        [aria-label*="선물"] {
+        [aria-label*="선물 보내기"] {
             display: none;
         }
 
