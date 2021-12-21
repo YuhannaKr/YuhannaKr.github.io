@@ -196,7 +196,7 @@ var( --calc-profile-img-plus );
             background: var( --theme-white );
             */
         }
-        #article-list #article-list-category,
+/*        #article-list #article-list-category,*/
         #article-list>.article-list-row {
             margin: 5px 0;
             border: 1px solid var( --theme-brown );
