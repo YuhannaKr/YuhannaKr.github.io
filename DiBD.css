@@ -544,7 +544,11 @@ var(--guildsize);
 			width: 5rem;
 			height: 5rem;
 		}
-
+		/* > 이모티콘 패치 대응(반응 제외) */
+			[class*=positionContainer-] [class*=emojiPicker-],
+			[class*=positionContainer-] [class*=drawerSizingWrapper-] {
+					width: 1200px !important;
+			}
 /* 반응 */
 	.reaction-1hd86g .emoji {
 		width: 3rem;
