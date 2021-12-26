@@ -1,6 +1,7 @@
 /*
 @import url("https://yuhannakr.github.io/tgd/2/custom.css");
 */
+
 /* 중요 */
     @font-face {
         font-family: 'IBMPlexSansKR-Regular';
@@ -197,7 +198,7 @@ var( --calc-profile-img-plus );
             */
         }
     #article-list #article-list-category {
-        border: 1px solid var( --theme-brown );
+        border: 1px solid var( --theme-brown ) !important;
         border-radius: var( --border-radius );
 }
         #article-list>.article-list-row {
