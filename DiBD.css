@@ -547,8 +547,8 @@ var(--guildsize);
 			border-radius: 5px;
 		}
     /* > 이모티콘 선택 */
-		.emojiPicker-3PwZFl,
-		.drawerSizingWrapper-17Mss4 {
+		[class*="emojiPicker-"],
+		[class*="drawerSizingWrapper-"] {
 			width: 875px !important;
 			/*height: 1000px !important;*/
 		}
