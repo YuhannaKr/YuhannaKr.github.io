@@ -166,12 +166,14 @@ var(--guildsize);
 	    margin-bottom: 2px;
 	}
     /* > 폴더 */
+/*
         [class*="wrapper-"],
         [class*="svg-"],
         [class*="placeholderMask-"] {
             width: var(--calc-server-bar);
             height: var(--calc-server-bar);
         }
+*/
     [class*=expandedFolderBackground-] {
             width: var(--calc-server-bar);
             background-color: #fff0;
