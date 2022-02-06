@@ -218,7 +218,6 @@ var(--guildsize);
             width: 60px;
         }
 */
-	/*
 	.wrapper-3NnKdC :is(
 		.scroller-1Bvpku div[style*="transform"],
 		.wrapper-3Njo_c [role="group"][style*="height:"]) {
@@ -261,7 +260,6 @@ var(--guildsize);
 				var(--columns) - 1))/2))
 		);
 	}
-    */
 		/* 개인 메시지 */
 		/*
 		[class*="wrapper-"] .listItem-GuPuDH:first-child .pill-1Z5PKm ~ .listItemWrapper-KhRmzM {
