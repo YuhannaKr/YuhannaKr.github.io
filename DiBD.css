@@ -452,6 +452,7 @@ var(--guildsize);
 	[class*="containerUserOver-"]:hover,
 	[class*="mainContent-"]:hover {
             padding: 0 !important;
+		height: 22px;
         }
         .spine--Wla_O {
             display: none;
