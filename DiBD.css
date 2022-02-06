@@ -446,7 +446,12 @@ var(--guildsize);
 	[class*=containerDragAfter-],
 	[class*=containerDragBefore-],
 	[class*=containerUserOver-],
-	[class*=mainContent-] {
+	[class*=mainContent-],
+	[class*=containerDefault-]:hover,
+	[class*=containerDragAfter-]:hover,
+	[class*=containerDragBefore-]:hover,
+	[class*=containerUserOver-]:hover,
+	[class*=mainContent-]:hover {
             padding: 0 !important;
         }
         .spine--Wla_O {
@@ -523,7 +528,7 @@ var(--guildsize);
 		}
 
 /* 고정 메시지 */
-.messagesPopoutWrap-1MQ1bW {
+[class*="messagesPopoutWrap-"] {
     width: 600px;
 }
 
