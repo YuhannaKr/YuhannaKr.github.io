@@ -445,14 +445,15 @@ var(--guildsize);
 	[class*="containerDragAfter-"],
 	[class*="containerDragBefore-"],
 	[class*="containerUserOver-"],
-	[class*="mainContent-"],
 	[class*="containerDefault-"]:hover,
 	[class*="containerDragAfter-"]:hover,
 	[class*="containerDragBefore-"]:hover,
 	[class*="containerUserOver-"]:hover,
-	[class*="mainContent-"]:hover {
-            padding: 0 !important;
-		height: 22px;
+	[class*="mainContent-"],
+	[class*="mainContent-"]:hover,
+	[class*="mainContent-"]:before {
+		padding: 0 !important;
+		max-height: 22px;
         }
         .spine--Wla_O {
             display: none;
