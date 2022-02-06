@@ -585,13 +585,13 @@ var(--guildsize);
 
 /* 사용자 설정 */
     /* > 사이드바 */
-        [class*="sidebar-"] [class*="item-"] {
+        nav[class*="sidebar-"] [class*="item-"] {
              line-height: 7px;
         }
-        [class*="sidebar-"] [class*="flex-"] {
+        nav[class*="sidebar-"] [class*="flex-"] {
             height: 7px;
         }
-        [class*="sidebar-"] {
+        nav[class*="sidebar-"] {
             padding: 20px 0px 20px 20px;
         }
     /* > 계정 제거 기능  */
