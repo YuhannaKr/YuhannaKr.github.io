@@ -453,7 +453,6 @@ var(--guildsize);
 	[class*="mainContent-"]:hover,
 	[class*="mainContent-"]:before {
 		padding: 0 !important;
-		max-height: 22px;
         }
         .spine--Wla_O {
             display: none;
