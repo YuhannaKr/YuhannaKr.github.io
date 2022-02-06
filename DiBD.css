@@ -175,6 +175,7 @@ var(--guildsize);
         }
 */
         .svg-2zuE5p,
+.wrapper-28eC3z,
 	foreignObject :is([class*="wrapper-"],
 		[class*="wrapper-"] [class*="icon-"]) {
             width: var(--calc-server-bar);
