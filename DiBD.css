@@ -441,16 +441,16 @@ var(--guildsize);
 		height: 32px;
 	    }
     /* > 채널 */
-	[class*=containerDefault-],
-	[class*=containerDragAfter-],
-	[class*=containerDragBefore-],
-	[class*=containerUserOver-],
-	[class*=mainContent-],
-	[class*=containerDefault-]:hover,
-	[class*=containerDragAfter-]:hover,
-	[class*=containerDragBefore-]:hover,
-	[class*=containerUserOver-]:hover,
-	[class*=mainContent-]:hover {
+	[class*="containerDefault-"],
+	[class*="containerDragAfter-"],
+	[class*="containerDragBefore-"],
+	[class*="containerUserOver-"],
+	[class*="mainContent-"],
+	[class*="containerDefault-"]:hover,
+	[class*="containerDragAfter-"]:hover,
+	[class*="containerDragBefore-"]:hover,
+	[class*="containerUserOver-"]:hover,
+	[class*="mainContent-"]:hover {
             padding: 0 !important;
         }
         .spine--Wla_O {
@@ -468,15 +468,15 @@ var(--guildsize);
 			}
         /* >> 채팅 채널 */
             :is(
-            .modeConnected-3IsKId,
-            .modeConnected-3IsKId:hover,
-            .modeSelected-346R90,
-            .modeSelected-346R90:hover,
-            .modeUnread-1qO3K1,
-            .modeUnread-1qO3K1:hover,
-            .notInteractive-1X92pj:is(
-            .modeConnected-3IsKId,
-            .modeSelected-346R90)) .name-23GUGE {
+            [class*="modeConnected-"],
+            [class*="modeConnected-"]:hover,
+            [class*="modeSelected-"],
+            [class*="modeSelected-"]:hover,
+            [class*="modeUnread-"],
+            [class*="modeUnread-"]:hover,
+            [class*="notInteractive-"]:is(
+            [class*="modeConnected-"],
+            [class*="modeSelected-"])) .name-23GUGE {
                 color: var(--channels-default);
             }
         /* >> 음성 채널 */
