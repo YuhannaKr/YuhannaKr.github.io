@@ -186,7 +186,7 @@ var(--guildsize);
             width: var(--calc-server-bar);
             background-color: #fff0;
         }
-	.folderIconWrapper-1Ml_1q {
+	[class*="folderIconWrapper-"] {
 	    background-color: transparent !important;
 	}
 /*
