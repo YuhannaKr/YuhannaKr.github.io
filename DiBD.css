@@ -180,6 +180,9 @@ var(--guildsize);
             width: var(--calc-server-bar);
             height: var(--calc-server-bar);
         }
+	[class*="listItem-"] [class*="wrapper-"] {
+		    height: var(--calc-server-bar);
+	}	
     [class*=expandedFolderBackground-] {
             width: var(--calc-server-bar);
             background-color: #fff0;
