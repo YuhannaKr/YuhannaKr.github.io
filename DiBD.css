@@ -447,7 +447,7 @@ var(--guildsize);
 	[class*=containerDragBefore-],
 	[class*=containerUserOver-],
 	[class*=mainContent-] {
-            padding: 0;
+            padding: 0 !important;
         }
         .spine--Wla_O {
             display: none;
