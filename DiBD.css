@@ -175,12 +175,11 @@ var(--guildsize);
         }
 */
         .svg-2zuE5p,
-	.wrapper-28eC3z,
-	foreignObject [class*="wrapper-"] {
+	.wrapper-28eC3z {
             width: var(--calc-server-bar);
             height: var(--calc-server-bar);
         }
-	[class*="listItem-"] [class*="wrapper-"] {
+	[class*="listItem-"] [class*="pill-"] {
 		    height: var(--calc-server-bar);
 	}	
     [class*=expandedFolderBackground-] {
