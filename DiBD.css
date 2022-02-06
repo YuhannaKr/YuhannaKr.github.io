@@ -591,7 +591,7 @@ var(--guildsize);
             padding: 20px 0px 20px 20px;
         }
     /* > 계정 제거 기능  */
-        .buttonContainer-1zBNxN {
+        [class*="children-"] [class*="buttonContainer-"] {
             display: none;
         }
     /* > 구독 아이콘 숨기기 */
