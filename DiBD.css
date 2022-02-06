@@ -485,10 +485,10 @@ var(--guildsize);
                     margin-right: -24px;
                 }
     /* > 멤버 목록 */
-        .members-1998pB {
+        [class*="members-"] {
             width: 525px;
         }
-        .member-3-YXUe {
+        [class*="member-"] {
             max-width: 500px;
         }
         .roleColor-rz2vM0 {
