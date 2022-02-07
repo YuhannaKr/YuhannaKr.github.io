@@ -444,10 +444,12 @@ var(--guildsize);
 	    }
     /* > 채널 */
 	[class*="containerDefault-"],
+	[class*="containerDefault-"]:hover,
+	[class*="containerDefault-"] [class*="content-"],
+	[class*="containerDefault-"] [class*="content-"]:hover,
 	[class*="containerDragAfter-"],
 	[class*="containerDragBefore-"],
 	[class*="containerUserOver-"],
-	[class*="containerDefault-"]:hover,
 	[class*="containerDragAfter-"]:hover,
 	[class*="containerDragBefore-"]:hover,
 	[class*="containerUserOver-"]:hover,
