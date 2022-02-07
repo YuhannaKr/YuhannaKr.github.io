@@ -444,19 +444,11 @@ var(--guildsize);
 	    }
     /* > 채널 */
 	[class*="containerDefault-"],
-	[class*="containerDefault-"]:hover,
-	[class*="containerDefault-"] [class*="content-"],
-	[class*="containerDefault-"] [class*="content-"]:hover,
 	[class*="containerDefault-"] [class*="iconItem-"],
 	[class*="containerDragAfter-"],
 	[class*="containerDragBefore-"],
 	[class*="containerUserOver-"],
-	[class*="containerDragAfter-"]:hover,
-	[class*="containerDragBefore-"]:hover,
-	[class*="containerUserOver-"]:hover,
-	[class*="mainContent-"],
-	[class*="mainContent-"]:hover,
-	[class*="mainContent-"]:before {
+	[class*="mainContent-"] {
 		padding: 0 !important;
         }
         .spine--Wla_O {
