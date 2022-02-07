@@ -447,6 +447,7 @@ var(--guildsize);
 	[class*="containerDefault-"]:hover,
 	[class*="containerDefault-"] [class*="content-"],
 	[class*="containerDefault-"] [class*="content-"]:hover,
+	[class*="containerDefault-"] [class*="iconItem-"],
 	[class*="containerDragAfter-"],
 	[class*="containerDragBefore-"],
 	[class*="containerUserOver-"],
