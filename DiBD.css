@@ -486,7 +486,7 @@ var(--guildsize);
                 color: var(--channels-default);
             }
         /* >> 음성 채널 */
-            .live-vBWnV6 {
+            [class*="liveSmall-"] {
                 width: 10px;
                 font-size: 0px;
             }
