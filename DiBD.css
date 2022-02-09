@@ -490,7 +490,7 @@ var(--guildsize);
                     margin-right: -24px;
                 }
     /* > 멤버 목록 */
-        [class*="members-"] {
+        [class*="membersWrap-"] [class*="members-"] {
             width: 525px;
         }
         [class*="member-"] {
