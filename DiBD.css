@@ -153,7 +153,7 @@ var(--guildsize);
         padding: 0 6px;
 	}
 	[class*=listItem-],
-    [class*=tutorialContainer-]
+	[class*=tutorialContainer-]
 	[class*=wrapper-] [class*=scroller-] [style*=height] {
 	    max-width: 100%;
 	    float: left;
@@ -406,11 +406,13 @@ var(--guildsize);
         max-height: 25px;
     }
 	/* 종합 */
+/*
 		[class*="searchBar-"],
 		[class*="container-"],
 		[class*="header-"] {
 			max-height: 40px;
 		}
+*/
     /* > 서버 배너 */
         .bannerImage-3KhIJ6 {
             max-width: 200px;
