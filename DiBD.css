@@ -530,7 +530,7 @@ var(--guildsize);
 }
 
 /* 검색 */
-.searchResultsWrap-3-pOjs {
+[class*="searchResultsWrap-"] {
     width: 520px;
 }
 
