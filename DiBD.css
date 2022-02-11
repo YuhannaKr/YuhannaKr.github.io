@@ -408,8 +408,8 @@ var(--guildsize);
 	/* 종합 */
 /*
 		[class*="searchBar-"],
-		[class*="container-"],
-		[class*="header-"] {
+		[class*="container-"] > [class*="container-"],
+		[class*="sidebar-"] [class*="header-"] {
 			max-height: 40px;
 		}
 */
