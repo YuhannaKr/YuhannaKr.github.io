@@ -434,9 +434,11 @@ var(--guildsize);
                 display: none;
             }
         /* >> 닉네임 숨기기 */
+/*
             [class*="usernameContainer-"] [class*="title-"] {
                 display: none;
             }
+*/
 
 	/* > 이모티콘 행 높이 */
 	    .emojiRow-zIc7ZX {
