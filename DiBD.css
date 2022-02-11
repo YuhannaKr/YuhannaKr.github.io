@@ -617,9 +617,8 @@ var(--guildsize);
     div[id*="popout_"] {
         left: calc(1px * (
             var(--server-bar) * var(--columns)
-            + 24 * ( var(--server-bar)/36 )
-            + 14 * ( var(--server-bar)/36 ) * ( var(--columns) - 1 )
-            + 200
+            + 12 * var(--columns)
+            + 240
             )) !important;
         right: auto !important;
     }
