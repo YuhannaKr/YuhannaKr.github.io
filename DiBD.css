@@ -406,9 +406,9 @@ var(--guildsize);
         max-height: 25px;
     }
 	/* 종합 */
-		.searchBar-6Kv8R2,
-		.container-1r6BKw,
-		.header-2V-4Sw {
+		[class*="searchBar-"],
+		[class*="container-"],
+		[class*="header-"] {
 			max-height: 40px;
 		}
     /* > 서버 배너 */
@@ -430,11 +430,11 @@ var(--guildsize);
                 /* height: 100% !important; */
             }
         /* >> 프로필 이미지 숨기기 */
-            .container-3baos1 .avatar-VxgULZ {
+            [class*="container-"] [class*="avatar-"] {
                 display: none;
             }
         /* >> 닉네임 숨기기 */
-            .usernameContainer-1fp4nu .title-eS5yk3 {
+            [class*="usernameContainer-"] [class*="title-"] {
                 display: none;
             }
 
@@ -511,7 +511,7 @@ var(--guildsize);
             /*    width: auto;*/
             }
         /* >> 멤버 정보 */
-            .userPopout-3XzG_A {
+            [class*="userPopout-"] {
                 width: 500px !important;
             }
         /* >> 역할 구분 */
@@ -627,13 +627,13 @@ var(--guildsize);
 			left: 0;
 		}
     /* > 미니 팝업 */
-        .layer-v9HyYc .userPopout-xaxa6l,
-        .popoutBanner-19WKGg {
+        [class*="layer-"] class*="userPopout-"],
+        [class*="popoutBanner-"] {
             min-width: 500px !important;
         }
         /* >> 프로필 배경 */
-            .popoutBannerPremium-1n96gg,
-            .popoutBanner-19WKGg {
+            [class*="popoutBannerPremium-"],
+            [class*="popoutBanner-"] {
                 width: 100% !important;
                 min-height: 250px !important;
                 background-color: rgba(0, 0, 0, 0) !important;
