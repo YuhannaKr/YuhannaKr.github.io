@@ -432,7 +432,7 @@ var(--guildsize);
                 /* height: 100% !important; */
             }
         /* >> 프로필 이미지 숨기기 */
-            [class*="avatarWrapper-"] [class*="avatarStack-"] [class*="avatar-"] {
+            [class*="panels-"] [class*="avatarWrapper-"] [class*="avatarStack-"] [class*="avatar-"] {
                 display: none;
             }
         /* >> 닉네임 숨기기 */
