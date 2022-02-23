@@ -37,6 +37,11 @@ var(--guildsize);
         #bd-pub-button:hover {
             color: var(--none-color);
         }
+	/* 이미지 파일 정보 */
+		[class*="messageAttachment-"] {
+			width: auto;
+		}
+	
 
 /* 디스코드 */
     .wrapper-1BJsBx :is(
