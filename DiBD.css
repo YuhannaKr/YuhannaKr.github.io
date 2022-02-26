@@ -41,7 +41,9 @@ var(--guildsize);
 		[class*="messageAttachment-"] {
 			width: auto;
 		}
-	
+		[class*="altText-"] {
+			margin: 0;
+		}
 
 /* 디스코드 */
     .wrapper-1BJsBx :is(
