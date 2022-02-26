@@ -707,11 +707,10 @@ var(--guildsize);
 }
 
 /* 유튜브 미리보기 재조정 */
-[class*="embedVideoImageComponent-"] {
-	width: 400px !important;
-	height: 300px !important;
-}	
+[class*="embedVideoImageComponent-"],
 [class*="embedVideoImageComponentInner-"] {
 	top: 0px;
 	left: 0px;
+	width: 400px !important;
+	height: 300px !important;
 }
