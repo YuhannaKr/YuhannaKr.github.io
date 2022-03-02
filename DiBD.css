@@ -165,7 +165,7 @@ var(--guildsize);
 	    max-width: 100%;
 	    float: left;
 	}
-	[class*="wrapper-"] [class*="scrollerBase-"] [class*="wrapper-"] {
+	[class*="pill-"] [class*="wrapper-"] {
 		height: var(--calc-server-bar);
 	}
 /*
