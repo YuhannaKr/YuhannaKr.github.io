@@ -168,6 +168,9 @@ var(--guildsize);
 	[class*="pill-"] [class*="wrapper-"] {
 		height: var(--calc-server-bar);
 	}
+	[class*="guilds-"] [class*="scrollerBase-"] > [style*="height: 56px;"] {
+		height: var(--calc-server-bar) !important;
+}
 /*
 	[class*="wrapper-"] [class*="wrapper-"] {
 	    height: unset !important;
