@@ -532,7 +532,7 @@ var(--guildsize);
                 width: 500px !important;
             }
         /* >> 역할 구분 */
-            .membersGroup-v9BXpm {
+            [class*="membersGroup-"] {
                 padding: 16px 8px 0 16px;
                 height: 32px;
             }
