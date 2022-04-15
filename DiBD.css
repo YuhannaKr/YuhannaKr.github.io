@@ -533,8 +533,8 @@ var(--guildsize);
             }
         /* >> 역할 구분 */
             [class*="membersGroup-"] {
-                padding: 16px 8px 0 16px;
-                height: 32px;
+                padding: 8px 8px 0 16px;
+                height: 24px;
             }
 		/* >> 하는 중 */
 		.UserDetails-activity-container img {
