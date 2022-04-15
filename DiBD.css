@@ -419,13 +419,11 @@ var(--guildsize);
         max-height: 25px;
     }
 	/* 종합 */
-/*
-		[class*="searchBar-"],
-		[class*="container-"] > [class*="container-"],
-		[class*="sidebar-"] [class*="header-"] {
+		[class*="sidebar-"] [class*="header-"],
+		[class*="chat-"] > [class*="title-"] {
 			max-height: 40px;
+			padding: 8px 16px;
 		}
-*/
     /* > 서버 배너 */
         .bannerImage-3KhIJ6 {
             max-width: 200px;
