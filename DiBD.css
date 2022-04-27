@@ -97,8 +97,8 @@ var(--guildsize);
         }
 
 /* 메시지 입력 */
-    .barBase-1c2Rfb,
-    .channelTextArea-2VhZ6z {
+    [class*="barBase-"],
+    [class*="channelTextArea-"] {
         max-width: 1000px;
     }
     /* > 메시지 수정하기 */
