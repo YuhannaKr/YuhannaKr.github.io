@@ -102,7 +102,7 @@ var(--guildsize);
         max-width: 1000px;
     }
     /* > 메시지 수정하기 */
-        .channelTextArea-3bF57p {
+        [class*="contents-"] [class*="channelTextArea-"] {
             max-width: 944px;
         }
         .message-2qnXI6 {
