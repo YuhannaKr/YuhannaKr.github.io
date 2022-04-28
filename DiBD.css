@@ -422,7 +422,7 @@ var(--guildsize);
 		[class*="sidebar-"] [class*="header-"] {
 			padding: 8px;
 		}
-		[class*="sidebar-"] [class*="header-"]
+		[class*="sidebar-"] [class*="header-"],
 		[class*="searchBar-"],
 		[class*="themed-"],
 		[class*="chat-"] > [class*="title-"] {
