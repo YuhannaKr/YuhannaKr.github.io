@@ -114,7 +114,7 @@ var(--guildsize);
         }
 
 /* 디스코드 홈, 니트로 버튼 */
-    a#private-channels-2 {
+    [aria-posinset="2"] {
         display: none;
     }
     /* > 친구 */
@@ -419,10 +419,10 @@ var(--guildsize);
         max-height: 25px;
     }
 	/* 종합 */
-		[class*="sidebar-"] [class*="header-"],
+		[class*="searchBar-"],
+		[class*="themed-"],
 		[class*="chat-"] > [class*="title-"] {
 			max-height: 40px;
-			padding: 8px 16px;
 		}
     /* > 서버 배너 */
         .bannerImage-3KhIJ6 {
@@ -469,9 +469,11 @@ var(--guildsize);
         .spine--Wla_O {
             display: none;
         }
+/*
 	[class*=sidebar-] [class*=scroller-] {
 		padding: 16px 0 0 0;
 	}
+*/
 	[class*=content-] > [style*="height: 16px"] {
 		display: none;
 	}
