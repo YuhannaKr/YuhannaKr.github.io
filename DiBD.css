@@ -419,6 +419,9 @@ var(--guildsize);
         max-height: 25px;
     }
 	/* 종합 */
+		[class*="sidebar-"] [class*="header-"] {
+			padding: 8px;
+		}
 		[class*="sidebar-"] [class*="header-"]
 		[class*="searchBar-"],
 		[class*="themed-"],
