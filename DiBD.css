@@ -462,10 +462,11 @@ var(--guildsize);
 		height: 32px;
 	    }
 	/* 카테고리 */
-	[class*="containerDefault-"][draggable] {
+	[class*="containerDefault-"] [class*="clickable-"] {
 		padding: 8px 0 0 0 !important;
         }
     /* > 채널 */
+	[class*="containerDefault-"],
 	[class*="containerDefault-"] [class*="iconItem-"],
 	[class*="containerDragAfter-"],
 	[class*="containerDragBefore-"],
