@@ -461,11 +461,10 @@ var(--guildsize);
 	    .emojiRow-zIc7ZX {
 		height: 32px;
 	    }
-	/* 카테고리 */
-	[class*="containerDefault-"] [class*="clickable-"] {
+    /* > 채널 */
+	[class*="container-"] > [class*="scroller-"] > [class*="content-"] {
 		padding: 8px 0 0 0 !important;
         }
-    /* > 채널 */
 	[class*="containerDefault-"],
 	[class*="containerDefault-"] [class*="iconItem-"],
 	[class*="containerDragAfter-"],
