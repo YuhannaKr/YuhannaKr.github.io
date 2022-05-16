@@ -118,20 +118,20 @@ var(--guildsize);
         display: none;
     }
     /* > 친구 */
-        .peopleListItem-2nzedh {
+        [class*="peopleListItem-"] {
             width: 45%;
             height: 124px !important;
             float: left;
             margin: 0 2.5%;
             border: 0px;
         }
-        .text-3MU_QQ {
+        [class*="text-"] {
             white-space: normal;
             text-overflow:initial;
             overflow: initial;
         }
-        .peopleListItem-2nzedh:is(
-        .active-rhSpJJ,
+        [class*="peopleListItem-"]:is(
+        [class*="active-"],
         :hover) {
             background: none;
             margin: 0 2.5%;
@@ -140,12 +140,12 @@ var(--guildsize);
             border-bottom: 1px solid var(--background-modifier-accent);
             border-radius: 0;
         }
-        .userInfo-2zN2z8 {
+        [class*="userInfo-"] {
             max-width: 70%;
         }
-        .px-10SIf7 :is(
-        .botTagVerified-1klIIt,
-        .botText-1526X_) {
+        [class*="px-"] :is(
+        [class*="botTagVerified-"],
+        [class*="botText-"]) {
             height: 10px;
             line-height: 10px;
         }
