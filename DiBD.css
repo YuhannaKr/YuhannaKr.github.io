@@ -595,7 +595,11 @@ var(--guildsize);
         .reactionTooltipText-u4NWre {
             margin: 0 12px;
         }
-
+/* 설정 */
+	/* 버튼 효과 */
+		[class*="buttonShine-"] {
+			display: none;
+		}
 /* 서버 설정 */
     /* > 서버 이모티콘 */
         .emojiAliasInput-1y-NBz {
