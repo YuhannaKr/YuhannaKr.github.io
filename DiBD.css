@@ -554,17 +554,21 @@ var(--guildsize);
 }
 
 /* 검색 */
-[class*="searchResultsWrap-"] {
-    width: 520px;
-}
+	[class*="searchResultsWrap-"] {
+	    width: 520px;
+	}
+	/* 뒤로가기 및 다음 문구 제거 */
+		[class*="contents-"][class*="endButtonInner-"] > span {
+			display: none;
+		}
 
-/* 메시지 보내기 하단 문구 */
-.applicationCommandEducationFadeIn-1g7fXy {
-    display: none;
-}
+/* 메시지 보내기 하단 문구 제거 */
+	[class*="applicationCommandEducationFadeIn-"] {
+	    display: none;
+	}
 /* 이모티콘 */
 	/* > 종합 */
-		img.pngImage-33yLRP.stickerAsset-13j1W0,
+		img[class*="pngImage-"][class*="stickerAsset-"],
 		.emoji.jumboable {
 			border-radius: 5px;
 		}
@@ -581,18 +585,18 @@ var(--guildsize);
 		}
 		/* > 이모티콘 패치 대응(반응 제외) */
 /*
-			[class*=positionContainer-] [class*=emojiPicker-],
-			[class*=positionContainer-] [class*=drawerSizingWrapper-] {
+			[class*="positionContainer-"] [class*="emojiPicker-"],
+			[class*="positionContainer-"] [class*="drawerSizingWrapper-"] {
 					width: 1200px !important;
 			}
 */
 /* 반응 */
-	.reaction-1hd86g .emoji {
+	[class*="reaction-"] .emoji {
 		width: 3rem;
 		height: 3rem;
 	}
     /* > 반응했어요 툴팁 */
-        .reactionTooltipText-u4NWre {
+        [class*="reactionTooltipText-"] {
             margin: 0 12px;
         }
 /* 설정 */
