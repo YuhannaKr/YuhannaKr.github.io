@@ -658,8 +658,8 @@ var(--guildsize);
 		.popout-APcvZm {
 			left: 0;
 		}
-/* 
 	/* 퀵 설정 버튼에 대한 팝업 */
+/* 
 	[class*="disabledPointerEvents-"] {
 		display: none;
 	}
