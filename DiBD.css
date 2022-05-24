@@ -672,6 +672,7 @@ var(--guildsize);
         /* >> 프로필 배경 */
             [class*="popoutBannerPremium-"],
             [class*="popoutBanner-"] {
+            	max-width: 500px !important;
                 width: 100% !important;
                 min-height: 250px !important;
                 background-color: rgba(0, 0, 0, 0) !important;
