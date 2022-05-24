@@ -678,11 +678,11 @@ var(--guildsize);
                 background-color: rgba(0, 0, 0, 0) !important;
              }
         /* >> 일반 사용자 프로필 이미지 */
-            .avatarPositionNormal-aZjAsn{
+            [class*="avatarPositionNormal-"] {
                 top: 76px;
             }
         /* >> 사용자 배지 및 사용자 이름 */
-            .headerTop-3vNv-a {
+            [class*="headerTop-"] {
                 padding: 16px;
             }
     /* > 프로필 팝업 */
