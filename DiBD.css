@@ -682,7 +682,7 @@ var(--guildsize);
                 top: 76px;
             }
         /* >> 사용자 배지 및 사용자 이름 */
-            [class*="headerTop-"] {
+            [class*="animatorLeft-"] [class*="headerTop-"] {
                 padding: 16px;
             }
     /* > 프로필 팝업 */
