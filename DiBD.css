@@ -46,6 +46,7 @@ var(--guildsize);
 		}
 
 /* 디스코드 */
+/*
     [class*="wrapper-"] :is(
     [class*="selected-"],
     :hover) [class*="childWrapper-"],
@@ -64,6 +65,7 @@ var(--guildsize);
     [class*="message-"] strong) {
         background-color: #4f545c;
     }
+*/
     [class*="expandedFolderIconWrapper-"] path {
         color: #4f545c;
     }
