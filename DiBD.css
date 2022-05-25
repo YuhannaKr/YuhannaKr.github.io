@@ -690,6 +690,9 @@ var(--guildsize);
 		[class*="animatorRight-"]) [class*="headerTop-"] {
                 padding: 16px;
             }
+		[class*="topSection-"]) [class*="headerTop-"] {
+			left: auto;
+		}
     /* > 프로필 팝업 */
         [class*="focusLock-"][aria-label="사용자 프로필 인터페이스"] {
             width: 75%;
