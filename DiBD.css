@@ -703,49 +703,53 @@ var(--guildsize);
             width: 100%;
             height: 100%;
         }
-        /* >> 팝업 내 프로필 배경 */
+        /* >> 프로필 배경 */
             [class*="topSection-"] [class*="banner-"] {
                 width: 100%;
                 min-height: 250px;
             }
-        /* >> 팝업 내 프로필 사진 */
+        /* >> 프로필 사진 */
             [class*="header-"] > div > [class*="avatar-"] {
                 width: 200px !important;
                 height: 200px !important;
                 top: -225px;
             }
-        /* >> 팝업 내 연결 버튼 */
+        /* >> 연결 버튼 */
             [class*="connectedAccount-"] {
                 width: 100%;
             }
+	/* >> 이름 태그 */
+		[class*="topSection-"] [class*="nameTag-"] {
+			margin-top: 60px;
+		}
 
 /* 서버 부스트 바 */
-[class*=goalTextContainer],
-[class*=progressFraction] {
-    display: none;
-}
-[class*=sidebar-] [class*=textArea] {
-    height: 8px;
-    margin: 0px;
-}
+	[class*=goalTextContainer],
+	[class*=progressFraction] {
+	    display: none;
+	}
+	[class*=sidebar-] [class*=textArea] {
+	    height: 8px;
+	    margin: 0px;
+	}
 
 /* 음성채널 역할 아이콘 */
-.draggable-2E_4tJ .ownerIcon-2NH9FM {
-    margin: 0;
-    display: none;
-}
+	.draggable-2E_4tJ .ownerIcon-2NH9FM {
+	    margin: 0;
+	    display: none;
+	}
 
 /* 스레드 들여쓰기 숨김 */
-[class*=spine--] {
-	display: none;
-}
+	[class*=spine--] {
+		display: none;
+	}
 
 /* 유튜브 미리보기 재조정 */
-[class*="embedVideoImageComponent-"],
-[class*="embedVideoImageComponentInner-"] {
-	top: 0px;
-	left: 0px;
-}
-[class*="embedVideo-"] [class*="altText-"] {
-	display: none;
-}
+	[class*="embedVideoImageComponent-"],
+	[class*="embedVideoImageComponentInner-"] {
+		top: 0px;
+		left: 0px;
+	}
+	[class*="embedVideo-"] [class*="altText-"] {
+		display: none;
+	}
