@@ -748,5 +748,5 @@ var(--guildsize);
 		display: none;
 	}
 	[class*="embedFull-"] [class*="embedMedia-"] {
-		width: auto !important;
+		height: 225px !important;
 	}
