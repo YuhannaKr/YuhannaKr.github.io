@@ -703,11 +703,6 @@ var(--guildsize);
             width: 100%;
             height: 100%;
         }
-        /* >> 프로필 배경 */
-            [class*="topSection-"] [class*="banner-"] {
-                width: 100%;
-                min-height: 250px;
-            }
         /* >> 프로필 사진 */
             [class*="header-"] > div > [class*="avatar-"] {
                 width: 200px !important;
