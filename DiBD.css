@@ -707,7 +707,7 @@ var(--guildsize);
             [class*="header-"] > div > [class*="avatar-"] {
                 width: 200px !important;
                 height: 200px !important;
-                top: -225px;
+                top: -230px;
             }
         /* >> 연결 버튼 */
             [class*="connectedAccount-"] {
