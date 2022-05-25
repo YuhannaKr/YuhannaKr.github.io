@@ -673,8 +673,9 @@ var(--guildsize);
         }
         /* >> 프로필 배경 */
             [class*="popoutBannerPremium-"],
-            [class*="popoutBanner-"] {
-            	max-width: 500px !important;
+            [class*="popoutBanner-"],
+		[class*="profileBannerPremium-"] {
+            	max-width: 100% !important;
                 width: 100% !important;
                 min-height: 250px !important;
                 background-color: rgba(0, 0, 0, 0) !important;
@@ -701,10 +702,10 @@ var(--guildsize);
         /* >> 팝업 내 프로필 배경 */
             [class*="topSection-"] [class*="banner-"] {
                 width: 100%;
-                min-height: 240px;
+                min-height: 250px;
             }
         /* >> 팝업 내 프로필 사진 */
-            [class*="topSection-"] [class*="avatar-"] {
+            [class*="header-"] > div > [class*="avatar-"] {
                 width: 200px !important;
                 height: 200px !important;
                 top: -225px;
