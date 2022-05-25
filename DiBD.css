@@ -46,28 +46,28 @@ var(--guildsize);
 		}
 
 /* 디스코드 */
-    .wrapper-1BJsBx :is(
-    .selected-bZ3Lue,
-    :hover) .childWrapper-anI2G9,
-    .lookFilled-1Gx00P :is(
-        .colorBrand-3pXr91,
-        .colorBrand-3pXr91:disabled),
-    .botTagRegular-2HEhHi,
-    .newMessagesBar-265mhP,
-    .categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb,
-    .colorDefault-2K3EoJ.focused-3afm-j,
-    .avatarUploaderInner-3UNxY3,
-    .barFill-23-gu-,
-    .closedFolderIconWrapper-2sTcE6,
-    .theme-dark :is(
-    .wrapper-3WhCwL,
-    .message-15tBk4 strong) {
+    [class*="wrapper-"] :is(
+    [class*="selected-"],
+    :hover) [class*="childWrapper-"],
+    [class*="lookFilled-"] :is(
+        [class*="colorBrand-"],
+        [class*="colorBrand-"]:disabled),
+    [class*="botTagRegular-"],
+    [class*="newMessagesBar-"],
+    [class*="categoryItem-"][class*="selectedCategoryItem-"] [class*="itemInner-"],
+    [class*="colorDefault-"][class*="focused-"],
+    [class*="avatarUploaderInner-"],
+    [class*="barFill-"],
+    [class*="closedFolderIconWrapper-"],
+    [class*="theme-"] :is(
+    [class*="wrapper-"],
+    [class*="message-"] strong) {
         background-color: #4f545c;
     }
-    .expandedFolderIconWrapper-Huv7rA path {
+    [class*="expandedFolderIconWrapper-"] path {
         color: #4f545c;
     }
-    .reaction-1hd86g.reactionMe-wv5HKu {
+    [class*="reaction-"][class*="reactionMe-"] {
         border-color: #4f545c;
     }
 
@@ -682,36 +682,37 @@ var(--guildsize);
                 top: 76px;
             }
         /* >> 사용자 배지 및 사용자 이름 */
-            [class*="animatorLeft-"] [class*="headerTop-"] {
+            :is([class*="animatorLeft-"],
+		[class*="animatorRight-"]) [class*="headerTop-"] {
                 padding: 16px;
             }
     /* > 프로필 팝업 */
-        .focusLock-Ns3yie[aria-label="사용자 프로필 인터페이스"] {
+        [class*="focusLock-"][aria-label="사용자 프로필 인터페이스"] {
             width: 75%;
         }
     /* > 팝업 내 레이아웃 */
-        .focusLock-Ns3yie[aria-label="사용자 프로필 인터페이스"] .root-1gCeng,
-        .body-r6_QPy {
+        [class*="focusLock-"][aria-label="사용자 프로필 인터페이스"] [class*="root-"],
+        [class*="body-"] {
             width: 100%;
             height: 100%;
         }
         /* >> 팝업 내 프로필 배경 */
-            .topSection-y3p-_D .banner-2QYc2d {
+            [class*="topSection-"] [class*="banner-"] {
                 width: 100%;
                 min-height: 240px;
             }
         /* >> 팝업 내 프로필 사진 */
-            .topSection-y3p-_D .avatar-AvHqJA {
+            [class*="topSection-"] [class*="avatar-"] {
                 width: 200px !important;
                 height: 200px !important;
                 top: -225px;
             }
         /* >> 팝업 내 배지 */
-            .headerTop-547GTz {
+            [class*="headerTop-"] {
                 left: 16px;
             }
         /* >> 팝업 내 연결 버튼 */
-            .connectedAccount-2Jb-Z0 {
+            [class*="connectedAccount-"] {
                 width: 100%;
             }
 
