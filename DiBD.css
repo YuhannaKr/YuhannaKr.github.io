@@ -738,7 +738,7 @@ var(--guildsize);
 		display: none;
 	}
 
-/* 유튜브 미리보기 재조정 */
+/* 임베드 미리보기 재조정 */
 	[class*="embedVideoImageComponent-"],
 	[class*="embedVideoImageComponentInner-"] {
 		top: 0px;
@@ -746,4 +746,7 @@ var(--guildsize);
 	}
 	[class*="embedVideo-"] [class*="altText-"] {
 		display: none;
+	}
+	[class*="embedFull-"] [class*="embedMedia-"] {
+		width: auto !important;
 	}
