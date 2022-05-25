@@ -690,7 +690,7 @@ var(--guildsize);
 		[class*="animatorRight-"]) [class*="headerTop-"] {
                 padding: 16px;
             }
-		[class*="topSection-"]) [class*="headerTop-"] {
+		[class*="topSection-"] [class*="headerTop-"] {
 			left: 16px;
 		}
     /* > 프로필 팝업 */
