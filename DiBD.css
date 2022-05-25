@@ -130,7 +130,7 @@ var(--guildsize);
         [class*="text-"] {
             white-space: normal;
             text-overflow:initial;
-            overflow: initial;
+            /* overflow: initial; */
         }
         [class*="peopleListItem-"]:is(
         [class*="active-"],
