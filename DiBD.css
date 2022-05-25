@@ -709,10 +709,6 @@ var(--guildsize);
                 height: 200px !important;
                 top: -225px;
             }
-        /* >> 팝업 내 배지 */
-            [class*="headerTop-"] {
-                left: 16px;
-            }
         /* >> 팝업 내 연결 버튼 */
             [class*="connectedAccount-"] {
                 width: 100%;
