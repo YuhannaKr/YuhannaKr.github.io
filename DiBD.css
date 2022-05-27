@@ -735,7 +735,7 @@ var(--guildsize);
 	}
 
 /* 스레드 들여쓰기 숨김 */
-	[class*=spine--] {
+	[class*=spine-] {
 		display: none;
 	}
 
