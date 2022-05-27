@@ -640,11 +640,11 @@ var(--guildsize);
             display: none;
         }
     /* > 디스코드 소셜 링크 숨기기 */
-        .socialLinks-3jqNFy {
+        [class*="socialLinks-"] {
             display: none;
         }
     /* > 버전 정보 숨기기 */
-        .info-1VyQPT {
+        [class*="info-"] {
              display: none;
         }
 
@@ -657,10 +657,6 @@ var(--guildsize);
             )) !important;
         right: auto !important;
     }
-	/* > 채널 내 활성 스레드 목록 */
-		.popout-APcvZm {
-			left: 0;
-		}
 	/* 퀵 설정 버튼에 대한 팝업 */
 /* 
 	[class*="disabledPointerEvents-"] {
@@ -668,7 +664,7 @@ var(--guildsize);
 	}
  */
     /* > 미니 팝업 */
-        [class*="layer-"] class*="userPopout-"],
+        [class*="layer-"] [class*="userPopout-"],
         [class*="popoutBanner-"] {
             min-width: 500px !important;
         }
