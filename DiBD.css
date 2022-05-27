@@ -718,7 +718,7 @@ var(--guildsize);
 			margin-top: 60px;
 		}
 	/* 삭제 확인 팝업 */
-		[class*="small-"] {
+		[class*="focusLock-"] [class*="small-"] {
 			width: 550px;
 		}
 			
