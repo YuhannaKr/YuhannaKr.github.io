@@ -131,6 +131,7 @@ var(--guildsize);
             white-space: normal;
             text-overflow:initial;
             /* overflow: initial; */
+		min-width: 30px;
         }
         [class*="peopleListItem-"]:is(
         [class*="active-"],
