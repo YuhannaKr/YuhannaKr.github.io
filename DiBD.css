@@ -717,7 +717,11 @@ var(--guildsize);
 		[class*="topSection-"] [class*="nameTag-"] {
 			margin-top: 60px;
 		}
-
+	/* 삭제 확인 팝업 */
+		[class*="small-"] {
+			width: 500px;
+		}
+			
 /* 서버 부스트 바 */
 	[class*=goalTextContainer],
 	[class*=progressFraction] {
