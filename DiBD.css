@@ -719,7 +719,7 @@ var(--guildsize);
 		}
 	/* 삭제 확인 팝업 */
 		[class*="small-"] {
-			width: 500px;
+			width: 550px;
 		}
 			
 /* 서버 부스트 바 */
