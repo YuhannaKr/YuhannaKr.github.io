@@ -152,6 +152,10 @@ var(--guildsize);
             height: 10px;
             line-height: 10px;
         }
+		/* > 현재 활동 중 */
+		[class*="nowPlayingColumn-"] {
+			min-width: 420px;
+		}
 
 /* 서버 사이드바 */
     /* > 종합 */
