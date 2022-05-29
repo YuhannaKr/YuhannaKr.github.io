@@ -648,7 +648,7 @@ var(--guildsize);
             display: none;
         }
     /* > 버전 정보 숨기기 */
-        [class*="info-"] {
+        [class*="sidebar-"] [class*="info-"] {
              display: none;
         }
 
