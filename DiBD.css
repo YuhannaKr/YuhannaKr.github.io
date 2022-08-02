@@ -760,4 +760,5 @@ var(--guildsize);
 	[class*="nsfwTag-"] > div {
 	  width: 10px;
 	  font-size: 0px;
+	  border-radius: 16px !important;
 	}
