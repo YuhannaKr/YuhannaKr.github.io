@@ -755,3 +755,9 @@ var(--guildsize);
 	[class*="embedFull-"] [class*="embedMedia-"] {
 		height: 225px !important;
 	}
+
+/* nsfw 채널 설정 */
+	[class*="nsfwTag-"] > div {
+	  width: 10px;
+	  font-size: 0px;
+	}
