@@ -517,7 +517,7 @@ var(--guildsize);
 	    	min-width: 100%;
             }
             /* >>> 카테고리 접은 경우 간격 좁히기 */
-                .avatarSmall-1PJoGO {
+                [class*="avatarSmall-"] {
                     margin-right: -24px;
                 }
     /* > 멤버 목록 */
@@ -683,9 +683,11 @@ var(--guildsize);
                 background-color: rgba(0, 0, 0, 0) !important;
              }
         /* >> 일반 사용자 프로필 이미지 */
+/*
             [class*="avatarPositionNormal-"] {
-                top: 76px;
+                top: 16px;
             }
+*/
         /* >> 사용자 배지 및 사용자 이름 */
             :is([class*="animatorLeft-"],
 		[class*="animatorRight-"]) [class*="headerTop-"] {
@@ -704,15 +706,27 @@ var(--guildsize);
             height: 100%;
         }
         /* >> 프로필 사진 */
-            [class*="header-"] > div > [class*="avatar-"] {
-                width: 200px !important;
-                height: 200px !important;
-                top: -230px;
-            }
+		[class*="header-"] > div > [class*="avatar-"],
+		[class*="header-"] > div > [class*="avatar-"] foreignObject,
+		[class*="header-"] > div > [class*="avatar-"] rect {
+		    width: 200px !important;
+		    height: 200px !important;
+		}
+		#app-mount [class*="wrapper-"] rect {
+		  rx: 100% !important;
+		  ry: 100% !important;
+		}
         /* >> 연결 버튼 */
             [class*="connectedAccount-"] {
                 width: 100%;
             }
+		[class*="connectedAccountsColumn-"] {
+		  width: 45%;
+		}
+		[class*="connectedAccountContainer-"] {
+		  width: 100%;
+		}
+
 	/* >> 이름 태그 */
 		[class*="topSection-"] [class*="nameTag-"] {
 			margin-top: 60px;
