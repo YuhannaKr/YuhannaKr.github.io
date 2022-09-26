@@ -712,6 +712,7 @@ var(--guildsize);
 		}
 		[class*="header-"] > div > [class*="avatar-"] foreignObject,
 		[class*="header-"] > div > [class*="avatar-"] rect {
+			position: relative;
 			width: 200px !important;
 			height: 200px !important;
 		}
