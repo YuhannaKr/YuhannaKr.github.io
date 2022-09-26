@@ -706,10 +706,12 @@ var(--guildsize);
             height: 100%;
         }
         /* >> 프로필 사진 */
+		[class*="header-"] > div > [class*="avatar-"] {
+			top: -220px;
+		}
 		[class*="header-"] > div > [class*="avatar-"] foreignObject,
 		[class*="header-"] > div > [class*="avatar-"] rect {
 			position: relative;
-			top: -220px;
 			width: 200px !important;
 			height: 200px !important;
 		}
