@@ -710,8 +710,7 @@ var(--guildsize);
 			position: relative;
 			top: -220px;
 		}
-		[class*="header-"] > div > [class*="avatar-"] foreignObject,
-		[class*="header-"] > div > [class*="avatar-"] rect {
+		[class*="header-"] > div > [class*="avatar-"] :is(foreignObject, rect) {
 			position: relative;
 			width: 200px !important;
 			height: 200px !important;
