@@ -715,6 +715,16 @@ var(--guildsize);
 		  rx: 100% !important;
 		  ry: 100% !important;
 		}
+		mask[id*="uid_"] {
+		  display: none;
+		}
+		#app-mount [class*="wrapper-"] foreignObject[mask*=mobile][width="120"] img {
+		  width: 100%;
+		}
+		#app-mount [class*="wrapper-"] foreignObject[mask*=mobile][width="120"]:after {
+		  top: 90%
+		}
+
         /* >> 연결 버튼 */
             [class*="connectedAccount-"] {
                 width: 100%;
