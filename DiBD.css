@@ -517,9 +517,11 @@ var(--guildsize);
 	    	min-width: 100%;
             }
             /* >>> 카테고리 접은 경우 간격 좁히기 */
+/*
                 [class*="avatarSmall-"] {
                     margin-right: -24px;
                 }
+*/
     /* > 멤버 목록 */
         [class*="membersWrap-"] [class*="members-"] {
             width: 525px;
