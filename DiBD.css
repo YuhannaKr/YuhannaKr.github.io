@@ -683,11 +683,9 @@ var(--guildsize);
                 background-color: rgba(0, 0, 0, 0) !important;
              }
         /* >> 일반 사용자 프로필 이미지 */
-/*
             [class*="avatarPositionNormal-"] {
                 top: 16px;
             }
-*/
         /* >> 사용자 배지 및 사용자 이름 */
             :is([class*="animatorLeft-"],
 		[class*="animatorRight-"]) [class*="headerTop-"] {
