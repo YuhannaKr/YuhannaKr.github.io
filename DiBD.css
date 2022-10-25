@@ -431,7 +431,6 @@ var(--guildsize);
 		}
 		[class*="sidebar-"] [class*="header-"],
 		[class*="searchBar-"],
-		[class*="themed-"],
 		[class*="chat-"] > [class*="title-"] {
 			max-height: 40px;
 		}
