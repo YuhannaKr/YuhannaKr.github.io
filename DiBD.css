@@ -684,9 +684,9 @@ var(--guildsize);
 		[class*="topSection-"] [class*="nameTag-"] {
 			margin-top: 60px;
 		}
-	/* 삭제 확인 팝업 */
+	/* 팝업 */
 		[class*="focusLock-"] [class*="small-"] {
-			width: 550px;
+			width: 600px;
 		}
 			
 /* 서버 부스트 바 */
