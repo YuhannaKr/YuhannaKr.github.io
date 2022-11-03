@@ -141,6 +141,15 @@ var(--guildsize);
 	    margin-bottom: 2px;
 	}
     /* > 폴더 */
+	[class*="scroller-"] [class*="svg-"],
+	[class*="listItemWrapper-"] > [class*="wrapper-"],
+	[draggable="true"] > [class*="wrapper-"] {
+	    width: var(--calc-server-bar);
+	    height: var(--calc-server-bar);
+	}
+	[class*="listItem-"] [class*="pill-"] {
+	    height: var(--calc-server-bar);
+	}
 	[class*=expandedFolderBackground-] {
 	    width: var(--calc-server-bar);
 	    background-color: #fff0;
