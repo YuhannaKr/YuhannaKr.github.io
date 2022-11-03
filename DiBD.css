@@ -46,57 +46,12 @@ var(--guildsize);
 		}
 
 /* 디스코드 */
-/*
-    [class*="wrapper-"] :is(
-    [class*="selected-"],
-    :hover) [class*="childWrapper-"],
-    [class*="lookFilled-"] :is(
-        [class*="colorBrand-"],
-        [class*="colorBrand-"]:disabled),
-    [class*="botTagRegular-"],
-    [class*="newMessagesBar-"],
-    [class*="categoryItem-"][class*="selectedCategoryItem-"] [class*="itemInner-"],
-    [class*="colorDefault-"][class*="focused-"],
-    [class*="avatarUploaderInner-"],
-    [class*="barFill-"],
-    [class*="closedFolderIconWrapper-"],
-    [class*="theme-"] :is(
-    [class*="wrapper-"],
-    [class*="message-"] strong) {
-        background-color: #4f545c;
-    }
-*/
     [class*="expandedFolderIconWrapper-"] path {
         color: #4f545c;
     }
     [class*="reaction-"][class*="reactionMe-"] {
         border-color: #4f545c;
     }
-
-/* 툴팁 */
-    .tooltip-2QfLtc {
-        margin: 5px 5px 5px 0px;
-        padding: 1px;
-        width: 100%;
-        text-align:center;
-    }
-    /* > 이미지 */
-        .tooltip-2QfLtc > img {
-            margin: 0px -5px 0px 10px;
-        }
-    /* > 서버 폴더 */
-        .tooltipRight-2JM5PQ {
-            max-width: 500px;
-        }
-    /* > 반응 */
-        .tooltipTop-XDDSxx {
-            max-width: 250px;
-        }
-    /* > 서버 */
-        .row-1c01mR {
-            margin: 0px 0px 0px 10px;
-            max-width: 250px;
-        }
 
 /* 메시지 입력 */
     [class*="barBase-"],
@@ -106,9 +61,6 @@ var(--guildsize);
     /* > 메시지 수정하기 */
         [class*="contents-"] [class*="channelTextArea-"] {
             max-width: 944px;
-        }
-        .message-2qnXI6 {
-            padding-right: 0 !important;
         }
     /* > 니트로 선물 버튼 제거 */
         [aria-label*="선물 보내기"] {
@@ -189,178 +141,30 @@ var(--guildsize);
 	    margin-bottom: 2px;
 	}
     /* > 폴더 */
-/*
-        [class*="wrapper-"],
-        [class*="svg-"],
-        [class*="placeholderMask-"] {
-            width: var(--calc-server-bar);
-            height: var(--calc-server-bar);
-        }
-*/
-        .svg-2zuE5p,
-	.wrapper-28eC3z {
-            width: var(--calc-server-bar);
-            height: var(--calc-server-bar);
-        }
-	[class*="listItem-"] [class*="pill-"] {
-		    height: var(--calc-server-bar);
-	}	
-    [class*=expandedFolderBackground-] {
-            width: var(--calc-server-bar);
-            background-color: #fff0;
-        }
+	[class*=expandedFolderBackground-] {
+	    width: var(--calc-server-bar);
+	    background-color: #fff0;
+	}
 	[class*="folderIconWrapper-"] {
 	    background-color: transparent !important;
 	}
-/*
-        .wrapper-sa6paO,
-        .item-2hkk8m {
-            max-height: var(--calc-server-bar);
-        }
-        .wrapper-3Njo_c > ul {
-            height: 100% !important;
-        }
-*/
     /* > 폴더 내 */
-/*
-        .lowerBadge-29hYVK {
-            margin: 0px -3px -3px 0px;
-        }
-        .upperBadge-2XnnGB {
-            margin: -3px -3px 0px 0px;
-        }
-        :is(
-        .lowerBadge-29hYVK,
-        .upperBadge-2XnnGB) div {
-            width: 18px !important;
-            height: 18px !important;
-            padding-right: 0px !important;
-        }
-*/
-[id*="folder-items-"] {
-    height: unset !important;
-}
+	[id*="folder-items-"] {
+	    height: unset !important;
+	}
     /* > 폴더 외 */
-/*
-        .unreadMentionsIndicatorBottom-2mDYbI,
-        .unreadMentionsIndicatorTop-2-tcdU,
-        .listItem-GuPuDH,
-        .wrapper-3Njo_c {
-            width: 60px;
-        }
-*/
-	.wrapper-3NnKdC :is(
-		.scroller-1Bvpku div[style*="transform"],
-		.wrapper-3Njo_c [role="group"][style*="height:"]) {
-			height: unset !important;
-	}
-/*
-	.titleBar-AC4pGV.typeMacOS-3EmCyP,
-	.titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC,
-	[class*="wrapper-"],
-	[class*="wrapper-"] :is(
-		.unreadMentionsIndicatorTop-2-tcdU,
-		.unreadMentionsIndicatorBottom-2mDYbI
-		) {
-		width: calc(1px * (var(--server-bar) * var(--columns) + 20 * (
-			var(--server-bar)/50) + 14 * (var(--server-bar)/50) * (
-				var(--columns) - 1)));
-	}
-*/
-	[class*="wrapper-"] .scroller-1Bvpku {
-		padding: 0 0 calc(10px * var(--server-bar)/50) calc(10px * 
-		var(--server-bar)/50);
-	}
-	[class*="wrapper-"] :is(
-		.scroller-1Bvpku,
-		.scroller-1Bvpku > [role="tree"],
-		.listItem-GuPuDH + div[aria-label]:not([class])
-		) {
-		margin: 0;
-		display: flex;
-		flex-flow: row wrap;
-		align-content: flex-start;
-	}
-	[class*="wrapper-"] .listItem-GuPuDH {
-		margin: calc(1px * var(--guildgap)) calc(1px * (12 * 
-		var(--server-bar)/50)) calc(1px * var(--guildgap)) 0;
-	}
-	[class*="wrapper-"] .listItem-GuPuDH:first-child .listItemWrapper-KhRmzM {
-		margin: 0 calc(1px * (((var(--server-bar) + 12 * 
-		var(--server-bar)/50) * (var(--columns) - 1))/2)) 
-		calc(1px * var(--guildgap)) calc(1px * ((((
-		var(--server-bar) + 12 * var(--server-bar)/50) * (
-				var(--columns) - 1))/2))
-		);
-	}
-		/* 개인 메시지 */
-		/*
-		[class*="wrapper-"] .listItem-GuPuDH:first-child .pill-1Z5PKm ~ .listItemWrapper-KhRmzM {
-			margin: 0 calc(1px * ((((
-				var(--server-bar) + 12 * var(--server-bar)/50) * (
-					var(--columns) - 1))/2) * (1 - var(--aligndms)))) 0 
-					calc(1px * (((0 * var(--aligndms)) + ((((
-					var(--server-bar) + 12 * var(--server-bar)/50) * (
-						var(--columns) - 1))/2) * (1 - var(--aligndms))
-						)
-						)
-						)
-				);
-		}
-		*/
-	[class*="wrapper-"] .listItem-GuPuDH {
-		width: auto;
-	}
-	[class*="wrapper-"] :is(
-		.placeholderMask-3v3K7P,
-		.svg-1X37T1,
-		.wrapper-25eVIn
-		) {
-		height: calc(1px * var(--server-bar));
-		width: calc(1px * var(--server-bar));
-	}
-	[class*="wrapper-"] .lowerBadge-29hYVK .base-PmTxvP {
-		transform: translate(
-			calc(1.5px * ((50 - var(--server-bar))/10)),
-			 calc(1.5px * ((50 - var(--server-bar))/10)))
-			  scale(calc(var(--server-bar)/50));
-	}
-	[class*="wrapper-"] .wrapper-sa6paO {
-		top: calc(-5px * var(--server-bar)/50);
-		height: calc(1px * (
-			var(--server-bar) + 10 * var(--server-bar)/50
-			));
-		transform: scale(calc(var(--server-bar)/50));
-		transform-origin: 0 50%;
-	}
 	/* guild & button */
-	[class*="wrapper-"] :is(
-		.pill-1z4sAY,
-		.pill-1aYSec
-		) {
-		left: calc(-10px * var(--server-bar)/50);
-	}
-	[class*="wrapper-"] .guildSeparator-33mFX6 {
-		width: calc(1px * ((var(--server-bar) + 12 * 
-		var(--server-bar)/50) * var(--columns) - (12 * 
-		var(--server-bar)/50)));
-		margin: calc(1px * (var(--server-bar)/10)) 0;
-		display: block;
-	}
 	[class*="wrapper-"] :is(
 		#bd-pub-li,
 		#bd-pub-li #bd-pub-button,
 		#sort-button,
-		#sort-button > div,
-		.frame-oXWS21,
-		.frame-oXWS21 .button-Jt-tIg
+		#sort-button > div
 		) {
 		height: calc(1px * ((var(--server-bar)/5) + 10));
 	}
 	[class*="wrapper-"] :is(
 		#bd-pub-li,
-		#sort-button,
-		.frame-oXWS21
+		#sort-button
 		) {
 		width: calc(
 			1px * (
@@ -369,8 +173,7 @@ var(--guildsize);
 	}
 	[class*="wrapper-"] :is(
 		#bd-pub-li,
-		#sort-button,
-		.frame-oXWS21
+		#sort-button
 		) {
 		text-align: center;
 		margin: calc(1px * var(--guildgap)) calc(1px * (((
@@ -385,47 +188,13 @@ var(--guildsize);
 		    var(--server-bar))/2)
 		) !important;
 	}
-	[class*="wrapper-"] .wrapper-3Njo_c {
-		/*
-		margin: calc(1px * var(--guildgap)) calc(1px * (12 * 
-		var(--server-bar)/50)
-		) calc(1px * var(--guildgap)) 0;
-		*/
-		width: calc(1px * var(--server-bar));
-	}
-	[class*="wrapper-"] .wrapper-3Njo_c > .listItem-GuPuDH {
-		margin: 0 !important;
-	}
-	[class*="wrapper-"] .wrapper-3Njo_c [role="group"] .listItem-GuPuDH {
-		margin: 6px 0 !important;
-	}
-	[class*="wrapper-"] .wrapper-3Njo_c [role="group"] .listItem-GuPuDH:last-child {
-		margin-bottom: 0 !important;
-	}
-	[class*="wrapper-"] .expandedFolderBackground-1cujaW {
-		/* width: calc(1px * var(--server-bar)); */
-		top: 0;
-		bottom: 0;
-		left: 0;
-		margin-bottom: 0;
-	}
 	html [class*=typingindicator-] {
 		right: 3px !important;
 		top: calc(var(--server-bar) * 1px - 5px) !important;
 		bottom: unset !important;
 	}
-	/* > 서버 추가하기 */
-		.tutorialContainer-30WoTp {
-		    width: calc(1px * (var(--server-bar) + var(--server-bar)/5));
-		}
+
 /* 서버 */
-    .name-1jkAdW {
-        display: none;
-    }
-    .button-14-BFJ {
-        max-width: 25px;
-        max-height: 25px;
-    }
 	/* 종합 */
 		[class*="sidebar-"] [class*="header-"] {
 			padding: 8px;
@@ -435,35 +204,7 @@ var(--guildsize);
 		[class*="chat-"] > [class*="title-"] {
 			max-height: 40px;
 		}
-    /* > 서버 배너 */
-        .bannerImage-3KhIJ6 {
-            max-width: 200px;
-        }
-    /* > 채널 목록 */
-        /* >> 너비 및 높이 */
-            .sidebar-2K8pFh {
-                width: 200px;
-                /*width: 320px;*/
-            }
-            .content-1x5b-n,
-            .content-1x5b-n:hover {
-                height: 25px;
-            }
-        /* >> 및 멤버 목록 높이 */
-            .content-3YMskv {
-                /* height: 100% !important; */
-            }
-        /* >> 닉네임 숨기기 */
-/*
-            [class*="usernameContainer-"] [class*="title-"] {
-                display: none;
-            }
-*/
 
-	/* > 이모티콘 행 높이 */
-	    .emojiRow-zIc7ZX {
-		height: 32px;
-	    }
     /* > 채널 */
 	[class*="container-"] > [class*="scroller-"] > [class*="content-"] {
 		padding: 8px 0 0 0 !important;
@@ -476,14 +217,6 @@ var(--guildsize);
 	[class*="mainContent-"] {
 		padding: 0 !important;
         }
-        .spine--Wla_O {
-            display: none;
-        }
-/*
-	[class*=sidebar-] [class*=scroller-] {
-		padding: 16px 0 0 0;
-	}
-*/
 	[class*=content-] > [style*="height: 16px"] {
 		display: none;
 	}
@@ -509,15 +242,6 @@ var(--guildsize);
                 width: 10px;
                 font-size: 0px;
             }
-            .button-1YfofB {
-	    	min-width: 100%;
-            }
-            /* >>> 카테고리 접은 경우 간격 좁히기 */
-/*
-                [class*="avatarSmall-"] {
-                    margin-right: -24px;
-                }
-*/
     /* > 멤버 목록 */
         [class*="membersWrap-"] [class*="members-"] {
             width: 525px;
@@ -525,20 +249,6 @@ var(--guildsize);
         [class*="member-"] {
             max-width: 500px;
         }
-        .roleColor-rz2vM0 {
-            width: 300px;
-        }
-        .subText-1KtqkB {
-            width: 300px;
-        }
-        .roleColor-rz2vM0,
-        .name-uJV0GL {
-            white-space: normal;
-        }
-        /* >> 모바일 사용자 프로필 */
-            .avatar-VxgULZ{
-            /*    width: auto;*/
-            }
         /* >> 멤버 정보 */
             [class*="userPopout-"] {
                 width: 500px !important;
@@ -588,13 +298,6 @@ var(--guildsize);
 			width: 5rem;
 			height: 5rem;
 		}
-		/* > 이모티콘 패치 대응(반응 제외) */
-/*
-			[class*="positionContainer-"] [class*="emojiPicker-"],
-			[class*="positionContainer-"] [class*="drawerSizingWrapper-"] {
-					width: 1200px !important;
-			}
-*/
 /* 반응 */
 	[class*="reaction-"] .emoji {
 		width: 3rem;
@@ -609,18 +312,6 @@ var(--guildsize);
 		[class*="buttonShine-"] {
 			display: none;
 		}
-/* 서버 설정 */
-    /* > 서버 이모티콘 */
-        .emojiAliasInput-1y-NBz {
-            width: 300px;
-        }
-    /* > 탈퇴 */
-        .colorDanger-2qLCe1,
-        .colorDanger-2qLCe1 :is(
-        .checkbox-3s5GYZ,
-        .radioSelection-1HmrQS) {
-            /* display: none; */
-        }
 
 /* 사용자 설정 */
     /* > 사이드바 */
@@ -659,12 +350,6 @@ var(--guildsize);
             )) !important;
         right: auto !important;
     }
-	/* 퀵 설정 버튼에 대한 팝업 */
-/* 
-	[class*="disabledPointerEvents-"] {
-		display: none;
-	}
- */
     /* > 미니 팝업 */
         [class*="layer-"] [class*="userPopout-"],
         [class*="popoutBanner-"] {
