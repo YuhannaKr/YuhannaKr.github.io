@@ -162,9 +162,10 @@ var(--guildsize);
         [class*=wrapper-] > ul [class*=listItem-] {
             margin: 0 0 5px;
         }
-	[aria-label="서버"] [class*=listItem-] {
-	    width: 24px;
-        padding: 0 6px;
+	[aria-label="서버"] [class*=listItem-],
+	[aria-label="Servers"] [class*=listItem-] {
+		width: 24px;
+		padding: 0 6px;
 	}
 	[class*=listItem-],
 	[class*=tutorialContainer-]
