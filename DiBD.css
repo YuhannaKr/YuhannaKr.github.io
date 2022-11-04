@@ -141,7 +141,7 @@ var(--guildsize);
 	    margin-bottom: 2px;
 	}
     /* > 폴더 */
-	[class*="scroller-"] [class*="svg-"],
+	[aria-label="서버 사이드바"] [class*="svg-"],
 	[class*="listItemWrapper-"] > [class*="wrapper-"],
 	div > [draggable="true"] > [class*="wrapper-"] {
 	    width: var(--calc-server-bar);
