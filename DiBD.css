@@ -297,6 +297,7 @@ var(--guildsize);
 			border-radius: 5px;
 		}
     /* > 이모티콘 선택 */
+		[role="dialog"],
 		[class*="emojiPicker-"],
 		[class*="drawerSizingWrapper-"] {
 			width: 875px !important;
