@@ -297,7 +297,8 @@ var(--guildsize);
 			border-radius: 5px;
 		}
     /* > 이모티콘 선택 */
-		[role="dialog"][aria-label="표현 선택기"],
+/*		[role="dialog"][aria-label="표현 선택기"],*/
+		[role="dialog"][class*="contentWrapper-"],
 		[class*="emojiPicker-"],
 		[class*="drawerSizingWrapper-"] {
 			width: 800px !important;
