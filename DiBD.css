@@ -382,9 +382,11 @@ var(--guildsize);
 			margin-top: 60px;
 		}
 	/* 팝업 */
-		[class*="focusLock-"] [class*="small-"] {
+		/*
+[class*="focusLock-"] [class*="small-"] {
 			width: 600px;
 		}
+*/
 			
 /* 서버 부스트 바 */
 	[class*=goalTextContainer],
