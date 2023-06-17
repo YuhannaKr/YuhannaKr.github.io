@@ -224,7 +224,7 @@ var(--guildsize);
 	[class*="containerDragBefore-"],
 	[class*="containerUserOver-"],
 	[class*="mainContent-"] {
-		padding: 0 !important;
+		padding: 2px 0 !important;
         }
 	[class*=content-] > [style*="height: 16px"] {
 		display: none;
@@ -247,7 +247,6 @@ var(--guildsize);
                 color: var(--channels-default);
             }
         /* >> 음성 채널 */
-		[class*="children-"],
 		[class*="channelInfo-"] {
 			margin: 0;
 		}
