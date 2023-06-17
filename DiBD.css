@@ -247,6 +247,10 @@ var(--guildsize);
                 color: var(--channels-default);
             }
         /* >> 음성 채널 */
+		[class*="children-"],
+		[class*="channelInfo-"] {
+			margin: 0;
+		}
             [class*="liveSmall-"] {
                 width: 10px;
                 font-size: 0px;
