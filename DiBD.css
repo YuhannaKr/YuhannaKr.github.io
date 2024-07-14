@@ -26,7 +26,7 @@ var(--guildsize);
 */
 
 /* BD */
-  [class*="toasts-"] {
+  [class*="toasts_"] {
       display: none;
   }
   #bd-loading-icon {
@@ -38,28 +38,28 @@ var(--guildsize);
             color: var(--none-color);
         }
 	/* 이미지 파일 정보 */
-		[class*="messageAttachment-"] {
+		[class*="messageAttachment_"] {
 			width: auto;
 		}
-		[class*="altText-"] {
+		[class*="altText_"] {
 			margin: 0;
 		}
 
 /* 디스코드 */
-    [class*="expandedFolderIconWrapper-"] path {
+    [class*="expandedFolderIconWrapper_"] path {
         color: #4f545c;
     }
-    [class*="reaction-"][class*="reactionMe-"] {
+    [class*="reaction_"][class*="reactionMe_"] {
         border-color: #4f545c;
     }
 
 /* 메시지 입력 */
-    [class*="barBase-"],
-    [class*="channelTextArea-"] {
+    [class*="barBase_"],
+    [class*="channelTextArea_"] {
         max-width: 1000px;
     }
     /* > 메시지 수정하기 */
-        [class*="contents-"] [class*="channelTextArea-"] {
+        [class*="contents_"] [class*="channelTextArea_"] {
             max-width: 944px;
         }
     /* > 니트로 선물 버튼 제거 */
@@ -79,14 +79,14 @@ var(--guildsize);
             margin: 0 2.5%;
             border: 0px;
         }
-        [class*="text-"] {
+        [class*="text_"] {
             white-space: normal;
             text-overflow:initial;
             /* overflow: initial; */
 		min-width: 30px;
         }
         [class*="peoplelistItem_"]:is(
-        [class*="active-"],
+        [class*="active_"],
         :hover) {
             background: none;
             margin: 0 2.5%;
@@ -95,44 +95,44 @@ var(--guildsize);
             border-bottom: 1px solid var(--background-modifier-accent);
             border-radius: 0;
         }
-        [class*="userInfo-"] {
+        [class*="userInfo_"] {
             max-width: 70%;
         }
-        [class*="px-"] :is(
-        [class*="botTagVerified-"],
-        [class*="botText-"]) {
+        [class*="px_"] :is(
+        [class*="botTagVerified_"],
+        [class*="botText_"]) {
             height: 10px;
             line-height: 10px;
         }
 		/* > 현재 활동 중 */
-		[class*="nowPlayingColumn-"] {
+		[class*="nowPlayingColumn_"] {
 			min-width: 420px;
 		}
 
 /* 서버 사이드바 */
     /* > 종합 */
-        [class*=wrapper-] > ul [class*=listItem_] {
+        [class*=wrapper_] > ul [class*="listItem_"] {
             margin: 0 0 5px;
         }
-	[aria-label="서버"] [class*=listItem_],
-	[aria-label="Servers"] [class*=listItem_] {
+	[aria-label="서버"] [class*="listItem_"],
+	[aria-label="Servers"] [class*="listItem_"] {
 		width: 24px;
 		padding: 0 6px;
 	}
-	[class*=listItem_],
-	[class*=tutorialContainer-]
-	[class*=wrapper-] [class*=scroller-] [style*=height] {
+	[class*="listItem_"],
+	[class*=tutorialContainer_]
+	[class*=wrapper_] [class*=scroller_] [style*=height] {
 	    max-width: 100%;
 	    float: left;
 	}
-	[class*="pill-"] [class*="wrapper-"] {
+	[class*="pill_"] [class*="wrapper_"] {
 		height: var(--calc-server-bar);
 	}
-	[class*="guilds-"] [class*="scrollerBase-"] > [style*="height: 56px;"] {
+	[class*="guilds_"] [class*="scrollerBase_"] > [style*="height: 56px;"] {
 		height: var(--calc-server-bar) !important;
 }
 /*
-	[class*="wrapper-"] [class*="wrapper-"] {
+	[class*="wrapper_"] [class*="wrapper_"] {
 	    height: unset !important;
 	    margin: 0 2px;
 	}
@@ -142,28 +142,28 @@ var(--guildsize);
 	}
     /* > 폴더 */
 	[aria-label="서버 사이드바"] [class*="svg_"],
-	[class*="listItemWrapper-"] > [class*="wrapper-"],
-	div > [draggable="true"] > [class*="wrapper-"] {
+	[class*="listItemWrapper_"] > [class*="wrapper_"],
+	div > [draggable="true"] > [class*="wrapper_"] {
 	    width: var(--calc-server-bar);
 	    height: var(--calc-server-bar);
 	}
-	[class*="listItem_"] [class*="pill-"] {
+	[class*="listItem_"] [class*="pill_"] {
 	    height: var(--calc-server-bar);
 	}
-	[class*=expandedFolderBackground-] {
+	[class*=expandedFolderBackground_] {
 	    width: var(--calc-server-bar);
 	    background-color: #fff0;
 	}
-	[class*="folderIconWrapper-"] {
+	[class*="folderIconWrapper_"] {
 	    background-color: transparent !important;
 	}
     /* > 폴더 내 */
-	[id*="folder-items-"] {
+	[id*="folder-items_"] {
 	    height: unset !important;
 	}
     /* > 폴더 외 */
 	/* guild & button */
-	[class*="wrapper-"] :is(
+	[class*="wrapper_"] :is(
 		#bd-pub-li,
 		#bd-pub-li #bd-pub-button,
 		#sort-button,
@@ -171,7 +171,7 @@ var(--guildsize);
 		) {
 		height: calc(1px * ((var(--server-bar)/5) + 10));
 	}
-	[class*="wrapper-"] :is(
+	[class*="wrapper_"] :is(
 		#bd-pub-li,
 		#sort-button
 		) {
@@ -180,7 +180,7 @@ var(--guildsize);
 				(var(--server-bar)*4/5) + 12 * var(--server-bar)/50)
 		);
 	}
-	[class*="wrapper-"] :is(
+	[class*="wrapper_"] :is(
 		#bd-pub-li,
 		#sort-button
 		) {
@@ -197,7 +197,7 @@ var(--guildsize);
 		    var(--server-bar))/2)
 		) !important;
 	}
-	html [class*=typingindicator-] {
+	html [class*=typingindicator_] {
 		right: 3px !important;
 		top: calc(var(--server-bar) * 1px - 5px) !important;
 		bottom: unset !important;
@@ -205,28 +205,28 @@ var(--guildsize);
 
 /* 서버 */
 	/* 종합 */
-		[class*="sidebar-"] [class*="header-"] {
+		[class*="sidebar_"] [class*="header_"] {
 			padding: 8px;
 		}
-		[class*="sidebar-"] [class*="header-"],
-		[class*="searchBar-"],
-		[class*="chat-"] > [class*="title-"] {
+		[class*="sidebar_"] [class*="header_"],
+		[class*="searchBar_"],
+		[class*="chat_"] > [class*="title_"] {
 			max-height: 40px;
 		}
 
     /* > 채널 */
-	[class*="container-"] > [class*="scroller-"] > [class*="content-"] {
+	[class*="container_"] > [class*="scroller_"] > [class*="content_"] {
 		padding: 8px 0 0 0 !important;
         }
-	[class*="containerDefault-"],
-	[class*="containerDefault-"] [class*="iconItem-"],
-	[class*="containerDragAfter-"],
-	[class*="containerDragBefore-"],
-	[class*="containerUserOver-"],
-	[class*="mainContent-"] {
+	[class*="containerDefault_"],
+	[class*="containerDefault_"] [class*="iconItem_"],
+	[class*="containerDragAfter_"],
+	[class*="containerDragBefore_"],
+	[class*="containerUserOver_"],
+	[class*="mainContent_"] {
 		padding: 2px 0 !important;
         }
-	[class*=content-] > [style*="height: 16px"] {
+	[class*=content_] > [style*="height: 16px"] {
 		display: none;
 	}
 		/* >> 스크롤 숨기기 */
@@ -235,38 +235,38 @@ var(--guildsize);
 			}
         /* >> 채팅 채널 */
             :is(
-            [class*="modeConnected-"],
-            [class*="modeConnected-"]:hover,
-            [class*="modeSelected-"],
-            [class*="modeSelected-"]:hover,
-            [class*="modeUnread-"],
-            [class*="modeUnread-"]:hover,
-            [class*="notInteractive-"]:is(
-            [class*="modeConnected-"],
-            [class*="modeSelected-"])) .name-23GUGE {
+            [class*="modeConnected_"],
+            [class*="modeConnected_"]:hover,
+            [class*="modeSelected_"],
+            [class*="modeSelected_"]:hover,
+            [class*="modeUnread_"],
+            [class*="modeUnread_"]:hover,
+            [class*="notInteractive_"]:is(
+            [class*="modeConnected_"],
+            [class*="modeSelected_"])) .name-23GUGE {
                 color: var(--channels-default);
             }
         /* >> 음성 채널 */
-		[class*="channelInfo-"] {
+		[class*="channelInfo_"] {
 			margin: 0;
 		}
-            [class*="liveSmall-"] {
+            [class*="liveSmall_"] {
                 width: 10px;
                 font-size: 0px;
             }
     /* > 멤버 목록 */
-        [class*="membersWrap-"] [class*="members-"] {
+        [class*="membersWrap_"] [class*="members_"] {
             width: 525px;
         }
-        [class*="member-"] {
+        [class*="member_"] {
             max-width: 500px;
         }
         /* >> 멤버 정보 */
-            [class*="userPopout-"] {
+            [class*="userPopout_"] {
                 width: 500px !important;
             }
         /* >> 역할 구분 */
-            [class*="membersGroup-"] {
+            [class*="membersGroup_"] {
                 padding: 8px 8px 0 16px;
                 height: 24px;
             }
@@ -276,34 +276,34 @@ var(--guildsize);
 		}
 
 /* 고정 메시지 */
-[class*="messagesPopoutWrap-"] {
+[class*="messagesPopoutWrap_"] {
     width: 600px;
 }
 
 /* 검색 */
-	[class*="searchResultsWrap-"] {
+	[class*="searchResultsWrap_"] {
 	    width: 520px;
 	}
 	/* 뒤로가기 및 다음 문구 제거 */
-		[class*="contents-"][class*="endButtonInner-"] > span {
+		[class*="contents_"][class*="endButtonInner_"] > span {
 			display: none;
 		}
 
 /* 메시지 보내기 하단 문구 제거 */
-	[class*="applicationCommandEducationFadeIn-"] {
+	[class*="applicationCommandEducationFadeIn_"] {
 	    display: none;
 	}
 /* 이모티콘 */
 	/* > 종합 */
-		img[class*="pngImage-"][class*="stickerAsset-"],
+		img[class*="pngImage_"][class*="stickerAsset_"],
 		.emoji.jumboable {
 			border-radius: 5px;
 		}
     /* > 이모티콘 선택 */
 /*		[role="dialog"][aria-label="표현 선택기"],*/
-		[role="dialog"][class*="contentWrapper-"],
-		[class*="emojiPicker-"],
-		[class*="drawerSizingWrapper-"] {
+		[role="dialog"][class*="contentWrapper_"],
+		[class*="emojiPicker_"],
+		[class*="drawerSizingWrapper_"] {
 			width: 800px !important;
 			/*height: 1000px !important;*/
 		}
@@ -313,33 +313,33 @@ var(--guildsize);
 			height: 5rem;
 		}
 /* 반응 */
-	[class*="reaction-"] .emoji {
+	[class*="reaction_"] .emoji {
 		width: 3rem;
 		height: 3rem;
 	}
     /* > 반응했어요 툴팁 */
-        [class*="reactionTooltipText-"] {
+        [class*="reactionTooltipText_"] {
             margin: 0 12px;
         }
 /* 설정 */
 	/* 버튼 효과 */
-		[class*="buttonShine-"] {
+		[class*="buttonShine_"] {
 			display: none;
 		}
 
 /* 사용자 설정 */
     /* > 사이드바 */
-        nav[class*="sidebar-"] [class*="item-"] {
+        nav[class*="sidebar_"] [class*="item_"] {
              line-height: 7px;
         }
-        nav[class*="sidebar-"] [class*="flex-"] {
+        nav[class*="sidebar_"] [class*="flex_"] {
             height: 7px;
         }
-        nav[class*="sidebar-"] {
+        nav[class*="sidebar_"] {
             padding: 20px 0px 20px 20px;
         }
     /* > 계정 제거 기능  */
-        [class*="children-"] [class*="buttonContainer-"] {
+        [class*="children_"] [class*="buttonContainer_"] {
             display: none;
         }
     /* > 구독 아이콘 숨기기 */
@@ -347,11 +347,11 @@ var(--guildsize);
             display: none;
         }
     /* > 디스코드 소셜 링크 숨기기 */
-        [class*="socialLinks-"] {
+        [class*="socialLinks_"] {
             display: none;
         }
     /* > 버전 정보 숨기기 */
-        [class*="sidebar-"] [class*="info-"] {
+        [class*="sidebar_"] [class*="info_"] {
              display: none;
         }
 
@@ -365,28 +365,28 @@ var(--guildsize);
         right: auto !important;
     }
     /* > 미니 팝업 */
-        [class*="layer-"] [class*="userPopout-"],
-        [class*="popoutBanner-"] {
+        [class*="layer_"] [class*="userPopout_"],
+        [class*="popoutBanner_"] {
             min-width: 500px !important;
         }
         /* >> 연결 버튼 */
-            [class*="connectedAccount-"] {
+            [class*="connectedAccount_"] {
                 width: 100%;
             }
-		[class*="connectedAccountsColumn-"] {
+		[class*="connectedAccountsColumn_"] {
 		  width: 45%;
 		}
-		[class*="connectedAccountContainer-"] {
+		[class*="connectedAccountContainer_"] {
 		  width: 100%;
 		}
 
 	/* >> 이름 태그 */
-		[class*="topSection-"] [class*="nameTag-"] {
+		[class*="topSection_"] [class*="nameTag_"] {
 			margin-top: 60px;
 		}
 	/* 팝업 */
 		/*
-[class*="focusLock-"] [class*="small-"] {
+[class*="focusLock_"] [class*="small_"] {
 			width: 600px;
 		}
 */
@@ -396,7 +396,7 @@ var(--guildsize);
 	[class*=progressFraction] {
 	    display: none;
 	}
-	[class*=sidebar-] [class*=textArea] {
+	[class*=sidebar_] [class*=textArea] {
 	    height: 8px;
 	    margin: 0px;
 	}
@@ -408,33 +408,33 @@ var(--guildsize);
 	}
 
 /* 스레드 들여쓰기 숨김 */
-	[class*=spine-] {
+	[class*=spine_] {
 		display: none;
 	}
 
 /* 임베드 미리보기 재조정 */
 /*
-	[class*="embedVideoImageComponent-"],
-	[class*="embedVideoImageComponentInner-"] {
+	[class*="embedVideoImageComponent_"],
+	[class*="embedVideoImageComponentInner_"] {
 		top: 0px;
 		left: 0px;
 	}
-	[class*="embedVideo-"] [class*="altText-"] {
+	[class*="embedVideo_"] [class*="altText_"] {
 		display: none;
 	}
-	[class*="embedFull-"] [class*="embedMedia-"] {
+	[class*="embedFull_"] [class*="embedMedia_"] {
 		height: 225px !important;
 	}
 */
 /* nsfw 채널 설정 */
-	[class*="nsfwTag-"] > div {
+	[class*="nsfwTag_"] > div {
 	  width: 10px;
 	  font-size: 0px;
 	  border-radius: 16px !important;
 	}
 
 /* 프로필 배경 색상 제거 */
-  [class*="userPopoutOuter-"] {
+  [class*="userPopoutOuter_"] {
     --profile-gradient-primary-color: var(--background-secondary-alt) !important;
     --profile-gradient-secondary-color: var(--background-secondary-alt) !important;
     --profile-gradient-overlay-color: transparent !important;
@@ -448,7 +448,7 @@ var(--guildsize);
     --profile-role-pill-border-color: var(--interactive-normal) !important;
     --account-profile-popout-menu-hover: var(--brand-experiment-560) !important;
   }
-  [class*="profileColors-"] {
+  [class*="profileColors_"] {
     --profile-gradient-primary-color: var(--background-secondary-alt) !important;
     --profile-gradient-secondary-color: var(--background-secondary-alt) !important;
     --profile-gradient-overlay-color: transparent !important;
