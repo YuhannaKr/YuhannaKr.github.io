@@ -158,7 +158,7 @@ var(--guildsize);
 	    background-color: transparent !important;
 	}
     /* > 폴더 내 */
-	[id*="folder-items_"] {
+	[id*="folder-items-"] {
 	    height: unset !important;
 	}
     /* > 폴더 외 */
